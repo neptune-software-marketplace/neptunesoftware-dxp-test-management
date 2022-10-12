@@ -1,0 +1,233 @@
+{
+	"id": "a6fd34cc-d9b3-416d-8d1b-bb8670561b45",
+	"createdAt": "2022-10-10T19:30:42.449Z",
+	"createdBy": "rommel",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Reject",
+				"iconButtonSave": "",
+				"textButtonSave": "Save",
+				"textToastSave": "Saved",
+				"typeButtonSave": "Default",
+				"tab0Text": "General",
+				"tab1Text": "Tab 1",
+				"tab2Text": "Tab 2",
+				"tab3Text": "Tab 3",
+				"tab4Text": "Tab 4",
+				"tab5Text": "Tab 5",
+				"enableClose": true,
+				"enableSave": true,
+				"enableTab1": false,
+				"enableTab2": false,
+				"enableTab3": false,
+				"enableTab4": false,
+				"enableTab5": false,
+				"title": "GitHub Issue",
+				"subTitle": "Manage fixed GitHub issue",
+				"avatarIcon": "sap-icon://fa-brands/github",
+				"avatarBackgroundColor": "Accent1"
+			},
+			"form": {
+				"enableCompact": true,
+				"enableCentered": false,
+				"columnsL": ""
+			},
+			"table": {}
+		},
+		"fieldCatalog": [
+			{
+				"name": "ISSUE_ID",
+				"label": "ISSUE_ID",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "ISSUE_TITLE",
+				"label": "ISSUE_TITLE",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "COMMENTS",
+				"label": "COMMENTS",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "DXP_EDITION",
+				"label": "DXP_EDITION",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "VERIFICATION_STEPS",
+				"label": "VERIFICATION_STEPS",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "VERIFICATION_STATUS",
+				"label": "VERIFICATION_STATUS",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "REMARKS",
+				"label": "REMARKS",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "TESTER",
+				"label": "TESTER",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [
+			{
+				"editable": true,
+				"visible": true,
+				"name": "DXP_EDITION",
+				"text": "DXP Edition",
+				"fieldPos": 1,
+				"type": "SingleSelectLookup",
+				"lookupTable": "qa_neptune_dxp_version",
+				"lookupFieldKey": "VERSION_ID",
+				"lookupFieldText": "VERSION",
+				"lookupShowOnlyText": true,
+				"required": true,
+				"default": ""
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "ISSUE_ID",
+				"text": "GitHub ID",
+				"fieldPos": 2,
+				"required": true
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "ISSUE_TITLE",
+				"text": "Issue Title",
+				"fieldPos": 3,
+				"required": true
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "VERIFICATION_STEPS",
+				"text": "Steps to Verify",
+				"fieldPos": 4,
+				"type": "Editor",
+				"required": true
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "VERIFICATION_STATUS",
+				"text": "Status",
+				"fieldPos": 5,
+				"type": "SingleSelectLookup",
+				"lookupTable": "qa_github_issue_status",
+				"lookupFieldKey": "STATUS_CODE",
+				"lookupFieldText": "STATUS",
+				"lookupShowOnlyText": true,
+				"columnLabel": "",
+				"enableNewForm": true,
+				"default": "3",
+				"lookupFieldAdditional": "DESCRIPTION",
+				"required": true
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "TESTER",
+				"text": "Responsible Tester",
+				"fieldPos": 6,
+				"type": "SingleSelectLookup",
+				"lookupTable": "qa_team_members_db",
+				"lookupFieldKey": "TESTER_ID",
+				"lookupFieldText": "TESTER",
+				"lookupShowOnlyText": true,
+				"required": false,
+				"lookupFieldAdditional": ""
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "COMMENTS",
+				"text": "Comments",
+				"fieldPos": 7,
+				"type": "Editor",
+				"enableNewForm": true
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "REMARKS",
+				"text": "Remarks",
+				"fieldPos": 8,
+				"type": "TextArea"
+			}
+		],
+		"fieldsRun": [],
+		"defaultVariant": {
+			"id": "9c5d7d2c-5c01-4ff8-be26-2a0089526bad",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "qa_github_issue_edit_admin",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "3f6dda31-f646-4833-b4b1-89c6b1565b7d",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "22.10.12.1119",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_edit",
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

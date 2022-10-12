@@ -31,11 +31,12 @@
 			"  }",
 			"}",
 			""
-		]
+		],
+		"testServers": []
 	},
 	"name": "QA-Neptune-DXP-LTS",
 	"description": "Artifacts related to Test Management tool",
-	"ver": "22.10.12.85",
+	"ver": "22.10.12.1114",
 	"enableCICD": true,
 	"apps": [],
 	"api": [],
@@ -108,7 +109,26 @@
 	"theme": [],
 	"pdf": [],
 	"rulesengine": [],
-	"reports": [],
+	"reports": [
+		{
+			"id": "94E0130B-A349-ED11-819B-000D3ABA7EDC",
+			"name": "qa_github_issue_list",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "A6FD34CC-D9B3-416D-8D1B-BB8670561B45",
+			"name": "qa_github_issue_edit_admin",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "9AE5B123-ECEB-4AD5-B6A7-BC56EF41977C",
+			"name": "qa_github_issue_edit",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		}
+	],
 	"api_authentication": [],
 	"api_group": [],
 	"tile": [],
