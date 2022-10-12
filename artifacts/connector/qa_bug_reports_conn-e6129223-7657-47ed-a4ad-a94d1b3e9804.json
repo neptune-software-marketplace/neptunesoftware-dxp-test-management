@@ -1,0 +1,18 @@
+{
+	"id": "e6129223-7657-47ed-a4ad-a94d1b3e9804",
+	"createdAt": "2022-06-08T16:33:57.633Z",
+	"createdBy": "rommel",
+	"settings": {
+		"previewable": true,
+		"tableid": "6406F085-90D5-4C36-A85F-98912F87D8D3",
+		"hasDocumentation": false
+	},
+	"documentation": {},
+	"name": "qa_bug_reports_conn",
+	"description": null,
+	"group": null,
+	"type": "T",
+	"ver": "22.10.12.1112",
+	"disabled": false,
+	"package": "29805ca6-5925-4de9-a761-47279405b041"
+}

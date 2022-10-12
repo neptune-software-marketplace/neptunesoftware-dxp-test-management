@@ -1,0 +1,17 @@
+{
+	"id": "54861475-ac49-ed11-819b-000d3aba7edc",
+	"createdAt": "2022-10-11T21:34:17.580Z",
+	"createdBy": "rommel@neptune-software.com",
+	"settings": {
+		"tableid": "FFCEC510-660D-4CB0-B042-E9B911C616EA",
+		"hasDocumentation": false
+	},
+	"documentation": {},
+	"name": "qa_new_features_conn",
+	"description": null,
+	"group": null,
+	"type": "T",
+	"ver": "22.10.12.118",
+	"disabled": false,
+	"package": "29805ca6-5925-4de9-a761-47279405b041"
+}

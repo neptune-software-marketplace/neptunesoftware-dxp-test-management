@@ -76,7 +76,6 @@
 	"description": "List of reported issues from Neptune DXP Open and SAP Editions",
 	"ver": "22.10.12.1256",
 	"enableAudit": false,
-	"includeDataInPackage": true,
 	"package": "29805ca6-5925-4de9-a761-47279405b041",
 	"rolesRead": [],
 	"rolesWrite": []

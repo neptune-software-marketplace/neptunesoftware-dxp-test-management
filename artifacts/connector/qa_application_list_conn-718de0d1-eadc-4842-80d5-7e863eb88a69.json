@@ -1,0 +1,17 @@
+{
+	"id": "718de0d1-eadc-4842-80d5-7e863eb88a69",
+	"createdAt": "2022-10-10T21:14:11.823Z",
+	"createdBy": "rommel",
+	"settings": {
+		"tableid": "02C7A924-0443-4BC9-9F7E-94BE07BD3AF5",
+		"hasDocumentation": false
+	},
+	"documentation": {},
+	"name": "qa_application_list_conn",
+	"description": null,
+	"group": null,
+	"type": "T",
+	"ver": "22.10.12.1111",
+	"disabled": false,
+	"package": "29805ca6-5925-4de9-a761-47279405b041"
+}
