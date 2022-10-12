@@ -1,5 +1,5 @@
 {
-	"id": "29805ca6-5925-4de9-a761-47279405b041",
+	"id": "29805CA6-5925-4DE9-A761-47279405B041",
 	"createdAt": "2022-10-12T08:04:11.769Z",
 	"createdBy": "rommel",
 	"git": {
@@ -41,7 +41,13 @@
 	"api": [],
 	"odataSource": [],
 	"odataMock": [],
-	"dictionary": [],
+	"dictionary": [
+		{
+			"id": "7F984B3B-A449-ED11-819B-000D3ABA7EDC",
+			"name": "qa_team_db",
+			"description": null
+		}
+	],
 	"jsclass": [],
 	"jsscript_group": [],
 	"theme": [],
@@ -61,6 +67,5 @@
 	"department": [],
 	"script_scheduler": [],
 	"wf_definition": [],
-	"connector": [],
-	"events": []
+	"connector": []
 }

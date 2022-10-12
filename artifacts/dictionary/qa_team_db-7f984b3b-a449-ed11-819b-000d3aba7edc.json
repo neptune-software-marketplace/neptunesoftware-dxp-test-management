@@ -1,0 +1,41 @@
+{
+	"id": "7f984b3b-a449-ed11-819b-000d3aba7edc",
+	"createdAt": "2022-10-11T20:35:24.916Z",
+	"createdBy": "rommel@neptune-software.com",
+	"fields": [
+		{
+			"id": "d7c16c9c-a6df-4a07-e80e-f92167157352",
+			"fieldName": "TESTER_ID",
+			"fieldType": "mediumtext",
+			"isUnique": true,
+			"isNullable": true
+		},
+		{
+			"id": "a0126380-1e57-4e0a-daf9-f16ce22f52ad",
+			"fieldName": "TESTER",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "c25a3e30-3d6b-4012-b0a1-471081619460",
+			"fieldName": "IS_ACTIVE",
+			"fieldType": "boolean",
+			"isNullable": true
+		},
+		{
+			"id": "532ace94-6db5-41be-8999-a63d6cf2c7ac",
+			"fieldName": "DXP_EDITION",
+			"fieldType": "text",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "qa_team_db",
+	"description": null,
+	"ver": "22.10.12.1010",
+	"enableAudit": false,
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"rolesRead": [],
+	"rolesWrite": []
+}
