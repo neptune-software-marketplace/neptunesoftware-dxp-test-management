@@ -1,0 +1,52 @@
+[
+	{
+		"id": "42f506e8-ef0d-45ef-bc73-471b666f105e",
+		"createdAt": "1665566434300",
+		"updatedAt": "1665566434300",
+		"createdBy": "rommel",
+		"updatedBy": "rommel",
+		"STATUS_ID": "3",
+		"STATUS": "On-Hold",
+		"DESCRIPTION": "Unable to continue testing due to un-related issues"
+	},
+	{
+		"id": "5b9f6dfd-486c-4dc4-9bf6-c9a3e07e1723",
+		"createdAt": "1665566434300",
+		"updatedAt": "1665566434300",
+		"createdBy": "rommel",
+		"updatedBy": "rommel",
+		"STATUS_ID": "2",
+		"STATUS": "Complete",
+		"DESCRIPTION": "Test is complete regardless of result"
+	},
+	{
+		"id": "de610712-7ecf-4a1a-93a2-4a10591d55b1",
+		"createdAt": "1665566434300",
+		"updatedAt": "1665566434300",
+		"createdBy": "rommel",
+		"updatedBy": "rommel",
+		"STATUS_ID": "4",
+		"STATUS": "Cancelled",
+		"DESCRIPTION": "Functionality has been removed"
+	},
+	{
+		"id": "73eba572-6e44-4607-9551-0ad11ca5018b",
+		"createdAt": "1665566434300",
+		"updatedAt": "1665566434300",
+		"createdBy": "rommel",
+		"updatedBy": "rommel",
+		"STATUS_ID": "1",
+		"STATUS": "Waiting for Testing",
+		"DESCRIPTION": "Available in the test system and ready for testing"
+	},
+	{
+		"id": "7fdfdf46-857a-4ead-9995-71df4f0407a5",
+		"createdAt": "1665566434300",
+		"updatedAt": "1665566434300",
+		"createdBy": "rommel",
+		"updatedBy": "rommel",
+		"STATUS_ID": "5",
+		"STATUS": "Waiting for Re-build",
+		"DESCRIPTION": "Feature will be available in the next re-build"
+	}
+]
