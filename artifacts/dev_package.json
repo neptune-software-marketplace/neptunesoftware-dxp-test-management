@@ -124,6 +124,36 @@
 			"application": "planet9_adaptive_list"
 		},
 		{
+			"id": "0A367E14-A649-ED11-819B-000D3ABA7EDC",
+			"name": "qa_github_issue_list_admin",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "D6D17EF4-A949-ED11-819B-000D3ABA7EDC",
+			"name": "qa_team_list_admin",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "2D9D7DA5-AC49-ED11-819B-000D3ABA7EDC",
+			"name": "qa_new_features_list",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "EE27D4BE-AE49-ED11-819B-000D3ABA7EDC",
+			"name": "qa_new_features_edit",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "96BEA92D-4CCC-4003-846B-53B501DB8E20",
+			"name": "qa_team_edit_admin",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
 			"id": "A6FD34CC-D9B3-416D-8D1B-BB8670561B45",
 			"name": "qa_github_issue_edit_admin",
 			"description": "",

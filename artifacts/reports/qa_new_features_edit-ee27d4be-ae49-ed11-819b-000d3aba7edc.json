@@ -1,0 +1,151 @@
+{
+	"id": "ee27d4be-ae49-ed11-819b-000d3aba7edc",
+	"createdAt": "2022-10-11T21:50:40.320Z",
+	"createdBy": "rommel@neptune-software.com",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Reject",
+				"iconButtonSave": "",
+				"textButtonSave": "Save",
+				"textToastSave": "Saved",
+				"typeButtonSave": "Emphasized",
+				"tab0Text": "General",
+				"tab1Text": "Tab 1",
+				"tab2Text": "Tab 2",
+				"tab3Text": "Tab 3",
+				"tab4Text": "Tab 4",
+				"tab5Text": "Tab 5",
+				"enableClose": true,
+				"enableSave": true,
+				"enableTab1": false,
+				"enableTab2": false,
+				"enableTab3": false,
+				"enableTab4": false,
+				"enableTab5": false,
+				"title": "New Features",
+				"subTitle": "Manage new feature item",
+				"avatarIcon": "sap-icon://add-favorite",
+				"avatarBackgroundColor": "Accent1"
+			},
+			"form": {
+				"enableCompact": false,
+				"enableCentered": true,
+				"titleLevel": "",
+				"columnsL": "",
+				"columnsM": "",
+				"labelSpanL": "",
+				"labelSpanM": "12"
+			},
+			"table": {}
+		},
+		"fieldCatalog": [
+			{
+				"name": "FEATURE",
+				"label": "FEATURE",
+				"type": "text"
+			},
+			{
+				"name": "FEATURE_ID",
+				"label": "FEATURE_ID",
+				"type": "integer"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text"
+			}
+		],
+		"fieldsSel": [
+			{
+				"editable": true,
+				"visible": true,
+				"name": "FEATURE_ID",
+				"text": "Feature ID",
+				"fieldPos": 1,
+				"required": true,
+				"enableNewForm": false,
+				"labelSpanL": "",
+				"labelSpanM": "10",
+				"inputType": "Number"
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "FEATURE",
+				"text": "Name of New Feature",
+				"fieldPos": 2,
+				"enableNewForm": false,
+				"columnLabel": "",
+				"labelSpanM": "9",
+				"columnsM": "2",
+				"labelSpanL": "12",
+				"columnsL": "2",
+				"required": true
+			},
+			{
+				"editable": false,
+				"visible": true,
+				"name": "updatedAt",
+				"text": "Changed On",
+				"fieldPos": 3,
+				"type": "DateTimePicker"
+			},
+			{
+				"editable": false,
+				"visible": true,
+				"name": "createdAt",
+				"text": "Created On",
+				"fieldPos": 4,
+				"inputType": "",
+				"type": "DateTimePicker"
+			}
+		],
+		"fieldsRun": [],
+		"defaultVariant": {
+			"id": "f86b3c89-1e09-40fb-e411-55505615ea37",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "qa_new_features_edit",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "54861475-ac49-ed11-819b-000d3aba7edc",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "22.10.12.122",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_edit",
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}
