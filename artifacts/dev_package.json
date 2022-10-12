@@ -36,9 +36,16 @@
 	},
 	"name": "QA-Neptune-DXP-LTS",
 	"description": "Artifacts related to Test Management tool",
-	"ver": "22.10.12.1114",
+	"ver": "22.10.12.1123",
 	"enableCICD": true,
-	"apps": [],
+	"apps": [
+		{
+			"id": "F99EE280-9849-ED11-819B-000D3ABA7EDC",
+			"application": "dxptest_launchpad",
+			"title": "",
+			"description": "Planet 9 Launchpad "
+		}
+	],
 	"api": [],
 	"odataSource": [],
 	"odataMock": [],
@@ -133,7 +140,18 @@
 	"api_group": [],
 	"tile": [],
 	"category": [],
-	"launchpad": [],
+	"launchpad": [
+		{
+			"id": "8A432885-B9CF-4D3E-8DDD-8CDFE666FA11",
+			"name": "Neptune-DXP-22-LTS-Test-Control-Panel",
+			"description": null
+		},
+		{
+			"id": "B6C99549-7E9A-4A83-B204-FB1F76906420",
+			"name": "Neptune-DXP-22-LTS-Test",
+			"description": null
+		}
+	],
 	"certificates": [],
 	"role": [],
 	"systems": [],
