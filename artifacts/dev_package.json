@@ -43,6 +43,11 @@
 	"odataMock": [],
 	"dictionary": [
 		{
+			"id": "0f685976-058d-4afc-baab-aa51dfd0e400",
+			"name": "qa_team_members_db",
+			"description": null
+		},
+		{
 			"id": "3e328c35-0755-4ed4-b79e-8e3b644298a1",
 			"name": "qa_test_execution_status_db",
 			"description": null
@@ -60,6 +65,41 @@
 		{
 			"id": "69120bf9-5982-4b53-afec-93c6ef6c1f93",
 			"name": "qa_test_result_db",
+			"description": null
+		},
+		{
+			"id": "6cb77148-84fb-4f32-9b02-20536ae1ed37",
+			"name": "qa_bug_status_db",
+			"description": "Issue status"
+		},
+		{
+			"id": "33b657b2-f63d-43ca-ab36-16fd604088d9",
+			"name": "qa_neptune_dxp_version",
+			"description": null
+		},
+		{
+			"id": "02c7a924-0443-4bc9-9f7e-94be07bd3af5",
+			"name": "qa_application_list_db",
+			"description": "List of applications in SAP and Open Edition"
+		},
+		{
+			"id": "6406f085-90d5-4c36-a85f-98912f87d8d3",
+			"name": "qa_bug_reports_db",
+			"description": "List of reported issues from Neptune DXP Open and SAP Editions"
+		},
+		{
+			"id": "b056303e-8969-41f7-8682-4f0cca6ed0e4",
+			"name": "qa_github_issues_db",
+			"description": "List of fixed issues that require re-verification"
+		},
+		{
+			"id": "3dfd606c-b22e-4177-95e9-cc9be39b63cb",
+			"name": "qa_github_issue_status",
+			"description": "Github issue status"
+		},
+		{
+			"id": "ffcec510-660d-4cb0-b042-e9b911c616ea",
+			"name": "qa_new_features_db",
 			"description": null
 		}
 	],

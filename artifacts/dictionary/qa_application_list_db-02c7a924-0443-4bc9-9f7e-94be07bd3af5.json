@@ -1,0 +1,31 @@
+{
+	"id": "02c7a924-0443-4bc9-9f7e-94be07bd3af5",
+	"createdAt": "2022-10-12T10:55:21.666Z",
+	"createdBy": "rommel",
+	"fields": [
+		{
+			"id": "c6e4cbd4-be22-4185-e6bb-594b0c1d865d",
+			"fieldName": "NAME",
+			"fieldType": "text",
+			"isNullable": true,
+			"isUnique": false
+		},
+		{
+			"id": "7a4d82fa-7ec1-4a91-eefe-1009f2b8fdab",
+			"fieldName": "APP_ID",
+			"fieldType": "mediumtext",
+			"isNullable": true,
+			"isUnique": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "qa_application_list_db",
+	"description": "List of applications in SAP and Open Edition",
+	"ver": "22.10.12.1255",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"rolesRead": [],
+	"rolesWrite": []
+}
