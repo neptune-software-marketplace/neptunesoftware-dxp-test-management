@@ -1,0 +1,45 @@
+{
+	"id": "007d88d5-8824-485c-a1af-1bec8e0cd601",
+	"createdAt": "2022-10-04T12:28:54.119Z",
+	"createdBy": "rommel",
+	"interface": [
+		{
+			"id": "dad48d04-a43e-471a-f00a-020024286675",
+			"parent": "",
+			"name": "TEST_RESULT",
+			"objectType": "string",
+			"description": ""
+		}
+	],
+	"rules": [
+		{
+			"id": "d4dfed63-709e-4a94-f9f6-9f433f1add51",
+			"result": "Error",
+			"items": [
+				{
+					"id": "323f6177-1e26-4842-8013-f765055c0e88",
+					"field": "dad48d04-a43e-471a-f00a-020024286675",
+					"operator": "equal",
+					"value": "3"
+				}
+			]
+		},
+		{
+			"id": "597386e8-37f7-4f16-ce8b-17d58268109f",
+			"result": "Success",
+			"items": [
+				{
+					"id": "155046c9-0f6e-44c6-8d65-0a18ace0d192",
+					"field": "dad48d04-a43e-471a-f00a-020024286675",
+					"operator": "equal",
+					"value": "2"
+				}
+			]
+		}
+	],
+	"name": "Feature Test Result",
+	"description": "",
+	"ver": "22.10.12.1334",
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"roles": []
+}

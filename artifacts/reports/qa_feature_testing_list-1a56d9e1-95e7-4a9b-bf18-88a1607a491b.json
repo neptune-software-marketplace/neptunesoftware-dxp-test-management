@@ -1,0 +1,393 @@
+{
+	"id": "1a56d9e1-95e7-4a9b-bf18-88a1607a491b",
+	"createdAt": "2022-06-09T21:00:25.479Z",
+	"createdBy": "rommel",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonCreate": "",
+				"textButtonCreate": "Create",
+				"typeButtonCreate": "Accept",
+				"iconButtonExport": "sap-icon://excel-attachment",
+				"textButtonExport": "",
+				"typeButtonExport": "Transparent",
+				"iconButtonImport": "sap-icon://fa-solid/file-import",
+				"textButtonImport": "",
+				"typeButtonImport": "Transparent",
+				"iconButtonMultiSelect": "",
+				"textButtonMultiSelect": "MultiSelect",
+				"typeButtonMultiSelect": "Emphasized",
+				"iconButtonRun": "",
+				"textButtonRun": "Update",
+				"typeButtonRun": "Default",
+				"enableRun": true,
+				"enableCreate": false,
+				"enableClose": false,
+				"enableDelete": false,
+				"enableExport": false,
+				"enableImport": false,
+				"enableMultiSelect": false,
+				"enableVariant": false,
+				"hideHeader": false,
+				"autoRun": true,
+				"autoRunFocus": false,
+				"searchLabel": "Search",
+				"searchPlaceholder": "",
+				"title": "Feature Testing",
+				"subTitle": "Manage test cases for feature testing",
+				"avatarIcon": "sap-icon://electronic-medical-record",
+				"avatarBackgroundColor": "Accent1",
+				"_navigationItemPress": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetF": "0335f954-1b21-4e28-b82d-e311a54cc3b1",
+					"keyField": []
+				},
+				"_navigationCreate": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetF": "0335f954-1b21-4e28-b82d-e311a54cc3b1",
+					"keyField": []
+				}
+			},
+			"form": {
+				"enableCompact": true,
+				"headerExpanded": true
+			},
+			"table": {
+				"enablePagination": false,
+				"paginationShowSelection": false,
+				"paginationRows": "1000",
+				"action1Text": "",
+				"action1Type": "Transparent",
+				"action2Text": "",
+				"action2Type": "Transparent",
+				"action3Text": "",
+				"action3Type": "Transparent",
+				"alternateRowColors": false,
+				"enableCompact": true,
+				"enableAction1": false,
+				"enableAction2": false,
+				"enableAction3": false,
+				"fixedLayout": false,
+				"inset": false,
+				"initialGroupField": "FEATURE_ID",
+				"initialGroupOrder": "ASC",
+				"initialSortField": "FEATURE_TEST_ID",
+				"initialSortOrder": "ASC",
+				"showSeparators": "All"
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "COMMENTS",
+				"label": "COMMENTS",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "DXP_VERSION",
+				"label": "DXP_VERSION",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "EXECUTION_STATUS",
+				"label": "EXECUTION_STATUS",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "FEATURE_ID",
+				"label": "FEATURE_ID",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "FEATURE_TEST_ID",
+				"label": "FEATURE_TEST_ID",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "TESTER",
+				"label": "TESTER",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "TEST_RESULT",
+				"label": "TEST_RESULT",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "TEST_STEPS",
+				"label": "TEST_STEPS",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "TEST_TITLE",
+				"label": "TEST_TITLE",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [
+			{
+				"visible": true,
+				"name": "FEATURE_ID",
+				"text": "Feature",
+				"fieldPos": 1,
+				"type": "SingleSelectLookup",
+				"lookupTable": "qa_new_features_db",
+				"lookupFieldKey": "FEATURE_ID",
+				"lookupFieldText": "FEATURE",
+				"lookupShowOnlyText": true
+			},
+			{
+				"visible": true,
+				"name": "DXP_VERSION",
+				"text": "DXP Version",
+				"fieldPos": 2,
+				"type": "SingleSelectLookup",
+				"lookupTable": "qa_neptune_dxp_version",
+				"lookupFieldKey": "VERSION_ID",
+				"lookupFieldText": "VERSION",
+				"lookupShowOnlyText": true
+			},
+			{
+				"visible": true,
+				"name": "EXECUTION_STATUS",
+				"text": "Execution Status",
+				"fieldPos": 3,
+				"type": "SingleSelectLookup",
+				"lookupTable": "qa_test_execution_status_db",
+				"lookupFieldKey": "STATUS_ID",
+				"lookupFieldText": "STATUS",
+				"lookupShowOnlyText": true,
+				"lookupFieldAdditional": "DESCRIPTION"
+			},
+			{
+				"visible": true,
+				"name": "TEST_RESULT",
+				"text": "Test Result",
+				"fieldPos": 4,
+				"type": "SingleSelectLookup",
+				"lookupTable": "qa_test_result_db",
+				"lookupFieldKey": "RESULT_ID",
+				"lookupFieldText": "RESULT",
+				"lookupShowOnlyText": true
+			},
+			{
+				"visible": true,
+				"name": "TESTER",
+				"text": "Responsible Tester",
+				"fieldPos": 5,
+				"type": "MultiSelectLookup",
+				"lookupTable": "qa_team_members_db",
+				"lookupFieldKey": "TESTER_ID",
+				"lookupFieldText": "TESTER",
+				"lookupShowOnlyText": true
+			}
+		],
+		"fieldsRun": [
+			{
+				"enableFilter": false,
+				"enableSort": true,
+				"visible": false,
+				"name": "FEATURE_ID",
+				"text": "Feature",
+				"fieldPos": 6,
+				"valueType": "Lookup",
+				"valueLookup": {
+					"table": "qa_new_features_db",
+					"textField": "FEATURE",
+					"keyField": [
+						{
+							"fieldName": "FEATURE_ID",
+							"key": "FEATURE_ID",
+							"value": ""
+						}
+					],
+					"hideKey": true,
+					"butType": "Accept"
+				},
+				"formatter": "uppercase",
+				"enableGroup": false
+			},
+			{
+				"enableFilter": true,
+				"enableSort": false,
+				"visible": true,
+				"name": "FEATURE_TEST_ID",
+				"text": "TEST ID",
+				"fieldPos": 7
+			},
+			{
+				"enableFilter": true,
+				"enableSort": false,
+				"visible": true,
+				"name": "TEST_TITLE",
+				"text": "TEST TITLE",
+				"fieldPos": 8
+			},
+			{
+				"enableFilter": false,
+				"enableSort": false,
+				"visible": true,
+				"name": "DXP_VERSION",
+				"text": "DXP VERSION",
+				"fieldPos": 9,
+				"valueType": "Lookup",
+				"valueLookup": {
+					"table": "qa_neptune_dxp_version",
+					"textField": "VERSION",
+					"keyField": [
+						{
+							"fieldName": "VERSION_ID",
+							"key": "DXP_VERSION",
+							"value": ""
+						}
+					],
+					"hideKey": true,
+					"butType": "Accept"
+				}
+			},
+			{
+				"enableFilter": false,
+				"enableSort": false,
+				"visible": true,
+				"name": "EXECUTION_STATUS",
+				"text": "EXECUTION STATUS",
+				"fieldPos": 10,
+				"type": "ObjectStatus",
+				"statusStateType": "Rule",
+				"statusStateRule": "0cadc3e3-2172-4d22-b3cc-5e8d3781bd39",
+				"valueType": "Lookup",
+				"valueLookup": {
+					"table": "qa_test_execution_status_db",
+					"textField": "STATUS",
+					"keyField": [
+						{
+							"fieldName": "STATUS_ID",
+							"key": "EXECUTION_STATUS",
+							"value": ""
+						}
+					],
+					"hideKey": true,
+					"butType": "Accept"
+				}
+			},
+			{
+				"enableFilter": false,
+				"enableSort": false,
+				"visible": true,
+				"name": "TEST_RESULT",
+				"text": "TEST RESULT",
+				"fieldPos": 11,
+				"type": "ObjectStatus",
+				"valueType": "Lookup",
+				"valueLookup": {
+					"table": "qa_test_result_db",
+					"textField": "RESULT",
+					"keyField": [
+						{
+							"fieldName": "RESULT_ID",
+							"key": "TEST_RESULT",
+							"value": ""
+						}
+					],
+					"hideKey": true,
+					"butType": "Accept"
+				},
+				"statusTitleType": "",
+				"statusTitleRule": "0cadc3e3-2172-4d22-b3cc-5e8d3781bd39",
+				"statusStateType": "Rule",
+				"statusStateRule": "007d88d5-8824-485c-a1af-1bec8e0cd601",
+				"statusIconType": ""
+			},
+			{
+				"enableFilter": true,
+				"enableSort": false,
+				"visible": true,
+				"name": "TESTER",
+				"text": "TESTED BY",
+				"fieldPos": 12,
+				"valueType": "Lookup",
+				"valueLookup": {
+					"table": "qa_team_members_db",
+					"textField": "TESTER",
+					"keyField": [
+						{
+							"fieldName": "TESTER_ID",
+							"key": "TESTER",
+							"value": ""
+						}
+					],
+					"hideKey": true,
+					"butType": "Accept"
+				},
+				"formatter": "uppercase"
+			}
+		],
+		"defaultVariant": {
+			"id": "b3da770d-2a7c-4dcc-a94a-4243f9753dae",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "qa_feature_testing_list",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "f57b6d9a-5fb4-4a47-989f-5e4ea8dd4dff",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "22.10.13.749",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_list",
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

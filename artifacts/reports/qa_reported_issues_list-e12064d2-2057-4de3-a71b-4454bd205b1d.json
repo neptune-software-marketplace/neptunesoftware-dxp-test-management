@@ -1,0 +1,507 @@
+{
+	"id": "e12064d2-2057-4de3-a71b-4454bd205b1d",
+	"createdAt": "2022-06-08T17:06:54.357Z",
+	"createdBy": "rommel",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Reject",
+				"iconButtonCreate": "",
+				"textButtonCreate": "New Issue",
+				"typeButtonCreate": "Emphasized",
+				"iconButtonExport": "sap-icon://excel-attachment",
+				"textButtonExport": "",
+				"typeButtonExport": "Transparent",
+				"iconButtonImport": "sap-icon://fa-solid/file-import",
+				"textButtonImport": "",
+				"typeButtonImport": "Default",
+				"iconButtonMultiSelect": "",
+				"textButtonMultiSelect": "MultiSelect",
+				"typeButtonMultiSelect": "Emphasized",
+				"iconButtonRun": "",
+				"textButtonRun": "Update",
+				"typeButtonRun": "Default",
+				"enableRun": true,
+				"enableCreate": true,
+				"enableClose": false,
+				"enableDelete": true,
+				"enableExport": false,
+				"enableImport": false,
+				"enableMultiSelect": false,
+				"enableVariant": false,
+				"hideHeader": false,
+				"autoRun": true,
+				"autoRunFocus": false,
+				"searchLabel": "Search",
+				"searchPlaceholder": "",
+				"title": "Reported Issues",
+				"avatarIcon": "sap-icon://fa-solid/bug",
+				"subTitle": "List of issues found in Neptune DXP 22-LTS",
+				"_navigationCreate": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetF": "eb72cb73-4d13-4add-b84e-e11eeda164d7",
+					"keyField": []
+				},
+				"avatarBackgroundColor": "Accent1",
+				"_navigationItemPress": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetF": "eb72cb73-4d13-4add-b84e-e11eeda164d7",
+					"keyField": [],
+					"dialogTitleField": "BRIEF_TITLE"
+				}
+			},
+			"form": {
+				"enableCompact": false,
+				"headerExpanded": true
+			},
+			"table": {
+				"enablePagination": false,
+				"paginationShowSelection": false,
+				"paginationRows": "1000",
+				"action1Text": "",
+				"action1Type": "Transparent",
+				"action2Text": "",
+				"action2Type": "Transparent",
+				"action3Text": "",
+				"action3Type": "Transparent",
+				"alternateRowColors": true,
+				"enableCompact": true,
+				"enableAction1": false,
+				"enableAction2": false,
+				"enableAction3": false,
+				"fixedLayout": false,
+				"inset": false,
+				"initialGroupField": "VERSION",
+				"initialGroupOrder": "ASC",
+				"initialSortField": "createdAt",
+				"initialSortOrder": "DESC",
+				"showSeparators": "All"
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "ACTUAL_BEHAVIOR",
+				"label": "ACTUAL_BEHAVIOR",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "APPLICATION",
+				"label": "APPLICATION",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "BRIEF_TITLE",
+				"label": "BRIEF_TITLE",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "BUG_STATUS",
+				"label": "BUG_STATUS",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "COMMENTS",
+				"label": "COMMENTS",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "DESCRIPTION",
+				"label": "DESCRIPTION",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "EXPECTED_BEHAVIOR",
+				"label": "EXPECTED_BEHAVIOR",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "GITHUB_ISSUE_ID",
+				"label": "GITHUB_ISSUE_ID",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "ISSUE_TYPE",
+				"label": "ISSUE_TYPE",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "STEPS",
+				"label": "STEPS",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "VERSION",
+				"label": "VERSION",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [
+			{
+				"visible": true,
+				"name": "VERSION",
+				"text": "DXP Version",
+				"fieldPos": 1,
+				"type": "SingleSelectLookup",
+				"lookupTable": "qa_neptune_dxp_version",
+				"lookupFieldKey": "VERSION_ID",
+				"lookupFieldText": "VERSION",
+				"lookupShowOnlyText": true
+			},
+			{
+				"visible": true,
+				"name": "ISSUE_TYPE",
+				"text": "Issue Type",
+				"fieldPos": 2,
+				"type": "MultiSelectLookup",
+				"lookupTable": "qa_issue_type_db",
+				"lookupFieldKey": "TYPE_ID",
+				"lookupFieldText": "TYPE",
+				"lookupShowOnlyText": true
+			},
+			{
+				"visible": true,
+				"name": "BUG_STATUS",
+				"text": "Status",
+				"fieldPos": 3,
+				"type": "MultiSelectLookup",
+				"lookupTable": "qa_bug_status_db",
+				"lookupFieldKey": "STATUS_ID",
+				"lookupFieldText": "STATUS",
+				"lookupShowOnlyText": true,
+				"lookupFieldAdditional": "DESCRIPTION"
+			},
+			{
+				"visible": true,
+				"name": "APPLICATION",
+				"text": "Application",
+				"fieldPos": 4,
+				"type": "MultiSelectLookup",
+				"lookupTable": "qa_application_list_db",
+				"lookupFieldKey": "APP_ID",
+				"lookupFieldText": "NAME",
+				"lookupShowOnlyText": true
+			},
+			{
+				"visible": true,
+				"name": "createdBy",
+				"text": "Reported By",
+				"fieldPos": 5,
+				"type": "",
+				"lookupTable": "bug_reports_db"
+			}
+		],
+		"fieldsRun": [
+			{
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": false,
+				"name": "VERSION",
+				"text": "VERSION",
+				"fieldPos": 6,
+				"valueType": "Lookup",
+				"valueLookup": {
+					"table": "qa_neptune_dxp_version",
+					"textField": "VERSION",
+					"keyField": [
+						{
+							"fieldName": "VERSION_ID",
+							"key": "VERSION",
+							"value": ""
+						}
+					],
+					"hideKey": true,
+					"butType": "Accept"
+				},
+				"formatter": "uppercase"
+			},
+			{
+				"enableFilter": true,
+				"enableSort": false,
+				"visible": true,
+				"name": "GITHUB_ISSUE_ID",
+				"text": "GITHUB ID",
+				"fieldPos": 7,
+				"type": "",
+				"valueType": "",
+				"valueFixed": "#"
+			},
+			{
+				"enableFilter": true,
+				"enableSort": false,
+				"visible": true,
+				"name": "BRIEF_TITLE",
+				"text": "ISSUE TITLE",
+				"fieldPos": 8
+			},
+			{
+				"enableFilter": true,
+				"enableSort": false,
+				"visible": true,
+				"name": "APPLICATION",
+				"text": "APPLICATION",
+				"fieldPos": 9,
+				"valueType": "Lookup",
+				"valueLookup": {
+					"table": "qa_application_list_db",
+					"textField": "NAME",
+					"keyField": [
+						{
+							"fieldName": "APP_ID",
+							"key": "APPLICATION",
+							"value": ""
+						}
+					],
+					"hideKey": true,
+					"butType": "Accept"
+				}
+			},
+			{
+				"enableFilter": false,
+				"enableSort": false,
+				"visible": true,
+				"name": "ISSUE_TYPE",
+				"text": "ISSUE TYPE",
+				"fieldPos": 10,
+				"valueType": "Lookup",
+				"valueLookup": {
+					"table": "qa_issue_type_db",
+					"textField": "TYPE",
+					"keyField": [
+						{
+							"fieldName": "TYPE_ID",
+							"key": "ISSUE_TYPE",
+							"value": ""
+						}
+					],
+					"hideKey": true,
+					"butType": "Accept"
+				}
+			},
+			{
+				"enableFilter": false,
+				"enableSort": false,
+				"visible": true,
+				"name": "BUG_STATUS",
+				"text": "STATUS",
+				"fieldPos": 11,
+				"valueType": "Lookup",
+				"valueLookup": {
+					"table": "qa_bug_status_db",
+					"textField": "STATUS",
+					"keyField": [
+						{
+							"fieldName": "STATUS_ID",
+							"key": "BUG_STATUS",
+							"value": ""
+						}
+					],
+					"hideKey": true,
+					"butType": "Accept"
+				},
+				"type": "ObjectStatus",
+				"statusStateType": "Rule",
+				"statusStateRule": "d76ad90d-0754-43a1-81d6-f807602e6c56"
+			},
+			{
+				"enableFilter": true,
+				"enableSort": false,
+				"visible": true,
+				"name": "createdBy",
+				"text": "REPORTED BY",
+				"fieldPos": 12,
+				"formatter": "lowercase"
+			},
+			{
+				"enableFilter": false,
+				"enableSort": true,
+				"visible": true,
+				"name": "createdAt",
+				"text": "REPORTED ON",
+				"fieldPos": 13,
+				"formatter": "date00"
+			}
+		],
+		"defaultVariant": {
+			"id": "c63b4708-2851-4f08-f5e8-d1eca66a3c71",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		},
+		"translation": {
+			"ZH": {
+				"report": {
+					"title": "Докладвани проблеми",
+					"subTitle": "Списък с проблеми, открити в Neptune DXP 22-LTS",
+					"textButtonClose": "Близо",
+					"textButtonCreate": "Създаване на нов брой",
+					"textButtonExport": "",
+					"textButtonImport": "",
+					"textButtonMultiSelect": "MultiSelect",
+					"textButtonRun": "Актуализация",
+					"searchLabel": "Търсене",
+					"searchPlaceholder": ""
+				},
+				"form": {},
+				"table": {
+					"headerText": "",
+					"footerText": "",
+					"noDataText": ""
+				},
+				"fieldCatalog": {
+					"ACTUAL_BEHAVIOR": "ACTUAL_BEHAVIOR",
+					"APPLICATION": "ПРИЛОЖЕНИЕ",
+					"BRIEF_TITLE": "BRIEF_TITLE",
+					"BUG_STATUS": "BUG_STATUS",
+					"COMMENTS": "КОМЕНТАРИ",
+					"DESCRIPTION": "ОПИСАНИЕ",
+					"EXPECTED_BEHAVIOR": "EXPECTED_BEHAVIOR",
+					"GITHUB_ISSUE_ID": "GITHUB_ISSUE_ID",
+					"ISSUE_TYPE": "ISSUE_TYPE",
+					"STEPS": "СТЪПКИ",
+					"VERSION": "ВЕРСИЯ",
+					"createdAt": "Създаден Ат",
+					"createdBy": "Създадено от",
+					"updatedAt": "Актуализиран при",
+					"updatedBy": "Актуализирано от"
+				}
+			},
+			"BG": {
+				"report": {
+					"title": "Докладвани проблеми",
+					"subTitle": "Списък с проблеми, открити в Neptune DXP 22-LTS",
+					"textButtonClose": "Близо",
+					"textButtonCreate": "Създаване на нов брой",
+					"textButtonExport": "",
+					"textButtonImport": "",
+					"textButtonMultiSelect": "MultiSelect",
+					"textButtonRun": "Актуализация",
+					"searchLabel": "Търсене",
+					"searchPlaceholder": ""
+				},
+				"form": {},
+				"table": {
+					"headerText": "",
+					"footerText": "",
+					"noDataText": ""
+				},
+				"fieldCatalog": {
+					"ACTUAL_BEHAVIOR": "ACTUAL_BEHAVIOR",
+					"APPLICATION": "ПРИЛОЖЕНИЕ",
+					"BRIEF_TITLE": "BRIEF_TITLE",
+					"BUG_STATUS": "BUG_STATUS",
+					"COMMENTS": "КОМЕНТАРИ",
+					"DESCRIPTION": "ОПИСАНИЕ",
+					"EXPECTED_BEHAVIOR": "EXPECTED_BEHAVIOR",
+					"GITHUB_ISSUE_ID": "GITHUB_ISSUE_ID",
+					"ISSUE_TYPE": "ISSUE_TYPE",
+					"STEPS": "СТЪПКИ",
+					"VERSION": "ВЕРСИЯ",
+					"createdAt": "Създаден Ат",
+					"createdBy": "Създадено от",
+					"updatedAt": "Актуализиран при",
+					"updatedBy": "Актуализирано от"
+				}
+			},
+			"NO": {
+				"report": {
+					"title": "Rapporterte problemer",
+					"subTitle": "Liste over problemer funnet i Neptune DXP 22-LTS",
+					"textButtonClose": "Lukk",
+					"textButtonCreate": "Opprett nytt nummer",
+					"textButtonExport": "",
+					"textButtonImport": "",
+					"textButtonMultiSelect": "Flervalg",
+					"textButtonRun": "Oppdater",
+					"searchLabel": "Søk",
+					"searchPlaceholder": ""
+				},
+				"form": {},
+				"table": {
+					"headerText": "",
+					"footerText": "",
+					"noDataText": ""
+				},
+				"fieldCatalog": {
+					"ACTUAL_BEHAVIOR": "ACTUAL_BEHAVIOR",
+					"APPLICATION": "APPLIKASJON",
+					"BRIEF_TITLE": "BRIEF_TITLE",
+					"BUG_STATUS": "BUG_STATUS",
+					"COMMENTS": "KOMMENTARER",
+					"DESCRIPTION": "BESKRIVELSE",
+					"EXPECTED_BEHAVIOR": "EXPECTED_BEHAVIOR",
+					"GITHUB_ISSUE_ID": "GITHUB_ISSUE_ID",
+					"ISSUE_TYPE": "ISSUE_TYPE",
+					"STEPS": "TRINN",
+					"VERSION": "VERSJON",
+					"createdAt": "Opprettet kl",
+					"createdBy": "Laget av",
+					"updatedAt": "Oppdatert kl",
+					"updatedBy": "Oppdatert av"
+				}
+			}
+		}
+	},
+	"name": "qa_reported_issues_list",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "e6129223-7657-47ed-a4ad-a94d1b3e9804",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "22.10.12.2017",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_list",
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

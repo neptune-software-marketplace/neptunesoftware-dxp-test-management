@@ -12,7 +12,7 @@
 				"iconButtonSave": "",
 				"textButtonSave": "Save",
 				"textToastSave": "Saved",
-				"typeButtonSave": "Default",
+				"typeButtonSave": "Emphasized",
 				"tab0Text": "General",
 				"tab1Text": "Tab 1",
 				"tab2Text": "Tab 2",
@@ -34,7 +34,8 @@
 			"form": {
 				"enableCompact": true,
 				"enableCentered": false,
-				"columnsL": ""
+				"columnsL": "",
+				"labelSpanM": "12"
 			},
 			"table": {}
 		},
@@ -167,7 +168,8 @@
 				"enableNewForm": true,
 				"default": "3",
 				"lookupFieldAdditional": "DESCRIPTION",
-				"required": true
+				"required": true,
+				"labelSpanM": "12"
 			},
 			{
 				"editable": true,
@@ -190,7 +192,8 @@
 				"text": "Comments",
 				"fieldPos": 7,
 				"type": "Editor",
-				"enableNewForm": true
+				"enableNewForm": true,
+				"labelSpanM": "12"
 			},
 			{
 				"editable": true,
@@ -221,7 +224,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "22.10.12.1119",
+	"ver": "22.10.13.853",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_edit",

@@ -63,7 +63,7 @@
 	"foreignKeys": [],
 	"name": "qa_feature_testing_db",
 	"description": null,
-	"ver": "22.10.12.1156",
+	"ver": "22.10.12.1957",
 	"enableAudit": false,
 	"package": "29805ca6-5925-4de9-a761-47279405b041",
 	"rolesRead": [],

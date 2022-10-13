@@ -1,7 +1,7 @@
 {
-	"id": "9ae5b123-eceb-4ad5-b6a7-bc56ef41977c",
-	"createdAt": "2022-06-01T17:04:04.260Z",
-	"createdBy": "testcafe",
+	"id": "cf526867-61da-42f0-a7c8-7c52fe3af360",
+	"createdAt": "2022-10-10T19:48:03.521Z",
+	"createdBy": "rommel",
 	"settings": {
 		"properties": {
 			"report": {
@@ -26,60 +26,64 @@
 				"enableTab3": false,
 				"enableTab4": false,
 				"enableTab5": false,
-				"title": "GitHub Issue",
-				"subTitle": "Manage fixed GitHub issue",
-				"avatarIcon": "sap-icon://fa-brands/github",
-				"avatarBackgroundColor": "Accent1"
+				"title": "Feature Testing",
+				"subTitle": "Manage test cases for feature testing",
+				"avatarBackgroundColor": "Accent1",
+				"avatarIcon": "sap-icon://electronic-medical-record"
 			},
 			"form": {
 				"enableCompact": true,
 				"enableCentered": false,
-				"columnsL": "",
-				"labelSpanM": "12",
-				"titleLevel": ""
+				"labelSpanM": "12"
 			},
 			"table": {}
 		},
 		"fieldCatalog": [
 			{
-				"name": "ISSUE_ID",
-				"label": "ISSUE_ID",
+				"name": "FEATURE_ID",
+				"label": "FEATURE_ID",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "TEST_TITLE",
+				"label": "TEST_TITLE",
 				"type": "text",
 				"usage": "BOTH"
 			},
 			{
-				"name": "ISSUE_TITLE",
-				"label": "ISSUE_TITLE",
+				"name": "TEST_STEPS",
+				"label": "TEST_STEPS",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "EXECUTION_STATUS",
+				"label": "EXECUTION_STATUS",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "TEST_RESULT",
+				"label": "TEST_RESULT",
 				"type": "text",
 				"usage": "BOTH"
 			},
 			{
 				"name": "COMMENTS",
 				"label": "COMMENTS",
-				"type": "mediumtext",
-				"usage": "BOTH"
-			},
-			{
-				"name": "DXP_EDITION",
-				"label": "DXP_EDITION",
 				"type": "text",
 				"usage": "BOTH"
 			},
 			{
-				"name": "VERIFICATION_STEPS",
-				"label": "VERIFICATION_STEPS",
+				"name": "DXP_VERSION",
+				"label": "DXP_VERSION",
 				"type": "text",
 				"usage": "BOTH"
 			},
 			{
-				"name": "VERIFICATION_STATUS",
-				"label": "VERIFICATION_STATUS",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
-				"name": "REMARKS",
-				"label": "REMARKS",
+				"name": "FEATURE_TEST_ID",
+				"label": "FEATURE_TEST_ID",
 				"type": "text",
 				"usage": "BOTH"
 			},
@@ -116,97 +120,118 @@
 		],
 		"fieldsSel": [
 			{
-				"editable": false,
+				"editable": true,
 				"visible": true,
-				"name": "DXP_EDITION",
-				"text": "DXP Edition",
+				"name": "FEATURE_TEST_ID",
+				"text": "Test ID",
 				"fieldPos": 1,
+				"required": true,
+				"default": "FT-"
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "FEATURE_ID",
+				"text": "Feature",
+				"fieldPos": 2,
+				"type": "SingleSelectLookup",
+				"lookupTable": "qa_new_features_db",
+				"lookupFieldKey": "FEATURE_ID",
+				"lookupFieldText": "FEATURE",
+				"lookupShowOnlyText": true,
+				"required": true,
+				"default": ""
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "DXP_VERSION",
+				"text": "DXP Edition",
+				"fieldPos": 3,
 				"type": "SingleSelectLookup",
 				"lookupTable": "qa_neptune_dxp_version",
 				"lookupFieldKey": "VERSION_ID",
 				"lookupFieldText": "VERSION",
 				"lookupShowOnlyText": true,
-				"required": false,
-				"default": ""
-			},
-			{
-				"editable": false,
-				"visible": true,
-				"name": "ISSUE_ID",
-				"text": "GitHub ID",
-				"fieldPos": 2,
-				"required": false
-			},
-			{
-				"editable": false,
-				"visible": true,
-				"name": "ISSUE_TITLE",
-				"text": "Issue Title",
-				"fieldPos": 3,
-				"required": false
-			},
-			{
-				"editable": false,
-				"visible": true,
-				"name": "VERIFICATION_STEPS",
-				"text": "Steps to Verify",
-				"fieldPos": 4,
-				"type": "Editor",
-				"required": false
+				"required": true,
+				"placeholder": "Neptune DXP Edition",
+				"default": "2"
 			},
 			{
 				"editable": true,
 				"visible": true,
-				"name": "VERIFICATION_STATUS",
-				"text": "Status",
+				"name": "TEST_TITLE",
+				"text": "Title",
+				"fieldPos": 4,
+				"required": true,
+				"placeholder": "Title of the test"
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "TEST_STEPS",
+				"text": "Test Description",
 				"fieldPos": 5,
+				"required": true,
+				"type": "Editor"
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "EXECUTION_STATUS",
+				"text": "Execution Status",
+				"fieldPos": 6,
 				"type": "SingleSelectLookup",
-				"lookupTable": "qa_github_issue_status",
-				"lookupFieldKey": "STATUS_CODE",
+				"placeholder": "",
+				"lookupTable": "qa_test_execution_status_db",
+				"lookupFieldKey": "STATUS_ID",
 				"lookupFieldText": "STATUS",
 				"lookupShowOnlyText": true,
-				"columnLabel": "",
-				"enableNewForm": true,
-				"default": "3",
-				"lookupFieldAdditional": "DESCRIPTION",
+				"default": "1",
 				"required": true,
+				"enableNewForm": true,
+				"lookupFieldAdditional": "DESCRIPTION",
 				"labelSpanM": "12"
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "TEST_RESULT",
+				"text": "Test Result",
+				"fieldPos": 7,
+				"type": "SingleSelectLookup",
+				"lookupTable": "qa_test_result_db",
+				"lookupFieldKey": "RESULT_ID",
+				"lookupFieldText": "RESULT",
+				"lookupShowOnlyText": true
 			},
 			{
 				"editable": true,
 				"visible": true,
 				"name": "TESTER",
 				"text": "Responsible Tester",
-				"fieldPos": 6,
+				"fieldPos": 8,
 				"type": "SingleSelectLookup",
 				"lookupTable": "qa_team_members_db",
 				"lookupFieldKey": "TESTER_ID",
 				"lookupFieldText": "TESTER",
 				"lookupShowOnlyText": true,
-				"required": true
+				"required": false
 			},
 			{
 				"editable": true,
 				"visible": true,
 				"name": "COMMENTS",
 				"text": "Comments",
-				"fieldPos": 7,
+				"fieldPos": 9,
 				"type": "Editor",
 				"enableNewForm": true,
 				"labelSpanM": "12"
-			},
-			{
-				"editable": true,
-				"visible": true,
-				"name": "REMARKS",
-				"text": "Remarks",
-				"fieldPos": 8,
-				"type": "TextArea"
 			}
 		],
 		"fieldsRun": [],
 		"defaultVariant": {
-			"id": "9c5d7d2c-5c01-4ff8-be26-2a0089526bad",
+			"id": "0233faf0-0f5f-43b6-9853-01bc5f0bd54b",
 			"colOrder": "key_a_to_z",
 			"rowOrder": "key_a_to_z",
 			"row": [],
@@ -216,15 +241,15 @@
 			"exclusions": {}
 		}
 	},
-	"name": "qa_github_issue_edit",
+	"name": "qa_feature_testing_edit_admin",
 	"description": "",
 	"group": "",
 	"type": "C",
-	"connectorid": "3f6dda31-f646-4833-b4b1-89c6b1565b7d",
+	"connectorid": "f57b6d9a-5fb4-4a47-989f-5e4ea8dd4dff",
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "22.10.13.840",
+	"ver": "22.10.13.851",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_edit",

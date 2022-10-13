@@ -1,0 +1,69 @@
+{
+	"id": "0cadc3e3-2172-4d22-b3cc-5e8d3781bd39",
+	"createdAt": "2022-06-09T21:08:30.910Z",
+	"createdBy": "rommel",
+	"interface": [
+		{
+			"id": "7508e093-a5ac-4338-da96-ee187040dbf3",
+			"parent": "",
+			"name": "EXECUTION_STATUS",
+			"objectType": "string",
+			"description": ""
+		}
+	],
+	"rules": [
+		{
+			"id": "f449c292-9d03-4622-bb3c-942be788da92",
+			"result": "Warning",
+			"items": [
+				{
+					"id": "810a1397-d89e-4bb8-9e06-9b6f6f063801",
+					"field": "7508e093-a5ac-4338-da96-ee187040dbf3",
+					"operator": "equal",
+					"value": "1"
+				}
+			]
+		},
+		{
+			"id": "cf9b0fbf-8d27-4a5f-a60d-e6ff7a4db2c2",
+			"result": "Success",
+			"items": [
+				{
+					"id": "84337e25-2ebf-400d-b2c7-eabb9e7572f8",
+					"field": "7508e093-a5ac-4338-da96-ee187040dbf3",
+					"operator": "equal",
+					"value": "2"
+				}
+			]
+		},
+		{
+			"id": "f4841b74-2d4f-4fec-caf3-7838a1c40a67",
+			"result": "Error",
+			"items": [
+				{
+					"id": "61174341-26ba-4823-b2b0-ddb88f6c1aa1",
+					"field": "7508e093-a5ac-4338-da96-ee187040dbf3",
+					"operator": "equal",
+					"value": "3"
+				}
+			]
+		},
+		{
+			"id": "b64cee03-f912-49ec-addb-0726e22f119e",
+			"result": "Error",
+			"items": [
+				{
+					"id": "a3d1d0b5-cd40-4383-c83a-0b3851f6e8d3",
+					"field": "7508e093-a5ac-4338-da96-ee187040dbf3",
+					"operator": "equal",
+					"value": "4"
+				}
+			]
+		}
+	],
+	"name": "Execution Status",
+	"description": "",
+	"ver": "22.10.12.1333",
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"roles": []
+}

@@ -19,7 +19,7 @@
 		{
 			"id": "f006c97a-2905-437f-8c53-c8d31c6c7a84",
 			"fieldName": "COMMENTS",
-			"fieldType": "mediumtext",
+			"fieldType": "text",
 			"isNullable": true
 		},
 		{
@@ -57,7 +57,7 @@
 	"foreignKeys": [],
 	"name": "qa_github_issues_db",
 	"description": "List of fixed issues that require re-verification",
-	"ver": "22.10.12.1256",
+	"ver": "22.10.12.2041",
 	"enableAudit": false,
 	"package": "29805ca6-5925-4de9-a761-47279405b041",
 	"rolesRead": [],

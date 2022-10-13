@@ -1,0 +1,190 @@
+{
+	"id": "ac27083a-deb6-4000-b87e-8542abfa42bb",
+	"createdAt": "2022-10-11T10:27:53.224Z",
+	"createdBy": "rommel",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonCreate": "",
+				"textButtonCreate": "Create",
+				"typeButtonCreate": "Emphasized",
+				"iconButtonExport": "sap-icon://excel-attachment",
+				"textButtonExport": "",
+				"typeButtonExport": "Transparent",
+				"iconButtonImport": "sap-icon://fa-solid/file-import",
+				"textButtonImport": "",
+				"typeButtonImport": "Transparent",
+				"iconButtonMultiSelect": "",
+				"textButtonMultiSelect": "MultiSelect",
+				"typeButtonMultiSelect": "Emphasized",
+				"iconButtonRun": "",
+				"textButtonRun": "Update",
+				"typeButtonRun": "Default",
+				"enableRun": true,
+				"enableCreate": true,
+				"enableClose": false,
+				"enableDelete": true,
+				"enableExport": false,
+				"enableImport": false,
+				"enableMultiSelect": false,
+				"enableVariant": false,
+				"hideHeader": false,
+				"autoRun": true,
+				"autoRunFocus": false,
+				"searchLabel": "Search",
+				"searchPlaceholder": "",
+				"title": "Issue Status",
+				"subTitle": "Types of status for the reported issues",
+				"avatarIcon": "sap-icon://fa-solid/bug",
+				"avatarBackgroundColor": "Accent1",
+				"_navigationCreate": {
+					"destinationType": "F",
+					"openAs": "D",
+					"butType": "Accept",
+					"destinationTargetF": "b275f802-7cf7-4edc-9ef7-9fe29659a2f0",
+					"keyField": [],
+					"dialogHeight": "450px",
+					"dialogWidth": "700px"
+				},
+				"_navigationItemPress": {
+					"destinationType": "F",
+					"openAs": "D",
+					"butType": "Accept",
+					"destinationTargetF": "B275F802-7CF7-4EDC-9EF7-9FE29659A2F0",
+					"keyField": [],
+					"dialogHeight": "450px",
+					"dialogWidth": "700px"
+				}
+			},
+			"form": {
+				"enableCompact": false,
+				"headerExpanded": true
+			},
+			"table": {
+				"enablePagination": false,
+				"paginationShowSelection": false,
+				"paginationRows": 25,
+				"action1Text": "",
+				"action1Type": "Transparent",
+				"action2Text": "",
+				"action2Type": "Transparent",
+				"action3Text": "",
+				"action3Type": "Transparent",
+				"alternateRowColors": true,
+				"enableCompact": true,
+				"enableAction1": false,
+				"enableAction2": false,
+				"enableAction3": false,
+				"fixedLayout": false,
+				"inset": false,
+				"showSeparators": "All"
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "DESCRIPTION",
+				"label": "DESCRIPTION",
+				"type": "text"
+			},
+			{
+				"name": "STATUS",
+				"label": "STATUS",
+				"type": "text"
+			},
+			{
+				"name": "STATUS_ID",
+				"label": "STATUS_ID",
+				"type": "mediumtext"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [
+			{
+				"enableFilter": false,
+				"enableSort": false,
+				"visible": true,
+				"name": "STATUS_ID",
+				"text": "STATUS ID",
+				"fieldPos": 1,
+				"hAlign": ""
+			},
+			{
+				"enableFilter": true,
+				"enableSort": false,
+				"visible": true,
+				"name": "STATUS",
+				"text": "STATUS",
+				"fieldPos": 2
+			},
+			{
+				"enableFilter": true,
+				"enableSort": false,
+				"visible": true,
+				"name": "DESCRIPTION",
+				"text": "DESCRIPTION",
+				"fieldPos": 3
+			},
+			{
+				"enableFilter": false,
+				"enableSort": false,
+				"visible": true,
+				"name": "updatedAt",
+				"text": "CHANGED ON",
+				"fieldPos": 4,
+				"type": "",
+				"formatter": "date00"
+			}
+		],
+		"defaultVariant": {
+			"id": "dd946b58-e401-400c-fd5d-cf5a70cd2ddb",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "qa_issue_status_list",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "eab76d59-4906-46e3-83a1-813de261b359",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "22.10.13.824",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_list",
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

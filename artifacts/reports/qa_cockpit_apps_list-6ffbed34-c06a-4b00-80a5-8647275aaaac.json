@@ -1,0 +1,202 @@
+{
+	"id": "6ffbed34-c06a-4b00-80a5-8647275aaaac",
+	"createdAt": "2022-10-10T21:14:22.581Z",
+	"createdBy": "rommel",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonCreate": "",
+				"textButtonCreate": "Create",
+				"typeButtonCreate": "Emphasized",
+				"iconButtonExport": "sap-icon://excel-attachment",
+				"textButtonExport": "",
+				"typeButtonExport": "Transparent",
+				"iconButtonImport": "sap-icon://fa-solid/file-import",
+				"textButtonImport": "",
+				"typeButtonImport": "Transparent",
+				"iconButtonMultiSelect": "",
+				"textButtonMultiSelect": "MultiSelect",
+				"typeButtonMultiSelect": "Emphasized",
+				"iconButtonRun": "",
+				"textButtonRun": "Update",
+				"typeButtonRun": "Default",
+				"enableRun": true,
+				"enableCreate": true,
+				"enableClose": false,
+				"enableDelete": true,
+				"enableExport": false,
+				"enableImport": false,
+				"enableMultiSelect": false,
+				"enableVariant": false,
+				"hideHeader": false,
+				"autoRun": true,
+				"autoRunFocus": false,
+				"searchLabel": "Search",
+				"searchPlaceholder": "",
+				"title": "Neptune DXP Applications",
+				"subTitle": "List of Neptune DXP Cockpit applications",
+				"avatarIcon": "sap-icon://tnt/application",
+				"avatarBackgroundColor": "Accent1",
+				"_navigationCreate": {
+					"destinationType": "F",
+					"openAs": "D",
+					"butType": "Accept",
+					"destinationTargetF": "58dc842d-a092-453e-a325-118ba6f8049d",
+					"keyField": [],
+					"dialogHeight": "430px",
+					"dialogWidth": "700px"
+				},
+				"_navigationItemPress": {
+					"destinationType": "F",
+					"openAs": "D",
+					"butType": "Accept",
+					"dialogHeight": "430px",
+					"dialogWidth": "700px",
+					"destinationTargetF": "58dc842d-a092-453e-a325-118ba6f8049d",
+					"keyField": []
+				}
+			},
+			"form": {
+				"enableCompact": false,
+				"headerExpanded": true
+			},
+			"table": {
+				"enablePagination": false,
+				"paginationShowSelection": false,
+				"paginationRows": "1000",
+				"action1Text": "",
+				"action1Type": "Transparent",
+				"action2Text": "",
+				"action2Type": "Transparent",
+				"action3Text": "",
+				"action3Type": "Transparent",
+				"alternateRowColors": false,
+				"enableCompact": true,
+				"enableAction1": false,
+				"enableAction2": false,
+				"enableAction3": false,
+				"fixedLayout": false,
+				"inset": false,
+				"initialSortField": "NAME",
+				"initialSortOrder": "ASC",
+				"showSeparators": "All"
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "APP_ID",
+				"label": "APP_ID",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "NAME",
+				"label": "NAME",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [
+			{
+				"enableFilter": true,
+				"enableSort": false,
+				"visible": true,
+				"name": "APP_ID",
+				"text": "APPLICATION ID",
+				"fieldPos": 1,
+				"valueType": "",
+				"valueLookup": {
+					"table": "application_list_db",
+					"textField": "id",
+					"keyField": [
+						{
+							"fieldName": "id",
+							"key": "id",
+							"value": ""
+						},
+						{
+							"fieldName": "APP_ID",
+							"key": "APP_ID",
+							"value": ""
+						}
+					],
+					"hideKey": false,
+					"butType": "Accept"
+				}
+			},
+			{
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "NAME",
+				"text": "APPLICATION NAME",
+				"fieldPos": 2
+			},
+			{
+				"enableFilter": false,
+				"enableSort": false,
+				"visible": true,
+				"name": "updatedAt",
+				"text": "CHANGED ON",
+				"fieldPos": 3,
+				"formatter": "date00"
+			}
+		],
+		"defaultVariant": {
+			"id": "a4b361f3-72f1-4eee-c4bb-2ab9868af5d6",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "qa_cockpit_apps_list",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "718de0d1-eadc-4842-80d5-7e863eb88a69",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "22.10.13.817",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_list",
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}
