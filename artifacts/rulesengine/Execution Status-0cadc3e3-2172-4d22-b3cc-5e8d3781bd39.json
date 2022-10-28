@@ -59,11 +59,23 @@
 					"value": "4"
 				}
 			]
+		},
+		{
+			"id": "f9d6377b-1136-4691-8352-3558124140ad",
+			"result": "Warning",
+			"items": [
+				{
+					"id": "92a7672d-8320-4607-ea24-e9957293057c",
+					"field": "7508e093-a5ac-4338-da96-ee187040dbf3",
+					"operator": "equal",
+					"value": "5"
+				}
+			]
 		}
 	],
 	"name": "Execution Status",
 	"description": "",
-	"ver": "22.10.12.1333",
+	"ver": "22.10.18.1441",
 	"package": "29805ca6-5925-4de9-a761-47279405b041",
 	"roles": []
 }

@@ -6,6 +6,7 @@
 	"tilesOrder": [
 		"22B86576-5993-4F19-96C9-592B680124D1",
 		"507836CC-ADA4-4C7A-B19C-CE8A20944520",
+		"AB358A7D-AC50-ED11-819B-000D3ABA7EDC",
 		"0C2118A2-AD49-ED11-819B-000D3ABA7EDC",
 		"BE55517A-AA49-ED11-819B-000D3ABA7EDC"
 	],
@@ -30,7 +31,7 @@
 	"enableShadeCalc": false,
 	"numTiles": null,
 	"enableMessage": false,
-	"ver": "22.10.13.85",
+	"ver": "22.10.20.1938",
 	"headColor": null,
 	"headTxtClr": null,
 	"subheadTxtClr": null,
@@ -75,6 +76,12 @@
 			"name": "22-LTS Test — New Features",
 			"title": "New Features",
 			"ver": "22.10.13.835"
+		},
+		{
+			"id": "AB358A7D-AC50-ED11-819B-000D3ABA7EDC",
+			"name": "22-LTS Test — Feature Testing Status",
+			"title": "Feature Testing Status",
+			"ver": "22.10.20.1927"
 		},
 		{
 			"id": "22B86576-5993-4F19-96C9-592B680124D1",

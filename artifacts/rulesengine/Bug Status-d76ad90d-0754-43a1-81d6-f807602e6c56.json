@@ -95,11 +95,35 @@
 					"value": "8"
 				}
 			]
+		},
+		{
+			"id": "56480f37-e43c-4c61-9dce-52c2438ed617",
+			"result": "Error",
+			"items": [
+				{
+					"id": "b9105232-05d7-448f-b437-a8a146f394dc",
+					"field": "da50f447-1d07-483b-ac5c-60f39eda7659",
+					"operator": "equal",
+					"value": "10"
+				}
+			]
+		},
+		{
+			"id": "d21e861d-cbed-41f6-af9c-7dbe97e1528d",
+			"result": "Error",
+			"items": [
+				{
+					"id": "62a7b30d-1c8a-4e6f-d6b8-df831ca3c8f6",
+					"field": "da50f447-1d07-483b-ac5c-60f39eda7659",
+					"operator": "equal",
+					"value": "11"
+				}
+			]
 		}
 	],
 	"name": "Bug Status",
 	"description": "",
-	"ver": "22.10.12.1333",
+	"ver": "22.10.27.946",
 	"package": "29805ca6-5925-4de9-a761-47279405b041",
 	"roles": []
 }

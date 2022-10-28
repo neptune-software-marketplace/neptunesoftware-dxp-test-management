@@ -1,0 +1,149 @@
+{
+	"id": "bb54e168-a250-ed11-819b-000d3aba7edc",
+	"createdAt": "2022-10-20T18:10:00.310Z",
+	"createdBy": "rommel@neptune-software.com",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Reject",
+				"iconButtonSave": "",
+				"textButtonSave": "Save",
+				"textToastSave": "Saved",
+				"typeButtonSave": "Emphasized",
+				"tab0Text": "General",
+				"tab1Text": "Tab 1",
+				"tab2Text": "Tab 2",
+				"tab3Text": "Tab 3",
+				"tab4Text": "Tab 4",
+				"tab5Text": "Tab 5",
+				"enableClose": true,
+				"enableSave": true,
+				"enableTab1": false,
+				"enableTab2": false,
+				"enableTab3": false,
+				"enableTab4": false,
+				"enableTab5": false,
+				"title": "Feature Testing Execution Status",
+				"subTitle": "Manage status for execution of feature testing",
+				"avatarIcon": "sap-icon://electronic-medical-record",
+				"avatarBackgroundColor": "Accent1"
+			},
+			"form": {
+				"enableCompact": true,
+				"enableCentered": true,
+				"labelSpanM": "12"
+			},
+			"table": {}
+		},
+		"fieldCatalog": [
+			{
+				"name": "STATUS_ID",
+				"label": "STATUS_ID",
+				"type": "mediumtext"
+			},
+			{
+				"name": "STATUS",
+				"label": "STATUS",
+				"type": "text"
+			},
+			{
+				"name": "DESCRIPTION",
+				"label": "DESCRIPTION",
+				"type": "text"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text"
+			}
+		],
+		"fieldsSel": [
+			{
+				"editable": true,
+				"visible": true,
+				"name": "STATUS_ID",
+				"text": "Status ID",
+				"fieldPos": 1,
+				"required": true
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "STATUS",
+				"text": "Status",
+				"fieldPos": 2,
+				"required": true
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "DESCRIPTION",
+				"text": "Description",
+				"fieldPos": 3,
+				"required": true
+			},
+			{
+				"editable": false,
+				"visible": true,
+				"name": "updatedAt",
+				"text": "Changed On",
+				"fieldPos": 4,
+				"type": "DateTimePicker"
+			},
+			{
+				"editable": false,
+				"visible": true,
+				"name": "createdAt",
+				"text": "Created On",
+				"fieldPos": 5,
+				"type": "DateTimePicker"
+			}
+		],
+		"fieldsRun": [],
+		"defaultVariant": {
+			"id": "138ac858-0bf3-4fcc-87d4-daa80bc6c458",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "qa_feature_testing_execution_status_edit",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "b7f0a285-a150-ed11-819b-000d3aba7edc",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "22.10.20.1912",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_edit",
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

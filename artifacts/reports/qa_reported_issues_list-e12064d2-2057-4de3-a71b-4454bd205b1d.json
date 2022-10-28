@@ -80,7 +80,7 @@
 				"inset": false,
 				"initialGroupField": "VERSION",
 				"initialGroupOrder": "ASC",
-				"initialSortField": "createdAt",
+				"initialSortField": "GITHUB_ISSUE_ID",
 				"initialSortOrder": "DESC",
 				"showSeparators": "All"
 			}
@@ -495,7 +495,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "22.10.12.2017",
+	"ver": "22.10.13.1234",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_list",

@@ -1,0 +1,190 @@
+{
+	"id": "215c8057-ab50-ed11-819b-000d3aba7edc",
+	"createdAt": "2022-10-20T19:13:56.626Z",
+	"createdBy": "rommel@neptune-software.com",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonCreate": "",
+				"textButtonCreate": "Create",
+				"typeButtonCreate": "Emphasized",
+				"iconButtonExport": "sap-icon://excel-attachment",
+				"textButtonExport": "",
+				"typeButtonExport": "Transparent",
+				"iconButtonImport": "sap-icon://fa-solid/file-import",
+				"textButtonImport": "",
+				"typeButtonImport": "Transparent",
+				"iconButtonMultiSelect": "",
+				"textButtonMultiSelect": "MultiSelect",
+				"typeButtonMultiSelect": "Emphasized",
+				"iconButtonRun": "",
+				"textButtonRun": "Update",
+				"typeButtonRun": "Default",
+				"enableRun": true,
+				"enableCreate": true,
+				"enableClose": false,
+				"enableDelete": true,
+				"enableExport": false,
+				"enableImport": false,
+				"enableMultiSelect": false,
+				"enableVariant": false,
+				"hideHeader": false,
+				"autoRun": true,
+				"autoRunFocus": false,
+				"searchLabel": "Search",
+				"searchPlaceholder": "",
+				"title": "Feature Testing Execution Status",
+				"subTitle": "Types status for execution of feature testing",
+				"avatarIcon": "sap-icon://electronic-medical-record",
+				"avatarBackgroundColor": "Accent1",
+				"_navigationCreate": {
+					"destinationType": "F",
+					"openAs": "D",
+					"butType": "Accept",
+					"destinationTargetF": "BB54E168-A250-ED11-819B-000D3ABA7EDC",
+					"keyField": [],
+					"dialogHeight": "450px",
+					"dialogWidth": "780px"
+				},
+				"_navigationItemPress": {
+					"destinationType": "F",
+					"openAs": "D",
+					"butType": "Accept",
+					"destinationTargetF": "BB54E168-A250-ED11-819B-000D3ABA7EDC",
+					"keyField": [],
+					"dialogHeight": "450px",
+					"dialogWidth": "780px"
+				}
+			},
+			"form": {
+				"enableCompact": false,
+				"headerExpanded": true
+			},
+			"table": {
+				"enablePagination": false,
+				"paginationShowSelection": false,
+				"paginationRows": 25,
+				"action1Text": "",
+				"action1Type": "Transparent",
+				"action2Text": "",
+				"action2Type": "Transparent",
+				"action3Text": "",
+				"action3Type": "Transparent",
+				"alternateRowColors": true,
+				"enableCompact": true,
+				"enableAction1": false,
+				"enableAction2": false,
+				"enableAction3": false,
+				"fixedLayout": false,
+				"inset": false,
+				"showSeparators": "All"
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "STATUS_ID",
+				"label": "STATUS_ID",
+				"type": "mediumtext"
+			},
+			{
+				"name": "STATUS",
+				"label": "STATUS",
+				"type": "text"
+			},
+			{
+				"name": "DESCRIPTION",
+				"label": "DESCRIPTION",
+				"type": "text"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [
+			{
+				"enableFilter": false,
+				"enableSort": false,
+				"visible": true,
+				"name": "STATUS_ID",
+				"text": "STATUS ID",
+				"fieldPos": 1,
+				"hAlign": ""
+			},
+			{
+				"enableFilter": true,
+				"enableSort": false,
+				"visible": true,
+				"name": "STATUS",
+				"text": "STATUS",
+				"fieldPos": 2
+			},
+			{
+				"enableFilter": true,
+				"enableSort": false,
+				"visible": true,
+				"name": "DESCRIPTION",
+				"text": "DESCRIPTION",
+				"fieldPos": 3
+			},
+			{
+				"enableFilter": false,
+				"enableSort": false,
+				"visible": true,
+				"name": "updatedAt",
+				"text": "CHANGED ON",
+				"fieldPos": 4,
+				"type": "",
+				"formatter": "date00"
+			}
+		],
+		"defaultVariant": {
+			"id": "dd946b58-e401-400c-fd5d-cf5a70cd2ddb",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "qa_feature_testing_execution_status_list",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "b7f0a285-a150-ed11-819b-000d3aba7edc",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "22.10.20.1930",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_list",
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

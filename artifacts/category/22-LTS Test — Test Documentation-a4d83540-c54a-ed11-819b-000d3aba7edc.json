@@ -67,19 +67,19 @@
 			"id": "65B20767-A860-4CC2-8DB5-0DBFB92C1A7F",
 			"name": "22-LTS Test — Test Strategy",
 			"title": "Test Strategy",
-			"ver": "22.10.13.836"
+			"ver": "22.10.13.933"
 		},
 		{
 			"id": "F54A8E7B-13AB-4F44-83E8-208E23BF8AF7",
 			"name": "22-LTS Test — Test Plan — Open Edition",
 			"title": "Test Plan — Open Edition",
-			"ver": "22.10.13.836"
+			"ver": "22.10.14.1241"
 		},
 		{
 			"id": "7C1BC369-DDCB-46B7-B037-5BB87ACEFA13",
 			"name": "22-LTS Test — Test Plan - SAP Edition",
 			"title": "Test Plan — SAP Edition",
-			"ver": "22.10.13.836"
+			"ver": "22.10.14.1245"
 		}
 	]
 }

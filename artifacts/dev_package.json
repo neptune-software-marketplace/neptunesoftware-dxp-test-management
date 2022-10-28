@@ -36,7 +36,7 @@
 	},
 	"name": "QA-Neptune-DXP-LTS",
 	"description": "Artifacts related to Test Management tool",
-	"ver": "22.10.13.94",
+	"ver": "22.10.13.95",
 	"enableCICD": true,
 	"apps": [
 		{
@@ -44,6 +44,12 @@
 			"application": "dxptest_launchpad",
 			"title": "",
 			"description": "Planet 9 Launchpad "
+		},
+		{
+			"id": "66BDA6F3-BD4B-ED11-819B-000D3ABA7EDC",
+			"application": "qa_test_plan_sap_edition",
+			"title": "Neptune DXP — Test Plan",
+			"description": ""
 		}
 	],
 	"api": [],
@@ -128,6 +134,11 @@
 			"description": null
 		},
 		{
+			"id": "FB78D05B-F64A-ED11-819B-000D3ABA7EDC",
+			"name": "updatedBy",
+			"description": null
+		},
+		{
 			"id": "38821E6A-A33D-4A99-915D-C7825EC47D59",
 			"name": "generateID",
 			"description": null
@@ -199,6 +210,18 @@
 			"name": "qa_new_features_edit",
 			"description": "",
 			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "BB54E168-A250-ED11-819B-000D3ABA7EDC",
+			"name": "qa_feature_testing_execution_status_edit",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "215C8057-AB50-ED11-819B-000D3ABA7EDC",
+			"name": "qa_feature_testing_execution_status_list",
+			"description": "",
+			"application": "planet9_adaptive_list"
 		},
 		{
 			"id": "E12064D2-2057-4DE3-A71B-4454BD205B1D",
@@ -285,6 +308,16 @@
 			"id": "0C2118A2-AD49-ED11-819B-000D3ABA7EDC",
 			"description": null,
 			"name": "22-LTS Test — New Features"
+		},
+		{
+			"id": "AB358A7D-AC50-ED11-819B-000D3ABA7EDC",
+			"description": null,
+			"name": "22-LTS Test — Feature Testing Status"
+		},
+		{
+			"id": "100D8BAE-AE50-ED11-819B-000D3ABA7EDC",
+			"description": null,
+			"name": "22-LTS Test — Open Edition Dev 22"
 		},
 		{
 			"id": "65B20767-A860-4CC2-8DB5-0DBFB92C1A7F",
@@ -429,6 +462,11 @@
 			"id": "54861475-AC49-ED11-819B-000D3ABA7EDC",
 			"name": "qa_new_features_conn",
 			"description": null
+		},
+		{
+			"id": "B7F0A285-A150-ED11-819B-000D3ABA7EDC",
+			"name": "qa_feature_testing_execution_status",
+			"description": "Types of execution status for feature testing"
 		},
 		{
 			"id": "F57B6D9A-5FB4-4A47-989F-5E4EA8DD4DFF",

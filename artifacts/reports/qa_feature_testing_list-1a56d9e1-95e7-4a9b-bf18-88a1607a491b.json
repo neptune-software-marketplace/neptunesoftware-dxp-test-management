@@ -192,7 +192,7 @@
 				"name": "EXECUTION_STATUS",
 				"text": "Execution Status",
 				"fieldPos": 3,
-				"type": "SingleSelectLookup",
+				"type": "MultiSelectLookup",
 				"lookupTable": "qa_test_execution_status_db",
 				"lookupFieldKey": "STATUS_ID",
 				"lookupFieldText": "STATUS",
@@ -359,7 +359,7 @@
 					"hideKey": true,
 					"butType": "Accept"
 				},
-				"formatter": "uppercase"
+				"formatter": ""
 			}
 		],
 		"defaultVariant": {
@@ -381,7 +381,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "22.10.13.749",
+	"ver": "22.10.28.935",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_list",

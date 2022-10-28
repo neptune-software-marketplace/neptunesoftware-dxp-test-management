@@ -1,21 +1,21 @@
 {
-	"id": "7c1bc369-ddcb-46b7-b037-5bb87acefa13",
-	"createdAt": "2022-06-02T21:50:21.867Z",
-	"createdBy": "rommel",
+	"id": "ab358a7d-ac50-ed11-819b-000d3aba7edc",
+	"createdAt": "2022-10-20T19:22:09.923Z",
+	"createdBy": "rommel@neptune-software.com",
 	"translation": [],
 	"storeItem": {},
 	"settings": {
 		"adaptive": {
-			"id": "19ba4225-521f-47fb-8f7e-069d72fa1eb0"
+			"id": "215C8057-AB50-ED11-819B-000D3ABA7EDC"
 		}
 	},
-	"title": "Test Plan — SAP Edition",
-	"subTitle": "Document intended for the testing of Neptune DXP — SAP Edition 22-LTS version",
+	"title": "Feature Testing Status",
+	"subTitle": "Types status for execution of feature testing",
 	"description": null,
 	"categoryID": null,
 	"sort": null,
 	"urlApplication": null,
-	"actionApplication": "qa_test_plan_sap_edition",
+	"actionApplication": "",
 	"actionParameters": null,
 	"actionURL": "",
 	"openDialog": false,
@@ -24,7 +24,7 @@
 	"forceRow": false,
 	"frameType": null,
 	"type": null,
-	"image": "https://community-neptune-software.imgix.net/page_featured_image/c_81731_ba4a687b-8dc1-43ed-8765-cfa39f7da9b4.png?auto=format&h=371&w=600",
+	"image": "https://verifysoftblogcom.files.wordpress.com/2021/06/blog-bg.jpg",
 	"icon": "",
 	"backgroundType": null,
 	"backgroundColor": null,
@@ -60,9 +60,9 @@
 	"helpText": null,
 	"helpEnabled": false,
 	"openClickTile": true,
-	"ver": "22.10.14.1245",
+	"ver": "22.10.20.1927",
 	"actionWebApp": "",
-	"name": "22-LTS Test — Test Plan - SAP Edition",
+	"name": "22-LTS Test — Feature Testing Status",
 	"cardWidth": "Medium",
 	"cardHeight": null,
 	"cardHeightFit": false,
@@ -78,7 +78,7 @@
 	"bodyHeight": null,
 	"roleTag": null,
 	"sapICFNode": null,
-	"actionType": "A",
+	"actionType": "F",
 	"package": "29805ca6-5925-4de9-a761-47279405b041",
 	"roles": []
 }
