@@ -13,11 +13,11 @@
 	],
 	"apis": [],
 	"name": "updatedBy",
-	"ver": "22.10.28.746",
+	"ver": "22.11.7.216",
 	"description": null,
 	"content": [
 		"==OBJECT STRING==",
-		"await entities.qa_reported_issues_db.update(\"0ADA5CEA-2195-4BA4-96A0-3748300C9265\", {\"createdBy\": \"jordi.aixela@neptune-software.com\"});\r",
+		"await entities.qa_reported_issues_db.update(\"152042B5-A9B1-4C35-97F6-02038A668862\", {\"createdBy\": \"jordi.aixela@neptune-software.com\"});\r",
 		"complete();"
 	],
 	"useAsGlobalScript": false,
