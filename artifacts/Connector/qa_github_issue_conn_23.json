@@ -1,0 +1,18 @@
+{
+	"id": "7be4abfb-513c-ee11-b8f0-000d3ab39e52",
+	"createdAt": "2023-08-16T16:28:51.736Z",
+	"createdBy": "rommel@neptune-software.com",
+	"settings": {
+		"previewable": true,
+		"tableid": "b308c8aa-0f3c-ee11-b8f0-000d3ab39e52",
+		"hasDocumentation": false
+	},
+	"documentation": {},
+	"name": "qa_github_issue_conn_23",
+	"description": "Connector for Re-verification",
+	"group": null,
+	"type": "T",
+	"ver": "23.8.16.1629",
+	"disabled": false,
+	"package": "29805ca6-5925-4de9-a761-47279405b041"
+}

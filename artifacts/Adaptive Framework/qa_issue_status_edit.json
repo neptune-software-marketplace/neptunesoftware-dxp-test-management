@@ -1,0 +1,213 @@
+{
+	"id": "b275f802-7cf7-4edc-9ef7-9fe29659a2f0",
+	"createdAt": "2022-10-11T10:38:36.978Z",
+	"createdBy": "rommel",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Ghost",
+				"iconButtonSave": "",
+				"textButtonSave": "Save",
+				"textToastSave": "Saved",
+				"typeButtonSave": "Emphasized",
+				"tab0Text": "General",
+				"tab1Text": "Reported Issues",
+				"tab2Text": "Tab 2",
+				"tab3Text": "Tab 3",
+				"tab4Text": "Tab 4",
+				"tab5Text": "Tab 5",
+				"enableClose": true,
+				"enableSave": true,
+				"enableTab1": true,
+				"enableTab2": false,
+				"enableTab3": false,
+				"enableTab4": false,
+				"enableTab5": false,
+				"title": "Issue Status",
+				"subTitle": "Manage status for re-verification, new feature tests and reported issues",
+				"avatarIcon": "sap-icon://order-status",
+				"avatarBackgroundColor": "Accent1",
+				"actionButtonLeft": false,
+				"iconButtonDelete": "",
+				"textButtonDelete": "Delete",
+				"textToastDelete": "Deleted",
+				"typeButtonDelete": "Reject",
+				"iconButtonAttachment": "",
+				"textButtonAttachment": "Add Attachment",
+				"typeButtonAttachment": "Transparent",
+				"tabAText": "Attachment",
+				"enableDelete": false,
+				"enableAttachment": false,
+				"enableUppercase": true,
+				"enablePadding": true,
+				"dynamicSubTitle": "STATUS",
+				"_tab1Nav": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetF": "7b41b3be-b83d-ee11-b8f0-000d3ab39e52",
+					"keyField": [
+						{
+							"fieldName": "STATUS",
+							"key": "STATUS_ID",
+							"value": ""
+						}
+					]
+				}
+			},
+			"form": {
+				"enableCompact": false,
+				"enableCentered": true,
+				"labelSpanM": "12"
+			},
+			"table": {}
+		},
+		"fieldCatalog": [
+			{
+				"name": "STATUS_ID",
+				"label": "STATUS_ID",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "STATUS",
+				"label": "STATUS",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "DESCRIPTION",
+				"label": "DESCRIPTION",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "ISSUE_TYPE",
+				"label": "ISSUE_TYPE",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [
+			{
+				"editable": true,
+				"visible": false,
+				"name": "STATUS_ID",
+				"text": "Status ID",
+				"fieldPos": 1,
+				"required": true,
+				"columnLabel": "GENERAL"
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "STATUS",
+				"text": "Status",
+				"fieldPos": 2,
+				"required": true
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "DESCRIPTION",
+				"text": "Description",
+				"fieldPos": 3,
+				"required": true
+			},
+			{
+				"inputFormatter": "",
+				"editable": true,
+				"visible": true,
+				"name": "ISSUE_TYPE",
+				"text": "Issue Type",
+				"fieldPos": 4,
+				"required": true,
+				"type": "SingleSelectLookup",
+				"lookupTable": "qa_issue_type_db",
+				"lookupFieldKey": "TYPE_ID",
+				"lookupFieldText": "TYPE",
+				"lookupShowOnlyText": true
+			},
+			{
+				"editable": false,
+				"visible": true,
+				"name": "updatedAt",
+				"text": "Modified On",
+				"fieldPos": 5,
+				"type": "DateTimePicker",
+				"columnLabel": "DATES",
+				"enableNewForm": true,
+				"labelSpanM": "12"
+			},
+			{
+				"editable": false,
+				"visible": true,
+				"name": "createdAt",
+				"text": "Created On",
+				"fieldPos": 6,
+				"type": "DateTimePicker"
+			}
+		],
+		"fieldsRun": [
+			{
+				"name": "STATUS_ID",
+				"text": "STATUS_ID",
+				"fieldPos": 7
+			}
+		],
+		"defaultVariant": {
+			"id": "138ac858-0bf3-4fcc-87d4-daa80bc6c458",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "qa_issue_status_edit",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "eab76d59-4906-46e3-83a1-813de261b359",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "23.8.18.1119",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_edit",
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

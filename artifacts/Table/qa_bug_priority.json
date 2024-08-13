@@ -1,0 +1,35 @@
+{
+	"id": "e8faec33-415e-ee11-9937-000d3ab39899",
+	"createdAt": "2023-09-28T20:54:24.650Z",
+	"createdBy": "rommel@neptune-software.com",
+	"fields": [
+		{
+			"id": "cd3427a5-f97d-428d-c95d-4f6d4dfac9bd",
+			"fieldName": "PRIORITY_NUMBER",
+			"fieldType": "integer",
+			"isUnique": false
+		},
+		{
+			"id": "8bfd97db-1e0a-49e8-9f91-afd351854bba",
+			"fieldName": "PRIORITY",
+			"fieldType": "mediumtext",
+			"isUnique": false
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "qa_bug_priority",
+	"description": "Definition for the priority of the reported issue",
+	"ver": "23.10.2.1032",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"rolesRead": [],
+	"rolesWrite": [
+		{
+			"id": "439fc28c-fd60-ee11-9937-000d3ab39899",
+			"name": "Test Manager",
+			"ver": "23.10.2.829"
+		}
+	]
+}

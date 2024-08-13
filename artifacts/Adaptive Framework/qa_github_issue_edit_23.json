@@ -1,0 +1,296 @@
+{
+	"id": "06e87ca3-823c-ee11-b8f0-000d3ab39e52",
+	"createdAt": "2023-08-16T22:17:09.163Z",
+	"createdBy": "rommel@neptune-software.com",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Ghost",
+				"iconButtonSave": "",
+				"textButtonSave": "Save",
+				"textToastSave": "Saved",
+				"typeButtonSave": "Emphasized",
+				"tab0Text": "General",
+				"tab1Text": "Tab 1",
+				"tab2Text": "Tab 2",
+				"tab3Text": "Tab 3",
+				"tab4Text": "Tab 4",
+				"tab5Text": "Tab 5",
+				"enableClose": true,
+				"enableSave": true,
+				"enableTab1": false,
+				"enableTab2": false,
+				"enableTab3": false,
+				"enableTab4": false,
+				"enableTab5": false,
+				"title": "GitHub Issue Re-verification",
+				"subTitle": "Manage fixed GitHub issue",
+				"avatarIcon": "sap-icon://fa-brands/github",
+				"avatarBackgroundColor": "Accent1",
+				"actionButtonLeft": false,
+				"iconButtonDelete": "",
+				"textButtonDelete": "Delete",
+				"textToastDelete": "Deleted",
+				"typeButtonDelete": "Reject",
+				"iconButtonAttachment": "",
+				"textButtonAttachment": "Add Attachment",
+				"typeButtonAttachment": "Transparent",
+				"tabAText": "Attachment",
+				"enableDelete": false,
+				"enableAttachment": false,
+				"enableUppercase": false,
+				"enablePadding": true,
+				"dynamicSubTitle": "ISSUE_TITLE"
+			},
+			"form": {
+				"enableCompact": true,
+				"enableCentered": true,
+				"columnsL": "",
+				"labelSpanM": "12"
+			},
+			"table": {}
+		},
+		"fieldCatalog": [
+			{
+				"name": "ISSUE_ID",
+				"label": "ISSUE_ID",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "ISSUE_TITLE",
+				"label": "ISSUE_TITLE",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "COMMENTS",
+				"label": "COMMENTS",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "DXP_EDITION",
+				"label": "DXP_EDITION",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "VERIFICATION_STEPS",
+				"label": "VERIFICATION_STEPS",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "STATUS",
+				"label": "STATUS",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "REMARKS",
+				"label": "REMARKS",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "USER_ID",
+				"label": "USER_ID",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [
+			{
+				"editable": true,
+				"visible": true,
+				"name": "ISSUE_ID",
+				"text": "GitHub ID",
+				"fieldPos": 1,
+				"required": true,
+				"default": "",
+				"description": "",
+				"columnLabel": "GENERAL",
+				"enableNewForm": true,
+				"labelSpanM": "12"
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "DXP_EDITION",
+				"text": "DXP Edition",
+				"fieldPos": 2,
+				"type": "SingleSelectLookup",
+				"lookupTable": "qa_neptune_dxp_edition",
+				"lookupFieldKey": "VERSION_ID",
+				"lookupFieldText": "VERSION",
+				"lookupShowOnlyText": true,
+				"required": true,
+				"default": "OE",
+				"columnLabel": "",
+				"enableNewForm": false,
+				"labelSpanM": "12"
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "ISSUE_TITLE",
+				"text": "Issue Title",
+				"fieldPos": 3,
+				"required": true
+			},
+			{
+				"inputFormatter": "",
+				"editable": true,
+				"visible": true,
+				"name": "USER_ID",
+				"text": "Assignee",
+				"fieldPos": 4,
+				"type": "SingleSelectLookup",
+				"lookupTable": "qa_team_members_db",
+				"lookupFieldKey": "USER_ID",
+				"lookupFieldText": "NAME",
+				"lookupShowOnlyText": true,
+				"required": false,
+				"lookupFieldGrouping1": true,
+				"lookupFieldAdditional": "DXP_VERSION"
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "VERIFICATION_STEPS",
+				"text": "Steps to Verify",
+				"fieldPos": 5,
+				"type": "Editor",
+				"required": true,
+				"columnLabel": "VERIFICATION DETAILS",
+				"enableNewForm": true,
+				"labelSpanM": "12"
+			},
+			{
+				"inputFormatter": "",
+				"editable": true,
+				"visible": true,
+				"name": "STATUS",
+				"text": "Status",
+				"fieldPos": 6,
+				"type": "SingleSelectLookup",
+				"lookupTable": "qa_issue_status_23_db",
+				"lookupFieldKey": "STATUS_ID",
+				"lookupFieldText": "STATUS",
+				"lookupFieldAdditional": "ISSUE_TYPE",
+				"lookupShowOnlyText": true,
+				"required": true,
+				"columnLabel": "VERIFICATION RESULT",
+				"enableNewForm": true,
+				"labelSpanM": "12",
+				"default": "BUG-1003",
+				"lookupFieldGrouping1": true
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "COMMENTS",
+				"text": "Comments",
+				"fieldPos": 7,
+				"type": "Editor",
+				"enableNewForm": true,
+				"labelSpanM": "12"
+			},
+			{
+				"inputFormatter": "",
+				"editable": false,
+				"visible": true,
+				"name": "updatedAt",
+				"text": "Modified On",
+				"fieldPos": 8,
+				"columnLabel": "DATES",
+				"enableNewForm": true,
+				"labelSpanM": "12",
+				"type": "Display",
+				"formatter": "date00"
+			},
+			{
+				"inputFormatter": "",
+				"editable": false,
+				"visible": true,
+				"name": "updatedBy",
+				"text": "Updated By",
+				"fieldPos": 9
+			},
+			{
+				"inputFormatter": "",
+				"editable": false,
+				"visible": true,
+				"name": "createdAt",
+				"text": "Created On",
+				"fieldPos": 10,
+				"type": "Display",
+				"formatter": "date00"
+			},
+			{
+				"inputFormatter": "",
+				"editable": false,
+				"visible": true,
+				"name": "createdBy",
+				"text": "Created By",
+				"fieldPos": 11
+			}
+		],
+		"fieldsRun": [],
+		"defaultVariant": {
+			"id": "9c5d7d2c-5c01-4ff8-be26-2a0089526bad",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "qa_github_issue_edit_23",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "7be4abfb-513c-ee11-b8f0-000d3ab39e52",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "23.10.30.1615",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_edit",
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

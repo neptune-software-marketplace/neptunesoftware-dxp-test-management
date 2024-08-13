@@ -1,0 +1,346 @@
+{
+	"id": "814ff0d4-5040-ee11-b8f0-000d3ab39e52",
+	"createdAt": "2023-08-21T18:30:41.940Z",
+	"createdBy": "rommel@neptune-software.com",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"actionButtonLeft": false,
+				"hideHeader": false,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonCreate": "",
+				"textButtonCreate": "Create",
+				"typeButtonCreate": "Emphasized",
+				"iconButtonExport": "sap-icon://excel-attachment",
+				"textButtonExport": "",
+				"typeButtonExport": "Transparent",
+				"iconButtonImport": "sap-icon://fa-solid/file-import",
+				"textButtonImport": "",
+				"typeButtonImport": "Transparent",
+				"iconButtonMultiSelect": "",
+				"textButtonMultiSelect": "MultiSelect",
+				"typeButtonMultiSelect": "Emphasized",
+				"iconButtonRun": "",
+				"textButtonRun": "Update",
+				"typeButtonRun": "Emphasized",
+				"enableRun": true,
+				"enableCreate": false,
+				"enableClose": false,
+				"enableDelete": false,
+				"enableExport": false,
+				"enableImport": false,
+				"enableMultiSelect": false,
+				"enableVariant": false,
+				"autoRun": true,
+				"autoRunFocus": false,
+				"searchLabel": "Search",
+				"searchPlaceholder": "",
+				"title": "Feature Testing",
+				"subTitle": "Test procedures on how to test the new features of Neptune DXP",
+				"avatarIcon": "sap-icon://lab",
+				"avatarBackgroundColor": "Accent1"
+			},
+			"form": {
+				"enableCompact": false,
+				"headerExpanded": true,
+				"headerPreserveState": true
+			},
+			"table": {
+				"enablePagination": true,
+				"paginationShowSelection": true,
+				"paginationRows": "1000",
+				"showSeparators": "All",
+				"alternateRowColors": false,
+				"fixedLayout": false,
+				"inset": false,
+				"enableCompact": false,
+				"enableAutoPopin": false,
+				"enableAction1": false,
+				"enableAction2": false,
+				"enableAction3": false,
+				"enableAction4": false,
+				"enableAction5": false,
+				"action1Text": "",
+				"action1Type": "Transparent",
+				"action2Text": "",
+				"action2Type": "Transparent",
+				"action3Text": "",
+				"action3Type": "Transparent",
+				"action4Text": "",
+				"action4Type": "Transparent",
+				"action5Text": "",
+				"action5Type": "Transparent",
+				"initialGroupField": "FEATURE_ID",
+				"initialGroupOrder": "ASC",
+				"initialSortField": "REF_GITHUB_LINK",
+				"initialSortOrder": "DESC"
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "FEATURE_ID",
+				"label": "FEATURE_ID",
+				"type": "uuid",
+				"usage": "BOTH"
+			},
+			{
+				"name": "TEST_TITLE",
+				"label": "TEST_TITLE",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "TEST_STEPS",
+				"label": "TEST_STEPS",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "STATUS",
+				"label": "STATUS",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "TEST_RESULT",
+				"label": "TEST_RESULT",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "COMMENTS",
+				"label": "COMMENTS",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "DXP_VERSION",
+				"label": "DXP_VERSION",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "REF_GITHUB_LINK",
+				"label": "REF_GITHUB_LINK",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "USER_ID",
+				"label": "USER_ID",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [
+			{
+				"visible": true,
+				"name": "FEATURE_ID",
+				"text": "Feature",
+				"fieldPos": 1,
+				"type": "MultiSelectLookup",
+				"lookupTable": "qa_new_features_db_23",
+				"lookupFieldKey": "FEATURE_ID",
+				"lookupFieldText": "FEATURE",
+				"lookupFieldAdditional": "DESCRIPTION",
+				"lookupShowOnlyText": true
+			},
+			{
+				"visible": true,
+				"name": "DXP_VERSION",
+				"text": "DXP_VERSION",
+				"fieldPos": 2,
+				"type": "SingleSelectLookup",
+				"lookupTable": "qa_neptune_dxp_version",
+				"lookupFieldKey": "VERSION_ID",
+				"lookupFieldText": "VERSION",
+				"lookupShowOnlyText": true
+			},
+			{
+				"visible": true,
+				"name": "STATUS",
+				"text": "Status",
+				"fieldPos": 3,
+				"type": "MultiSelectLookup",
+				"lookupTable": "qa_issue_status_23_db",
+				"lookupFieldKey": "STATUS_ID",
+				"lookupFieldText": "STATUS",
+				"lookupFieldAdditional": "DESCRIPTION",
+				"lookupShowOnlyText": true
+			},
+			{
+				"visible": true,
+				"name": "USER_ID",
+				"text": "Assignee",
+				"fieldPos": 4,
+				"type": "MultiSelectLookup",
+				"lookupTable": "qa_team_members_db",
+				"lookupFieldKey": "USER_ID",
+				"lookupFieldText": "NAME",
+				"lookupShowOnlyText": true
+			}
+		],
+		"fieldsRun": [
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": true,
+				"enableSort": false,
+				"visible": false,
+				"name": "FEATURE_ID",
+				"text": "FEATURE_ID",
+				"fieldPos": 5,
+				"valueType": "Lookup",
+				"formatter": "uppercase",
+				"valueLookup": {
+					"table": "qa_new_features_db_23",
+					"textField": "FEATURE",
+					"keyField": [
+						{
+							"fieldName": "FEATURE_ID",
+							"key": "FEATURE_ID",
+							"value": ""
+						}
+					],
+					"hideKey": true,
+					"butType": "Accept"
+				}
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": true,
+				"enableSort": false,
+				"visible": true,
+				"name": "REF_GITHUB_LINK",
+				"text": "GITHUB LINK",
+				"fieldPos": 6,
+				"type": "Link",
+				"valueType": "Fixed",
+				"valueFixed": "View in GitHub",
+				"linkHrefType": "Binding",
+				"linkHrefBinding": "REF_GITHUB_LINK",
+				"width": "10%"
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Block",
+				"enableFilter": true,
+				"enableSort": false,
+				"visible": true,
+				"name": "TEST_TITLE",
+				"text": "TEST TITLE",
+				"fieldPos": 7,
+				"width": "40%"
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": false,
+				"enableSort": false,
+				"visible": true,
+				"name": "DXP_VERSION",
+				"text": "DXP VERSION",
+				"fieldPos": 8,
+				"valueType": "Lookup",
+				"valueLookup": {
+					"table": "qa_neptune_dxp_version",
+					"textField": "VERSION",
+					"keyField": [
+						{
+							"fieldName": "VERSION_ID",
+							"key": "DXP_VERSION",
+							"value": ""
+						}
+					],
+					"hideKey": true,
+					"butType": "Accept"
+				}
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "USER_ID",
+				"text": "USER_ID",
+				"fieldPos": 9
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "STATUS",
+				"text": "STATUS",
+				"fieldPos": 10
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": false,
+				"enableSort": true,
+				"visible": true,
+				"name": "updatedAt",
+				"text": "Updated At",
+				"fieldPos": 11
+			}
+		],
+		"defaultVariant": {
+			"id": "459ef3df-68b0-4e43-ecec-c9154bda1048",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "qa_feature_testing_list_23_new",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "282c5d65-173c-ee11-b8f0-000d3ab39e52",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "23.8.21.1842",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_list",
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

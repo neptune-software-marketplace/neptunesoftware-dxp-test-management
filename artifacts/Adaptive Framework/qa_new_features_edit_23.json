@@ -1,0 +1,206 @@
+{
+	"id": "538c34e9-f83c-ee11-b8f0-000d3ab39e52",
+	"createdAt": "2023-08-17T12:23:46.740Z",
+	"createdBy": "rommel@neptune-software.com",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Ghost",
+				"iconButtonSave": "",
+				"textButtonSave": "Save",
+				"textToastSave": "Saved",
+				"typeButtonSave": "Emphasized",
+				"tab0Text": "General",
+				"tab1Text": "Feature Tests",
+				"tab2Text": "Tab 2",
+				"tab3Text": "Tab 3",
+				"tab4Text": "Tab 4",
+				"tab5Text": "Tab 5",
+				"enableClose": true,
+				"enableSave": true,
+				"enableTab1": true,
+				"enableTab2": false,
+				"enableTab3": false,
+				"enableTab4": false,
+				"enableTab5": false,
+				"title": "New Features",
+				"subTitle": "Manage new feature item",
+				"avatarIcon": "sap-icon://add-coursebook",
+				"avatarBackgroundColor": "Accent1",
+				"actionButtonLeft": false,
+				"iconButtonDelete": "",
+				"textButtonDelete": "Delete",
+				"textToastDelete": "Deleted",
+				"typeButtonDelete": "Reject",
+				"iconButtonAttachment": "",
+				"textButtonAttachment": "Add Attachment",
+				"typeButtonAttachment": "Transparent",
+				"tabAText": "Attachment",
+				"enableDelete": false,
+				"enableAttachment": false,
+				"enableUppercase": true,
+				"enablePadding": true,
+				"dynamicSubTitle": "FEATURE",
+				"_tab1Nav": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetF": "e3b1952d-b33d-ee11-b8f0-000d3ab39e52",
+					"keyField": [
+						{
+							"fieldName": "FEATURE_ID",
+							"key": "FEATURE_ID",
+							"value": ""
+						}
+					]
+				}
+			},
+			"form": {
+				"enableCompact": false,
+				"enableCentered": true,
+				"titleLevel": "",
+				"columnsL": "",
+				"columnsM": "",
+				"labelSpanL": "",
+				"labelSpanM": "12"
+			},
+			"table": {}
+		},
+		"fieldCatalog": [
+			{
+				"name": "FEATURE",
+				"label": "FEATURE",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "FEATURE_ID",
+				"label": "FEATURE_ID",
+				"type": "uuid",
+				"usage": "BOTH"
+			},
+			{
+				"name": "DESCRIPTION",
+				"label": "DESCRIPTION",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [
+			{
+				"inputFormatter": "",
+				"editable": true,
+				"visible": false,
+				"name": "FEATURE_ID",
+				"text": "FEATURE_ID",
+				"fieldPos": 1,
+				"scriptValue": "D44C91FF-9837-4F51-B932-F92CCFAB4D25",
+				"unique": true
+			},
+			{
+				"editable": true,
+				"visible": true,
+				"name": "FEATURE",
+				"text": "Title",
+				"fieldPos": 2,
+				"enableNewForm": true,
+				"columnLabel": "GENERAL",
+				"labelSpanM": "12",
+				"columnsM": "",
+				"labelSpanL": "",
+				"columnsL": "",
+				"required": true,
+				"placeholder": "Short title of the new feature"
+			},
+			{
+				"inputFormatter": "",
+				"editable": true,
+				"visible": true,
+				"name": "DESCRIPTION",
+				"text": "Description",
+				"fieldPos": 3
+			},
+			{
+				"editable": false,
+				"visible": true,
+				"name": "updatedAt",
+				"text": "Changed On",
+				"fieldPos": 4,
+				"type": "DateTimePicker",
+				"columnLabel": "DATES",
+				"enableNewForm": true,
+				"labelSpanM": "12"
+			},
+			{
+				"editable": false,
+				"visible": true,
+				"name": "createdAt",
+				"text": "Created On",
+				"fieldPos": 5,
+				"inputType": "",
+				"type": "DateTimePicker"
+			}
+		],
+		"fieldsRun": [
+			{
+				"name": "FEATURE_ID",
+				"text": "FEATURE_ID",
+				"fieldPos": 6
+			}
+		],
+		"defaultVariant": {
+			"id": "f86b3c89-1e09-40fb-e411-55505615ea37",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "qa_new_features_edit_23",
+	"description": "",
+	"group": "",
+	"type": "C",
+	"connectorid": "ae24d299-f83c-ee11-b8f0-000d3ab39e52",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "23.8.18.1040",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_edit",
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

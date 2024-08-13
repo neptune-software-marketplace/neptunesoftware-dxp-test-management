@@ -1,0 +1,83 @@
+{
+	"id": "6406f085-90d5-4c36-a85f-98912f87d8d3",
+	"createdAt": "2022-10-12T10:56:10.230Z",
+	"createdBy": "rommel",
+	"fields": [
+		{
+			"id": "d36f3950-f5bd-44af-dbd7-ed019bb044c7",
+			"fieldName": "BUG_STATUS",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "cd122a45-8790-4633-d37d-77a42349f598",
+			"fieldName": "BRIEF_TITLE",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "3f8a49c7-02ba-4933-ce46-d86eb9135351",
+			"fieldName": "DESCRIPTION",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "8c24555e-aa15-4e8b-f976-2358ee6033ac",
+			"fieldName": "VERSION",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "24e5fd25-b5b3-4faf-b525-e4a317e60a19",
+			"fieldName": "APPLICATION",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "4e26af39-daa2-42ea-f3e4-5cc91275fc6f",
+			"fieldName": "STEPS",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "399f4ef4-40f9-4e46-a0cf-c7bf616bcced",
+			"fieldName": "ACTUAL_BEHAVIOR",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "df9d8c98-fb00-44b2-a9a6-87380d35db5a",
+			"fieldName": "EXPECTED_BEHAVIOR",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "e3b0c8ae-f010-40e1-96b8-62611d8088a6",
+			"fieldName": "COMMENTS",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "ca9940bf-c1ee-4dd2-8e38-d6f221806685",
+			"fieldName": "ISSUE_TYPE",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "88ff2554-5de9-44ca-bc92-b1a2bad79e15",
+			"fieldName": "GITHUB_ISSUE_ID",
+			"fieldType": "text",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "qa_reported_issues_db",
+	"description": "List of reported issues from Neptune DXP Open and SAP Editions",
+	"ver": "22.10.12.2212",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"rolesRead": [],
+	"rolesWrite": []
+}

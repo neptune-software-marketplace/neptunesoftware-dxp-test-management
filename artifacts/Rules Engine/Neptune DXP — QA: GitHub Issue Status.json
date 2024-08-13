@@ -1,0 +1,249 @@
+{
+	"id": "0a737ba1-2a3d-ee11-b8f0-000d3ab39e52",
+	"createdAt": "2023-08-17T18:19:41.236Z",
+	"createdBy": "rommel@neptune-software.com",
+	"interface": [
+		{
+			"id": "e85d4f82-ceb8-4799-df15-ebe34f6ce27e",
+			"parent": "",
+			"name": "STATUS",
+			"objectType": "string",
+			"description": ""
+		}
+	],
+	"rules": [
+		{
+			"id": "7fb0a83e-d0a0-4bab-c9c8-4fec2ec9a202",
+			"result": "Warning",
+			"items": [
+				{
+					"id": "5ef5325b-ffe9-4a12-beef-748a9d2b188c",
+					"field": "e85d4f82-ceb8-4799-df15-ebe34f6ce27e",
+					"operator": "equal",
+					"value": "FR-1003"
+				}
+			]
+		},
+		{
+			"id": "abd68ee2-e370-4556-bdd8-7870ee0c3fda",
+			"result": "Error",
+			"items": [
+				{
+					"id": "e55f6298-8c4d-4453-b124-cb62f3a79ea8",
+					"field": "e85d4f82-ceb8-4799-df15-ebe34f6ce27e",
+					"operator": "equal",
+					"value": "FR-1013"
+				}
+			]
+		},
+		{
+			"id": "0b17b745-28c3-40d7-ce24-f94a6d52c716",
+			"result": "Error",
+			"items": [
+				{
+					"id": "81ff6154-b5d4-4702-c23c-ab10d9157100",
+					"field": "e85d4f82-ceb8-4799-df15-ebe34f6ce27e",
+					"operator": "equal",
+					"value": "FR-1015"
+				}
+			]
+		},
+		{
+			"id": "b7ffe2c2-d3a7-4bdb-e9bb-14e1d09d447c",
+			"result": "Success",
+			"items": [
+				{
+					"id": "8637e1fa-9506-4353-be4a-7691758182a8",
+					"field": "e85d4f82-ceb8-4799-df15-ebe34f6ce27e",
+					"operator": "equal",
+					"value": "BUG-1005"
+				}
+			]
+		},
+		{
+			"id": "8cd9e18e-bd69-4968-8c57-62a6f0ae114c",
+			"result": "Warning",
+			"items": [
+				{
+					"id": "f118836f-1717-40ff-f053-d0f27559f75b",
+					"field": "e85d4f82-ceb8-4799-df15-ebe34f6ce27e",
+					"operator": "equal",
+					"value": "BUG-1003"
+				}
+			]
+		},
+		{
+			"id": "0f65db77-4776-4fac-f3d9-00de1c287626",
+			"result": "Success",
+			"items": [
+				{
+					"id": "e97a22a0-35aa-447e-b819-666aba3d906a",
+					"field": "e85d4f82-ceb8-4799-df15-ebe34f6ce27e",
+					"operator": "equal",
+					"value": "FR-1001"
+				}
+			]
+		},
+		{
+			"id": "52ce9d1b-2c4a-4410-9fc6-81f51b3f4348",
+			"result": "Error",
+			"items": [
+				{
+					"id": "63dcd613-b132-42d1-ecc8-f63d1ae9071f",
+					"field": "e85d4f82-ceb8-4799-df15-ebe34f6ce27e",
+					"operator": "equal",
+					"value": "BUG-1010"
+				}
+			]
+		},
+		{
+			"id": "cafa57c0-6e22-48e8-fcc9-6d112eaa6837",
+			"result": "Error",
+			"items": [
+				{
+					"id": "e7e2dc66-96a7-44d7-cb83-77b0502f6bc0",
+					"field": "e85d4f82-ceb8-4799-df15-ebe34f6ce27e",
+					"operator": "equal",
+					"value": "FR-1002"
+				}
+			]
+		},
+		{
+			"id": "70ff9d6a-b99c-49b3-f88f-4c2f483c7501",
+			"result": "Error",
+			"items": [
+				{
+					"id": "ed4df3ef-3220-43d8-f42b-4eee5cf76239",
+					"field": "e85d4f82-ceb8-4799-df15-ebe34f6ce27e",
+					"operator": "equal",
+					"value": "BUG-1002"
+				}
+			]
+		},
+		{
+			"id": "f52aad38-e105-4797-e211-787ed31b73ee",
+			"result": "Warning",
+			"items": [
+				{
+					"id": "e24c7ff1-a7fe-41c2-b8e5-1672f6016e95",
+					"field": "e85d4f82-ceb8-4799-df15-ebe34f6ce27e",
+					"operator": "equal",
+					"value": "BUG-1007"
+				}
+			]
+		},
+		{
+			"id": "25001bd7-b582-49c3-e4e1-00b107bd3427",
+			"result": "Error",
+			"items": [
+				{
+					"id": "54c405d1-fbe2-43a9-f493-21055ed795e3",
+					"field": "e85d4f82-ceb8-4799-df15-ebe34f6ce27e",
+					"operator": "equal",
+					"value": "BUG-1004"
+				}
+			]
+		},
+		{
+			"id": "04ccb5c2-6eb7-4f4c-cb08-ef0b0a17182b",
+			"result": "Success",
+			"items": [
+				{
+					"id": "992aebe0-85ef-4acc-d2ad-306dff71eb95",
+					"field": "e85d4f82-ceb8-4799-df15-ebe34f6ce27e",
+					"operator": "equal",
+					"value": "FR-1006"
+				}
+			]
+		},
+		{
+			"id": "0b0bc554-6938-4e69-d0d3-16676f913983",
+			"result": "Warning",
+			"items": [
+				{
+					"id": "c3bbbe81-3c2a-49d6-ce0f-679aad3afb17",
+					"field": "e85d4f82-ceb8-4799-df15-ebe34f6ce27e",
+					"operator": "equal",
+					"value": "FR-1005"
+				}
+			]
+		},
+		{
+			"id": "6a4d6dd3-61af-434c-8446-c7c2f34d6a92",
+			"result": "Error",
+			"items": [
+				{
+					"id": "8232e35a-adc1-4e3b-e516-30dddb512132",
+					"field": "e85d4f82-ceb8-4799-df15-ebe34f6ce27e",
+					"operator": "equal",
+					"value": "BUG-1009"
+				}
+			]
+		},
+		{
+			"id": "356de4e0-e790-450c-dd9e-59f9496fe413",
+			"result": "Error",
+			"items": [
+				{
+					"id": "9339d0d5-4260-4e88-aedd-a0ffdafa4abb",
+					"field": "e85d4f82-ceb8-4799-df15-ebe34f6ce27e",
+					"operator": "equal",
+					"value": "FR-1007"
+				}
+			]
+		},
+		{
+			"id": "5f30d144-df81-4362-d580-750d71d22065",
+			"result": "Error",
+			"items": [
+				{
+					"id": "ddee8bdf-1e11-4ee0-e003-8412c4a43bb1",
+					"field": "e85d4f82-ceb8-4799-df15-ebe34f6ce27e",
+					"operator": "equal",
+					"value": "FR-1004"
+				}
+			]
+		},
+		{
+			"id": "928a231d-ba07-4d08-f82c-57ad1fe2e9c8",
+			"result": "Error",
+			"items": [
+				{
+					"id": "70c8361f-fc04-40bc-e867-74d6f080af69",
+					"field": "e85d4f82-ceb8-4799-df15-ebe34f6ce27e",
+					"operator": "equal",
+					"value": "FR-1008"
+				}
+			]
+		},
+		{
+			"id": "3a82ac92-3699-404e-d190-dfdfadf15bae",
+			"result": "Success",
+			"items": [
+				{
+					"id": "60014229-7865-44e6-eaa9-f6fc6779a86e",
+					"field": "e85d4f82-ceb8-4799-df15-ebe34f6ce27e",
+					"operator": "equal",
+					"value": "FR-1009"
+				}
+			]
+		},
+		{
+			"id": "f4508c7d-03b8-4cff-9dde-e6bbde9a353f",
+			"result": "Error",
+			"items": [
+				{
+					"id": "43d85799-ec5c-4fd3-acfc-37c5193a2f3a",
+					"field": "e85d4f82-ceb8-4799-df15-ebe34f6ce27e",
+					"operator": "equal",
+					"value": "BUG-1013"
+				}
+			]
+		}
+	],
+	"name": "Neptune DXP — QA: GitHub Issue Status",
+	"description": "Logic definition for GitHub Issue Status",
+	"ver": "23.11.6.179",
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"roles": []
+}

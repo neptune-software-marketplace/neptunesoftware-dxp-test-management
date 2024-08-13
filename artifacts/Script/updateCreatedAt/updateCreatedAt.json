@@ -1,0 +1,27 @@
+{
+	"id": "0bac2b96-6d4a-ed11-819b-000d3aba7edc",
+	"createdAt": "2022-10-12T20:36:45.966Z",
+	"createdBy": "rommel@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "6406F085-90D5-4C36-A85F-98912F87D8D3",
+			"name": "qa_reported_issues_db",
+			"contextname": "qa_reported_issues_db"
+		}
+	],
+	"apis": [],
+	"name": "updateCreatedAt",
+	"ver": "22.10.12.2042",
+	"description": null,
+	"folder": null,
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "804a083b-b0df-447e-a677-91db0212db0a",
+	"package": "29805ca6-5925-4de9-a761-47279405b041"
+}

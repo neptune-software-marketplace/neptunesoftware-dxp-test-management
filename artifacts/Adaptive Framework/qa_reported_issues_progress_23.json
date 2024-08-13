@@ -1,0 +1,197 @@
+{
+	"id": "d9984ccc-bd63-ee11-9937-000d3ab39685",
+	"createdAt": "2023-10-05T20:28:53.293Z",
+	"createdBy": "rommel@neptune-software.com",
+	"settings": {
+		"properties": {
+			"report": {
+				"paginationRows": "1000",
+				"updateTime": 0
+			},
+			"form": {
+				"enableCompact": false,
+				"showFilter": true
+			},
+			"table": {
+				"titleAlign": "center",
+				"chartHeight": 250,
+				"chartType": "column",
+				"enableSorting": false,
+				"enableMonochrome": false,
+				"pieInnerSize": 0,
+				"enable3D": true,
+				"alpha3D": 0,
+				"beta3D": 0,
+				"depth3D": 100,
+				"legendEnable": true,
+				"legendAlign": "center",
+				"legendVerticalAlign": "bottom",
+				"legendLayout": "horizontal",
+				"xAxisTitleEnable": false,
+				"xAxisReversed": false,
+				"xAxisStartOnTick": true,
+				"xAxisGridLineWidth": 0,
+				"yAxisTitleEnable": true,
+				"yAxisReversed": false,
+				"yAxisStartOnTick": true,
+				"yAxisGridLineWidth": 1,
+				"chartColor": "[\"#F6B221\", \"#83C8BC\", \"#00839b\", \"#f28b82\", \"#fdf1d6\"]",
+				"title": "Reported Issues"
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "STATUS",
+				"label": "STATUS",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "BRIEF_TITLE",
+				"label": "BRIEF_TITLE",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "DESCRIPTION",
+				"label": "DESCRIPTION",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "DXP_EDITION",
+				"label": "DXP_EDITION",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "APP_ID",
+				"label": "APP_ID",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "STEPS",
+				"label": "STEPS",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "ACTUAL_BEHAVIOR",
+				"label": "ACTUAL_BEHAVIOR",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "EXPECTED_BEHAVIOR",
+				"label": "EXPECTED_BEHAVIOR",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "COMMENTS",
+				"label": "COMMENTS",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "ISSUE_TYPE",
+				"label": "ISSUE_TYPE",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "GITHUB_ID",
+				"label": "GITHUB_ID",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "PRIORITY_NUMBER",
+				"label": "PRIORITY_NUMBER",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "USER_ID",
+				"label": "USER_ID",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [
+			{
+				"visible": true,
+				"name": "DXP_EDITION",
+				"text": "DXP_EDITION",
+				"fieldPos": 1,
+				"valueType": "Lookup",
+				"valueLookup": {
+					"table": "qa_neptune_dxp_edition",
+					"textField": "VERSION",
+					"keyField": [
+						{
+							"fieldName": "VERSION_ID",
+							"key": "DXP_EDITION",
+							"value": ""
+						}
+					],
+					"hideKey": true,
+					"butType": "Accept"
+				}
+			}
+		],
+		"defaultVariant": {
+			"id": "8e9f80e5-c27c-4f23-8893-f416732f2701",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "qa_reported_issues_progress_23",
+	"description": "Test progress for the Feature Testing",
+	"group": "",
+	"type": "C",
+	"connectorid": "fdcfcc06-723c-ee11-b8f0-000d3ab39e52",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "23.10.11.1847",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_tile_chart",
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

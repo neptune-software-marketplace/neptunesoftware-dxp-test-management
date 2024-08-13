@@ -1,0 +1,32 @@
+{
+	"id": "1b2f306d-7b3c-ee11-b8f0-000d3ab39e52",
+	"createdAt": "2023-08-16T21:25:31.590Z",
+	"createdBy": "rommel@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "3E571E6F-294A-ED11-819B-000D3ABA7EDC",
+			"name": "test_result_db",
+			"contextname": "test_result_db"
+		},
+		{
+			"id": "8867FCC2-0F3C-EE11-B8F0-000D3AB39E52",
+			"name": "qa_feature_testing_db_23",
+			"contextname": "qa_feature_testing_db_23"
+		}
+	],
+	"apis": [],
+	"name": "github",
+	"ver": "23.11.23.2335",
+	"description": null,
+	"folder": null,
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "804a083b-b0df-447e-a677-91db0212db0a",
+	"package": "29805ca6-5925-4de9-a761-47279405b041"
+}

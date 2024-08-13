@@ -1,55 +1,106 @@
 {
-	"id": "29805CA6-5925-4DE9-A761-47279405B041",
+	"id": "29805ca6-5925-4de9-a761-47279405b041",
 	"createdAt": "2022-10-12T08:04:11.769Z",
 	"createdBy": "rommel",
 	"git": {
 		"targetServers": [],
 		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-test-management",
-		"packageJSON": [
-			"==OBJECT STRING==",
-			"{",
-			"  \"name\": \"QA-Neptune-DXP-LTS\",",
-			"  \"version\": \"1.0.0\",",
-			"  \"description\": \"Artifacts related to Test Management tool\",",
-			"  \"author\": \"Neptune Software\",",
-			"  \"license\": \"LicenseRef-LICENSE\",",
-			"  \"private\": true,",
-			"  \"scripts\": {",
-			"    \"deploy\": \"ts-node src/deploy.ts\",",
-			"    \"test\": \"jest --passWithNoTests\"",
-			"  },",
-			"  \"engines\": {",
-			"    \"node\": \"18\"",
-			"  },",
-			"  \"devDependencies\": {",
-			"    \"@types/jest\": \"^26.0.23\",",
-			"    \"typescript\": \"^4.2.3\",",
-			"    \"ts-node\": \"^10.0.0\",",
-			"    \"axios\": \"^0.21.1\",",
-			"    \"jest\": \"^27.0.4\",",
-			"    \"ts-jest\": \"^27.0.3\"",
-			"  }",
-			"}",
-			""
-		],
 		"testServers": []
 	},
-	"name": "QA-Neptune-DXP-LTS",
-	"description": "Artifacts related to Test Management tool",
-	"ver": "22.10.28.1059",
+	"name": "QA-Neptune-DXP-LTS-23",
+	"description": "Artifacts related to Test Management tool (v23.10.0)",
+	"ver": "23.10.24.2113",
 	"enableCICD": true,
 	"apps": [
 		{
-			"id": "F99EE280-9849-ED11-819B-000D3ABA7EDC",
+			"id": "f99ee280-9849-ed11-819b-000d3aba7edc",
 			"application": "dxptest_launchpad",
 			"title": "",
-			"description": "Planet 9 Launchpad "
+			"description": "Planet 9 Launchpad ",
+			"package": {
+				"id": "29805CA6-5925-4DE9-A761-47279405B041"
+			}
 		},
 		{
-			"id": "66BDA6F3-BD4B-ED11-819B-000D3ABA7EDC",
+			"id": "d0a07bf1-9f5e-ee11-9937-000d3ab39899",
+			"application": "neptune_dxp_23_sap_edition_test_plan",
+			"title": "Neptune DXP  — SAP Edition 23-LTS (Test Plan)",
+			"description": "",
+			"package": {
+				"id": "29805CA6-5925-4DE9-A761-47279405B041"
+			}
+		},
+		{
+			"id": "cdcb951e-44a0-408a-8e98-617f9263228d",
+			"application": "planet9_launchpad_standard_qa",
+			"title": "",
+			"description": "Planet 9 Launchpad ",
+			"package": {
+				"id": "29805CA6-5925-4DE9-A761-47279405B041"
+			}
+		},
+		{
+			"id": "b930d499-71e6-46a6-fd45-1b5d475473aa",
+			"application": "planet9_adaptive_list_20231004",
+			"title": "Adaptive List ",
+			"description": "Adaptive List ",
+			"package": {
+				"id": "29805CA6-5925-4DE9-A761-47279405B041"
+			}
+		},
+		{
+			"id": "69c50045-1741-ee11-b8f0-000d3ab39e52",
+			"application": "planet9_adaptive_list_qa",
+			"title": "Adaptive List ",
+			"description": "Adaptive List ",
+			"package": {
+				"id": "29805CA6-5925-4DE9-A761-47279405B041"
+			}
+		},
+		{
+			"id": "66bda6f3-bd4b-ed11-819b-000d3aba7edc",
 			"application": "qa_test_plan_sap_edition",
 			"title": "Neptune DXP — Test Plan",
-			"description": ""
+			"description": "",
+			"package": {
+				"id": "29805CA6-5925-4DE9-A761-47279405B041"
+			}
+		},
+		{
+			"id": "5f15652c-f85d-ee11-9937-000d3ab39899",
+			"application": "neptune_dxp_test_strategy",
+			"title": "Neptune DXP — Test Strategy",
+			"description": "",
+			"package": {
+				"id": "29805CA6-5925-4DE9-A761-47279405B041"
+			}
+		},
+		{
+			"id": "4bd878f3-3e5e-ee11-9937-000d3ab39899",
+			"application": "neptune_dxp_23_open_edition_test_plan",
+			"title": "Neptune DXP  — Open Edition 23-LTS (Test Plan)",
+			"description": "",
+			"package": {
+				"id": "29805CA6-5925-4DE9-A761-47279405B041"
+			}
+		},
+		{
+			"id": "353bfb16-da40-ee11-b8f0-000d3ab39e52",
+			"application": "github",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "29805CA6-5925-4DE9-A761-47279405B041"
+			}
+		},
+		{
+			"id": "02c7858d-1e5e-ee11-9937-000d3ab39899",
+			"application": "neptune_dxp_23_sap_edition_release_testing_general_info",
+			"title": "Neptune DXP 23 SAP Edition — Release Testing (General Info)",
+			"description": "",
+			"package": {
+				"id": "29805CA6-5925-4DE9-A761-47279405B041"
+			}
 		}
 	],
 	"api": [],
@@ -57,101 +108,151 @@
 	"odataMock": [],
 	"dictionary": [
 		{
-			"id": "3E571E6F-294A-ED11-819B-000D3ABA7EDC",
-			"name": "test_result_db",
-			"description": null
+			"id": "e8faec33-415e-ee11-9937-000d3ab39899",
+			"name": "qa_bug_priority",
+			"description": "Definition for the priority of the reported issue"
 		},
 		{
-			"id": "33B657B2-F63D-43CA-AB36-16FD604088D9",
-			"name": "qa_neptune_dxp_version",
-			"description": null
-		},
-		{
-			"id": "6CB77148-84FB-4F32-9B02-20536AE1ED37",
-			"name": "qa_bug_status_db",
-			"description": "Issue status"
-		},
-		{
-			"id": "B056303E-8969-41F7-8682-4F0CCA6ED0E4",
-			"name": "qa_github_issues_db",
-			"description": "List of fixed issues that require re-verification"
-		},
-		{
-			"id": "D9B5FBC2-0660-4A11-9814-5EC32DC0A1E1",
+			"id": "d9b5fbc2-0660-4a11-9814-5ec32dc0a1e1",
 			"name": "qa_issue_type_db",
 			"description": null
 		},
 		{
-			"id": "B7809126-C431-4680-9CAF-7B38BA1CD2FE",
+			"id": "d7c9d412-173c-ee11-b8f0-000d3ab39e52",
+			"name": "qa_new_features_db_23",
+			"description": "List of new features in Neptune DXP 23-LTS"
+		},
+		{
+			"id": "d3f3f894-a43d-ee11-b8f0-000d3ab39e52",
+			"name": "qa_issue_status_23_db",
+			"description": "Types of status for re-verification, new feature tests and reported issues"
+		},
+		{
+			"id": "b7809126-c431-4680-9caf-7b38ba1cd2fe",
 			"name": "qa_feature_testing_db",
 			"description": null
 		},
 		{
-			"id": "3E328C35-0755-4ED4-B79E-8E3B644298A1",
-			"name": "qa_test_execution_status_db",
-			"description": null
+			"id": "b308c8aa-0f3c-ee11-b8f0-000d3ab39e52",
+			"name": "qa_github_issues_db_23",
+			"description": "List of fixed issues that require re-verification"
 		},
 		{
-			"id": "69120BF9-5982-4B53-AFEC-93C6EF6C1F93",
+			"id": "b056303e-8969-41f7-8682-4f0cca6ed0e4",
+			"name": "qa_github_issues_db",
+			"description": "List of fixed issues that require re-verification"
+		},
+		{
+			"id": "ae664ddb-0f3c-ee11-b8f0-000d3ab39e52",
+			"name": "qa_reported_issues_db_23",
+			"description": "List of reported issues from Neptune DXP Open and SAP Editions"
+		},
+		{
+			"id": "8867fcc2-0f3c-ee11-b8f0-000d3ab39e52",
+			"name": "qa_feature_testing_db_23",
+			"description": "List of test items related to new features of LTS-23"
+		},
+		{
+			"id": "6cb77148-84fb-4f32-9b02-20536ae1ed37",
+			"name": "qa_bug_status_db",
+			"description": "Issue status"
+		},
+		{
+			"id": "69120bf9-5982-4b53-afec-93c6ef6c1f93",
 			"name": "qa_test_result_db",
 			"description": null
 		},
 		{
-			"id": "02C7A924-0443-4BC9-9F7E-94BE07BD3AF5",
-			"name": "qa_application_list_db",
-			"description": "List of applications in SAP and Open Edition"
-		},
-		{
-			"id": "6406F085-90D5-4C36-A85F-98912F87D8D3",
+			"id": "6406f085-90d5-4c36-a85f-98912f87d8d3",
 			"name": "qa_reported_issues_db",
 			"description": "List of reported issues from Neptune DXP Open and SAP Editions"
 		},
 		{
-			"id": "0F685976-058D-4AFC-BAAB-AA51DFD0E400",
+			"id": "53225d44-c13d-ee11-b8f0-000d3ab39e52",
 			"name": "qa_team_members_db",
+			"description": "List of responsible testers for Neptune DXP 23-LTS"
+		},
+		{
+			"id": "43c2fd1a-dc40-ee11-b8f0-000d3ab39e52",
+			"name": "qa_github_url",
 			"description": null
 		},
 		{
-			"id": "3DFD606C-B22E-4177-95E9-CC9BE39B63CB",
+			"id": "3e571e6f-294a-ed11-819b-000d3aba7edc",
+			"name": "test_result_db",
+			"description": null
+		},
+		{
+			"id": "3e328c35-0755-4ed4-b79e-8e3b644298a1",
+			"name": "qa_test_execution_status_db",
+			"description": null
+		},
+		{
+			"id": "3dfd606c-b22e-4177-95e9-cc9be39b63cb",
 			"name": "qa_github_issue_status",
 			"description": "Github issue status"
 		},
 		{
-			"id": "FFCEC510-660D-4CB0-B042-E9B911C616EA",
-			"name": "qa_new_features_db",
+			"id": "33b657b2-f63d-43ca-ab36-16fd604088d9",
+			"name": "qa_neptune_dxp_edition",
+			"description": "Types of Neptune DXP Edition"
+		},
+		{
+			"id": "1647f5e7-bc3d-ee11-b8f0-000d3ab39e52",
+			"name": "qa_users_db",
 			"description": null
+		},
+		{
+			"id": "0f685976-058d-4afc-baab-aa51dfd0e400",
+			"name": "qa_team_old_db",
+			"description": null
+		},
+		{
+			"id": "02c7a924-0443-4bc9-9f7e-94be07bd3af5",
+			"name": "qa_application_list_db",
+			"description": "List of applications in SAP and Open Edition"
 		}
 	],
 	"jsclass": [
 		{
-			"id": "3CA0AD0E-6C4A-ED11-819B-000D3ABA7EDC",
-			"name": "updateCreatedBy",
-			"description": null
-		},
-		{
-			"id": "0BAC2B96-6D4A-ED11-819B-000D3ABA7EDC",
-			"name": "updateCreatedAt",
-			"description": null
-		},
-		{
-			"id": "FB78D05B-F64A-ED11-819B-000D3ABA7EDC",
+			"id": "fb78d05b-f64a-ed11-819b-000d3aba7edc",
 			"name": "updatedBy",
 			"description": null
 		},
 		{
-			"id": "38821E6A-A33D-4A99-915D-C7825EC47D59",
+			"id": "d44c91ff-9837-4f51-b932-f92ccfab4d25",
+			"name": "generateUUID",
+			"description": null
+		},
+		{
+			"id": "89e5d4ba-1962-ee11-9937-000d3ab39685",
+			"name": "add_record",
+			"description": null
+		},
+		{
+			"id": "3ca0ad0e-6c4a-ed11-819b-000d3aba7edc",
+			"name": "updateCreatedBy",
+			"description": null
+		},
+		{
+			"id": "38821e6a-a33d-4a99-915d-c7825ec47d59",
 			"name": "generateID",
 			"description": null
 		},
 		{
-			"id": "D44C91FF-9837-4F51-B932-F92CCFAB4D25",
-			"name": "generateUUID",
+			"id": "1b2f306d-7b3c-ee11-b8f0-000d3ab39e52",
+			"name": "github",
+			"description": null
+		},
+		{
+			"id": "0bac2b96-6d4a-ed11-819b-000d3aba7edc",
+			"name": "updateCreatedAt",
 			"description": null
 		}
 	],
 	"jsscript_group": [
 		{
-			"id": "804A083B-B0DF-447E-A677-91DB0212DB0A",
+			"id": "804a083b-b0df-447e-a677-91db0212db0a",
 			"name": "project_lts_test",
 			"description": null
 		}
@@ -160,137 +261,320 @@
 	"pdf": [],
 	"rulesengine": [
 		{
-			"id": "007D88D5-8824-485C-A1AF-1BEC8E0CD601",
-			"name": "Feature Test Result",
+			"id": "d76ad90d-0754-43a1-81d6-f807602e6c56",
+			"name": "Neptune DXP — QA: Bug Status",
 			"description": ""
 		},
 		{
-			"id": "0CADC3E3-2172-4D22-B3CC-5E8D3781BD39",
-			"name": "Execution Status",
-			"description": ""
+			"id": "c8a3bf4b-7a3c-ee11-b8f0-000d3ab39e52",
+			"name": "Neptune DXP — QA: GitHub URL",
+			"description": "Logic definition for getting GitHub URL of the bug tracker"
 		},
 		{
-			"id": "A7DE68F6-C457-4A34-BFCA-AD4985E108FE",
+			"id": "a7de68f6-c457-4a34-bfca-ad4985e108fe",
 			"name": "GitHub Status",
 			"description": ""
 		},
 		{
-			"id": "D76AD90D-0754-43A1-81D6-F807602E6C56",
-			"name": "Bug Status",
+			"id": "14b3999f-445e-ee11-9937-000d3ab39899",
+			"name": "Neptune DXP — QA: Bug Priority",
+			"description": " Priority of the reported issue"
+		},
+		{
+			"id": "0cadc3e3-2172-4d22-b3cc-5e8d3781bd39",
+			"name": "Execution Status",
+			"description": ""
+		},
+		{
+			"id": "0a737ba1-2a3d-ee11-b8f0-000d3ab39e52",
+			"name": "Neptune DXP — QA: GitHub Issue Status",
+			"description": "Logic definition for GitHub Issue Status"
+		},
+		{
+			"id": "007d88d5-8824-485c-a1af-1bec8e0cd601",
+			"name": "Feature Test Result",
 			"description": ""
 		}
 	],
 	"reports": [
 		{
-			"id": "94E0130B-A349-ED11-819B-000D3ABA7EDC",
-			"name": "qa_github_issue_list",
-			"description": "",
-			"application": "planet9_adaptive_list"
+			"id": "fcde43ee-733c-ee11-b8f0-000d3ab39e52",
+			"name": "qa_reported_issues_edit_23",
+			"description": "List of issues found in Neptune DXP 23-LTS",
+			"application": "planet9_adaptive_edit_qa"
 		},
 		{
-			"id": "0A367E14-A649-ED11-819B-000D3ABA7EDC",
-			"name": "qa_github_issue_list_admin",
+			"id": "f1f36c59-ba3d-ee11-b8f0-000d3ab39e52",
+			"name": "qa_feature_testing_status_tablist_23",
 			"description": "",
-			"application": "planet9_adaptive_list"
+			"application": "planet9_adaptive_list_20231004"
 		},
 		{
-			"id": "D6D17EF4-A949-ED11-819B-000D3ABA7EDC",
-			"name": "qa_team_list_admin",
-			"description": "",
-			"application": "planet9_adaptive_list"
-		},
-		{
-			"id": "2D9D7DA5-AC49-ED11-819B-000D3ABA7EDC",
-			"name": "qa_new_features_list",
-			"description": "",
-			"application": "planet9_adaptive_list"
-		},
-		{
-			"id": "EE27D4BE-AE49-ED11-819B-000D3ABA7EDC",
+			"id": "ee27d4be-ae49-ed11-819b-000d3aba7edc",
 			"name": "qa_new_features_edit",
 			"description": "",
 			"application": "planet9_adaptive_edit"
 		},
 		{
-			"id": "BB54E168-A250-ED11-819B-000D3ABA7EDC",
-			"name": "qa_feature_testing_execution_status_edit",
-			"description": "",
+			"id": "eb72cb73-4d13-4add-b84e-e11eeda164d7",
+			"name": "qa_reported_issues_edit",
+			"description": "List of issues found in Neptune DXP 23-LTS",
 			"application": "planet9_adaptive_edit"
 		},
 		{
-			"id": "215C8057-AB50-ED11-819B-000D3ABA7EDC",
-			"name": "qa_feature_testing_execution_status_list",
+			"id": "eb71d91e-b43d-ee11-b8f0-000d3ab39e52",
+			"name": "qa_reported_issues_tester_tablist_23",
+			"description": "List of issues found in Neptune DXP 23-LTS",
+			"application": "planet9_adaptive_list_20231004"
+		},
+		{
+			"id": "e3cfe23f-a53d-ee11-b8f0-000d3ab39e52",
+			"name": "qa_issue_status_list_23",
 			"description": "",
 			"application": "planet9_adaptive_list"
 		},
 		{
-			"id": "E12064D2-2057-4DE3-A71B-4454BD205B1D",
+			"id": "e3b1952d-b33d-ee11-b8f0-000d3ab39e52",
+			"name": "qa_feature_testing_tablist_23",
+			"description": "",
+			"application": "planet9_adaptive_list_20231004"
+		},
+		{
+			"id": "e12064d2-2057-4de3-a71b-4454bd205b1d",
 			"name": "qa_reported_issues_list",
 			"description": "",
 			"application": "planet9_adaptive_list"
 		},
 		{
-			"id": "96BEA92D-4CCC-4003-846B-53B501DB8E20",
-			"name": "qa_team_edit_admin",
-			"description": "",
-			"application": "planet9_adaptive_edit"
+			"id": "dc05a233-523c-ee11-b8f0-000d3ab39e52",
+			"name": "qa_github_issue_list_23",
+			"description": "List of fixed GitHub issues that require re-verification",
+			"application": "planet9_adaptive_list_20231004"
 		},
 		{
-			"id": "CF526867-61DA-42F0-A7C8-7C52FE3AF360",
+			"id": "d9984ccc-bd63-ee11-9937-000d3ab39685",
+			"name": "qa_reported_issues_progress_23",
+			"description": "Test progress for the Feature Testing",
+			"application": "planet9_adaptive_tile_chart"
+		},
+		{
+			"id": "d6d17ef4-a949-ed11-819b-000d3aba7edc",
+			"name": "qa_team_list_admin",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "d1e24699-373c-ee11-b8f0-000d3ab39e52",
+			"name": "qa_feature_testing_list_23",
+			"description": "",
+			"application": "planet9_adaptive_list_20231004"
+		},
+		{
+			"id": "cf526867-61da-42f0-a7c8-7c52fe3af360",
 			"name": "qa_feature_testing_edit_admin",
 			"description": "",
 			"application": "planet9_adaptive_edit"
 		},
 		{
-			"id": "AC27083A-DEB6-4000-B87E-8542ABFA42BB",
-			"name": "qa_issue_status_list",
+			"id": "bb54e168-a250-ed11-819b-000d3aba7edc",
+			"name": "qa_feature_testing_execution_status_edit",
 			"description": "",
-			"application": "planet9_adaptive_list"
+			"application": "planet9_adaptive_edit"
 		},
 		{
-			"id": "6FFBED34-C06A-4B00-80A5-8647275AAAAC",
-			"name": "qa_cockpit_apps_list",
-			"description": "",
-			"application": "planet9_adaptive_list"
-		},
-		{
-			"id": "1A56D9E1-95E7-4A9B-BF18-88A1607A491B",
-			"name": "qa_feature_testing_list",
-			"description": "",
-			"application": "planet9_adaptive_list"
-		},
-		{
-			"id": "11CF098F-4A14-4C4F-949C-9888959455EF",
-			"name": "qa_feature_testing_list_admin",
-			"description": "",
-			"application": "planet9_adaptive_list"
-		},
-		{
-			"id": "B275F802-7CF7-4EDC-9EF7-9FE29659A2F0",
+			"id": "b275f802-7cf7-4edc-9ef7-9fe29659a2f0",
 			"name": "qa_issue_status_edit",
 			"description": "",
 			"application": "planet9_adaptive_edit"
 		},
 		{
-			"id": "A6FD34CC-D9B3-416D-8D1B-BB8670561B45",
+			"id": "ac27083a-deb6-4000-b87e-8542abfa42bb",
+			"name": "qa_issue_status_list",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "a6fd34cc-d9b3-416d-8d1b-bb8670561b45",
 			"name": "qa_github_issue_edit_admin",
 			"description": "",
 			"application": "planet9_adaptive_edit"
 		},
 		{
-			"id": "9AE5B123-ECEB-4AD5-B6A7-BC56EF41977C",
+			"id": "a55cff31-c63d-ee11-b8f0-000d3ab39e52",
+			"name": "qa_users_valuehelplist",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "9ae5b123-eceb-4ad5-b6a7-bc56ef41977c",
 			"name": "qa_github_issue_edit",
 			"description": "",
 			"application": "planet9_adaptive_edit"
 		},
 		{
-			"id": "EB72CB73-4D13-4ADD-B84E-E11EEDA164D7",
-			"name": "qa_reported_issues_edit",
+			"id": "96bea92d-4ccc-4003-846b-53b501db8e20",
+			"name": "qa_team_edit_admin",
 			"description": "",
 			"application": "planet9_adaptive_edit"
 		},
 		{
-			"id": "0335F954-1B21-4E28-B82D-E311A54CC3B1",
+			"id": "95a6d09a-bb63-ee11-9937-000d3ab39685",
+			"name": "qa_reverification_test_progress_23",
+			"description": "Test progress for the Feature Testing",
+			"application": "planet9_adaptive_tile_chart"
+		},
+		{
+			"id": "94e0130b-a349-ed11-819b-000d3aba7edc",
+			"name": "qa_github_issue_list",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "8e83d3f2-b063-ee11-9937-000d3ab39685",
+			"name": "qa_feature_test_progress_23",
+			"description": "Test progress for the Feature Testing",
+			"application": "planet9_adaptive_tile_chart"
+		},
+		{
+			"id": "814ff0d4-5040-ee11-b8f0-000d3ab39e52",
+			"name": "qa_feature_testing_list_23_new",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "7b41b3be-b83d-ee11-b8f0-000d3ab39e52",
+			"name": "qa_reported_issues_status_tablist_23",
+			"description": "List of issues found in Neptune DXP 23-LTS",
+			"application": "planet9_adaptive_list_20231004"
+		},
+		{
+			"id": "737082f5-123d-ee11-b8f0-000d3ab39e52",
+			"name": "qa_feature_testing_edit_23",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "6ffbed34-c06a-4b00-80a5-8647275aaaac",
+			"name": "qa_cockpit_apps_list",
+			"description": "List of Neptune DXP Cockpit applications",
+			"application": "planet9_adaptive_list_20231004"
+		},
+		{
+			"id": "6150b949-063e-ee11-b8f0-000d3ab39e52",
+			"name": "qa_feature_testing_tester_tablist_23",
+			"description": "",
+			"application": "planet9_adaptive_list_20231004"
+		},
+		{
+			"id": "5d760fc0-f83c-ee11-b8f0-000d3ab39e52",
+			"name": "qa_new_features_list_23",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "58dc842d-a092-453e-a325-118ba6f8049d",
+			"name": "qa_cockpit_apps_edit",
+			"description": "Manage Neptune DXP application",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "583cec77-a53d-ee11-b8f0-000d3ab39e52",
+			"name": "qa_issue_status_edit_23",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "538c34e9-f83c-ee11-b8f0-000d3ab39e52",
+			"name": "qa_new_features_edit_23",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "503fca54-c23d-ee11-b8f0-000d3ab39e52",
+			"name": "qa_team_members_list",
+			"description": "List of assigned testers",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "4e311254-c33d-ee11-b8f0-000d3ab39e52",
+			"name": "qa_team_members_edit",
+			"description": "Form for assigning a user to the QA Team",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "4755a770-be3d-ee11-b8f0-000d3ab39e52",
+			"name": "qa_users_list",
+			"description": "",
+			"application": "planet9_adaptive_list_rommel"
+		},
+		{
+			"id": "3981818a-b85e-ee11-9937-000d3ab39899",
+			"name": "qa_cockpit_apps_reported_issues_tablist_23",
+			"description": "List of issues found in Neptune DXP 23-LTS",
+			"application": "planet9_adaptive_list_20231004"
+		},
+		{
+			"id": "2f120f7c-073e-ee11-b8f0-000d3ab39e52",
+			"name": "qa_github_issue_tester_tablist_23",
+			"description": "List of fixed GitHub issues that require re-verification",
+			"application": "planet9_adaptive_list_20231004"
+		},
+		{
+			"id": "2df28f2a-723c-ee11-b8f0-000d3ab39e52",
+			"name": "qa_reported_issues_list_23",
+			"description": "List of issues found in Neptune DXP 23-LTS",
+			"application": "planet9_adaptive_list_20231004"
+		},
+		{
+			"id": "2d9d7da5-ac49-ed11-819b-000d3aba7edc",
+			"name": "qa_new_features_list",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "29a9ff4a-bf3d-ee11-b8f0-000d3ab39e52",
+			"name": "qa_users_edit",
+			"description": "Form for adding or editing a user from the list",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "253f48ff-ba3d-ee11-b8f0-000d3ab39e52",
+			"name": "qa_github_issue_status_tablist_23",
+			"description": "List of fixed GitHub issues that require re-verification",
+			"application": "planet9_adaptive_list_20231004"
+		},
+		{
+			"id": "215c8057-ab50-ed11-819b-000d3aba7edc",
+			"name": "qa_feature_testing_execution_status_list",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "1a56d9e1-95e7-4a9b-bf18-88a1607a491b",
+			"name": "qa_feature_testing_list",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "11cf098f-4a14-4c4f-949c-9888959455ef",
+			"name": "qa_feature_testing_list_admin",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "0a367e14-a649-ed11-819b-000d3aba7edc",
+			"name": "qa_github_issue_list_admin",
+			"description": "",
+			"application": "planet9_adaptive_list"
+		},
+		{
+			"id": "06e87ca3-823c-ee11-b8f0-000d3ab39e52",
+			"name": "qa_github_issue_edit_23",
+			"description": "",
+			"application": "planet9_adaptive_edit"
+		},
+		{
+			"id": "0335f954-1b21-4e28-b82d-e311a54cc3b1",
 			"name": "qa_feature_testing_edit",
 			"description": "",
 			"application": "planet9_adaptive_edit"
@@ -300,157 +584,208 @@
 	"api_group": [],
 	"tile": [
 		{
-			"id": "BE55517A-AA49-ED11-819B-000D3ABA7EDC",
+			"id": "f26f0f3c-0b3e-ee11-b8f0-000d3ab39e52",
 			"description": null,
-			"name": "22-LTS Test — QA Team (Admin)"
+			"name": "Neptune DXP — QA: Test Plan — Open Edition (23)"
 		},
 		{
-			"id": "0C2118A2-AD49-ED11-819B-000D3ABA7EDC",
+			"id": "e00540f6-b2d6-4603-91e7-1d996f424a2b",
 			"description": null,
-			"name": "22-LTS Test — New Features"
+			"name": "Neptune DXP — QA: Bug Tracker (SAP Edition)"
 		},
 		{
-			"id": "AB358A7D-AC50-ED11-819B-000D3ABA7EDC",
+			"id": "c23b333d-bc63-ee11-9937-000d3ab39685",
 			"description": null,
-			"name": "22-LTS Test — Feature Testing Status"
+			"name": "Neptune DXP — QA: Re-verification Test Progress (23)"
 		},
 		{
-			"id": "100D8BAE-AE50-ED11-819B-000D3ABA7EDC",
+			"id": "b8ad0bcc-5e7a-ee11-b75e-000d3ab395ac",
 			"description": null,
-			"name": "22-LTS Test — Open Edition Dev 22"
+			"name": "Neptune DXP — QA: Connector"
 		},
 		{
-			"id": "65B20767-A860-4CC2-8DB5-0DBFB92C1A7F",
+			"id": "b3d92ac9-513c-ee11-b8f0-000d3ab39e52",
 			"description": null,
-			"name": "22-LTS Test — Test Strategy"
+			"name": "Neptune DXP — QA: Re-verification (23)"
 		},
 		{
-			"id": "A1E3B3DE-4095-4635-B5EA-152AB4053351",
+			"id": "a8292c7f-0a3e-ee11-b8f0-000d3ab39e52",
 			"description": null,
-			"name": "22-LTS Test — QA Team"
+			"name": "Neptune DXP — QA: Test Plan - SAP Edition (23)"
 		},
 		{
-			"id": "E00540F6-B2D6-4603-91E7-1D996F424A2B",
+			"id": "a7542d24-225e-ee11-9937-000d3ab39899",
 			"description": null,
-			"name": "22-LTS Test — Bug Tracker (SAP Edition)"
+			"name": "Neptune DXP — QA: Release Testing (General Info) — SAP Edition (23)"
 		},
 		{
-			"id": "F54A8E7B-13AB-4F44-83E8-208E23BF8AF7",
+			"id": "a3838db0-567a-ee11-b75e-000d3ab395ac",
 			"description": null,
-			"name": "22-LTS Test — Test Plan — Open Edition"
+			"name": "Neptune DXP — QA: Rules Engine"
 		},
 		{
-			"id": "F2B13639-79DB-4B43-AFA2-2246EA79FCEB",
+			"id": "8dea3356-1b80-4920-8ad7-9009d9a0252c",
 			"description": null,
-			"name": "22-LTS Test — Re-verification (Admin)"
+			"name": "Neptune DXP — QA: Test System (SAP Edition)"
 		},
 		{
-			"id": "66D03933-D984-4725-B3C7-5300E4E4D42C",
+			"id": "8ddfd175-bf63-ee11-9937-000d3ab39685",
 			"description": null,
-			"name": "22-LTS Test — Test Matrix - SAP Edition"
+			"name": "Neptune DXP — QA: Reported Issues (23)"
 		},
 		{
-			"id": "22B86576-5993-4F19-96C9-592B680124D1",
+			"id": "7fed683a-607a-ee11-b75e-000d3ab395ac",
 			"description": null,
-			"name": "22-LTS Test — Neptune DXP Applications"
+			"name": "Neptune DXP — QA: Tile"
 		},
 		{
-			"id": "7C1BC369-DDCB-46B7-B037-5BB87ACEFA13",
+			"id": "7d323fec-bb3d-4f8a-9f56-a439acc42e7b",
 			"description": null,
-			"name": "22-LTS Test — Test Plan - SAP Edition"
+			"name": "Neptune DXP — QA: Bug Tracker (Open Edition)"
 		},
 		{
-			"id": "E0342F81-29A1-4A08-B3AF-6101FD169320",
+			"id": "74d220a4-c23d-ee11-b8f0-000d3ab39e52",
 			"description": null,
-			"name": "22-LTS Test — Reported Issues"
+			"name": "Neptune DXP — QA: QA Team Members"
 		},
 		{
-			"id": "43563071-6BD0-4811-B68F-7DBEEE38A544",
+			"id": "6fe3acb2-b563-ee11-9937-000d3ab39685",
 			"description": null,
-			"name": "22-LTS Test — Test System (Open Edition)"
+			"name": "Neptune DXP — QA: Feature Test Progress (23)"
 		},
 		{
-			"id": "8DEA3356-1B80-4920-8AD7-9009D9A0252C",
+			"id": "65b20767-a860-4cc2-8db5-0dbfb92c1a7f",
 			"description": null,
-			"name": "22-LTS Test — Test System (SAP Edition)"
+			"name": "Neptune DXP — QA: Test Strategy"
 		},
 		{
-			"id": "5C23B67F-A96C-48D1-B9E8-A13C43AB9291",
+			"id": "5eff06d0-373c-ee11-b8f0-000d3ab39e52",
 			"description": null,
-			"name": "22-LTS Test — Re-verification"
+			"name": "Neptune DXP — QA: Feature Testing (23)"
 		},
 		{
-			"id": "7D323FEC-BB3D-4F8A-9F56-A439ACC42E7B",
+			"id": "507836cc-ada4-4c7a-b19c-ce8a20944520",
 			"description": null,
-			"name": "22-LTS Test — Bug Tracker (Open Edition)"
+			"name": "Neptune DXP — QA: Issue Status"
 		},
 		{
-			"id": "28AF660E-A229-4FA4-8298-B6BE1EE2355C",
+			"id": "4abd58a3-bd3d-ee11-b8f0-000d3ab39e52",
 			"description": null,
-			"name": "22-LTS Test — Feature Testing (Admin)"
+			"name": "Neptune DXP — QA: Users"
 		},
 		{
-			"id": "507836CC-ADA4-4C7A-B19C-CE8A20944520",
+			"id": "43563071-6bd0-4811-b68f-7dbeee38a544",
 			"description": null,
-			"name": "22-LTS Test — Issue Status"
+			"name": "Neptune DXP — QA: Test System (Open Edition)"
 		},
 		{
-			"id": "AB701109-D97D-43B9-9078-FFE405C6C5B2",
+			"id": "42af4dfc-723c-ee11-b8f0-000d3ab39e52",
 			"description": null,
-			"name": "22-LTS Test — Feature Testing"
+			"name": "Neptune DXP — QA: Neptune DXP 23-LTS Bug Tracker (23)"
+		},
+		{
+			"id": "2359cd25-6d7a-ee11-b75e-000d3ab395ac",
+			"description": null,
+			"name": "Neptune DXP — QA: Table Definition"
+		},
+		{
+			"id": "22b86576-5993-4f19-96c9-592b680124d1",
+			"description": null,
+			"name": "Neptune DXP — QA: Neptune DXP Applications"
+		},
+		{
+			"id": "17062bfd-547a-ee11-b75e-000d3ab395ac",
+			"description": "",
+			"name": "Neptune DXP — QA: Adaptive Designer"
+		},
+		{
+			"id": "100d8bae-ae50-ed11-819b-000d3aba7edc",
+			"description": null,
+			"name": "Neptune DXP — QA: Open Edition (Innovation Release)"
+		},
+		{
+			"id": "0c2118a2-ad49-ed11-819b-000d3aba7edc",
+			"description": null,
+			"name": "Neptune DXP — QA: New Features"
+		},
+		{
+			"id": "08ed65b1-617a-ee11-b75e-000d3ab395ac",
+			"description": null,
+			"name": "Neptune DXP — QA: Launchpad"
+		},
+		{
+			"id": "02b80c07-617a-ee11-b75e-000d3ab395ac",
+			"description": null,
+			"name": "Neptune DXP — QA: Tile Group"
 		}
 	],
 	"category": [
 		{
-			"id": "9E1B02DF-C14A-ED11-819B-000D3ABA7EDC",
+			"id": "f15132b0-ba63-ee11-9937-000d3ab39685",
 			"description": null,
-			"name": "22-LTS Test — Test Management (Settings)"
+			"name": "Neptune DXP — QA: Progress"
 		},
 		{
-			"id": "A4D83540-C54A-ED11-819B-000D3ABA7EDC",
+			"id": "e6192255-4d3c-ee11-b8f0-000d3ab39e52",
 			"description": null,
-			"name": "22-LTS Test — Test Documentation"
+			"name": "Neptune DXP — QA: Test Settings"
 		},
 		{
-			"id": "765BBD52-1931-45B2-AB1F-01676C9B3497",
+			"id": "cdf15d02-203c-ee11-b8f0-000d3ab39e52",
 			"description": null,
-			"name": "22-LTS Test — Links"
+			"name": "Neptune DXP — QA: Main"
 		},
 		{
-			"id": "98ED576E-3DFD-4D00-AD6D-5A35ADA6F4F9",
+			"id": "a4bf5f4d-ba63-ee11-9937-000d3ab39685",
 			"description": null,
-			"name": "22-LTS Test — Test Management"
+			"name": "Neptune DXP — QA: Progress Old"
 		},
 		{
-			"id": "4B1B001E-EDF0-4D3A-BB24-628330406D57",
-			"description": null,
-			"name": "22-LTS Test — Test Management (Control Panel)"
+			"id": "94a784e2-527a-ee11-b75e-000d3ab395ac",
+			"description": "Cockpit apps used for maintenance of this Test Management",
+			"name": "Neptune DXP — QA: Cockpit Apps"
 		},
 		{
-			"id": "756428D7-8217-41A8-B083-7FB5282A8AE8",
+			"id": "765bbd52-1931-45b2-ab1f-01676c9b3497",
 			"description": null,
-			"name": "22-LTS Test — Home (Admin)"
+			"name": "Neptune DXP — QA: Links"
 		},
 		{
-			"id": "E126CABF-2791-4F76-95D8-A13A78C9B244",
+			"id": "42a38585-203c-ee11-b8f0-000d3ab39e52",
 			"description": null,
-			"name": "22-LTS Test — Home"
+			"name": "Neptune DXP — QA: Testing"
+		},
+		{
+			"id": "18ccf194-b963-ee11-9937-000d3ab39685",
+			"description": null,
+			"name": "Neptune DXP — QA: Sample"
+		},
+		{
+			"id": "125f2cac-0a3e-ee11-b8f0-000d3ab39e52",
+			"description": null,
+			"name": "Neptune DXP — QA: Test Documentation (23)"
 		}
 	],
 	"launchpad": [
 		{
-			"id": "8A432885-B9CF-4D3E-8DDD-8CDFE666FA11",
-			"name": "Neptune-DXP-22-LTS-Test-Control-Panel",
-			"description": null
-		},
-		{
-			"id": "B6C99549-7E9A-4A83-B204-FB1F76906420",
-			"name": "Neptune-DXP-22-LTS-Test",
-			"description": null
+			"id": "72d5f236-373c-ee11-b8f0-000d3ab39e52",
+			"name": "Neptune-DXP-23-LTS-Test",
+			"description": "Central board for all test related activities for Neptune DXP 23-LTS"
 		}
 	],
 	"certificates": [],
-	"role": [],
+	"role": [
+		{
+			"id": "c11eef3d-4db4-ed11-a8e0-000d3aba7851",
+			"name": "QA Team",
+			"description": "Assigned role for members involve in LTS Testing"
+		},
+		{
+			"id": "439fc28c-fd60-ee11-9937-000d3ab39899",
+			"name": "Test Manager",
+			"description": "Assigned role for managing the test management dashboard"
+		}
+	],
 	"systems": [],
 	"doc": [],
 	"wf_notifications": [],
@@ -459,44 +794,83 @@
 	"wf_definition": [],
 	"connector": [
 		{
-			"id": "54861475-AC49-ED11-819B-000D3ABA7EDC",
-			"name": "qa_new_features_conn",
-			"description": null
+			"id": "fdcfcc06-723c-ee11-b8f0-000d3ab39e52",
+			"name": "qa_reported_issues_conn_23",
+			"description": "Connector for reporting GitHub issues"
 		},
 		{
-			"id": "B7F0A285-A150-ED11-819B-000D3ABA7EDC",
-			"name": "qa_feature_testing_execution_status",
-			"description": "Types of execution status for feature testing"
-		},
-		{
-			"id": "F57B6D9A-5FB4-4A47-989F-5E4EA8DD4DFF",
+			"id": "f57b6d9a-5fb4-4a47-989f-5e4ea8dd4dff",
 			"name": "qa_feature_testing_conn",
 			"description": null
 		},
 		{
-			"id": "718DE0D1-EADC-4842-80D5-7E863EB88A69",
-			"name": "qa_application_list_conn",
-			"description": null
-		},
-		{
-			"id": "EAB76D59-4906-46E3-83A1-813DE261B359",
+			"id": "eab76d59-4906-46e3-83a1-813de261b359",
 			"name": "qa_bug_status_conn",
 			"description": null
 		},
 		{
-			"id": "3F6DDA31-F646-4833-B4B1-89C6B1565B7D",
-			"name": "qa_github_issue_conn",
+			"id": "e6129223-7657-47ed-a4ad-a94d1b3e9804",
+			"name": "qa_reported_issues_conn",
 			"description": null
 		},
 		{
-			"id": "9E69C78B-E7C8-4DE4-8769-8B110A57BB7F",
+			"id": "b7f0a285-a150-ed11-819b-000d3aba7edc",
+			"name": "qa_feature_testing_execution_status",
+			"description": "Types of execution status for feature testing"
+		},
+		{
+			"id": "ae24d299-f83c-ee11-b8f0-000d3ab39e52",
+			"name": "qa_new_features_conn_23",
+			"description": "Connector for creating the list of new features"
+		},
+		{
+			"id": "a1f04a38-bd3d-ee11-b8f0-000d3ab39e52",
+			"name": "qa_users_conn",
+			"description": "Connector for the list of registered users"
+		},
+		{
+			"id": "9e69c78b-e7c8-4de4-8769-8b110a57bb7f",
 			"name": "qa_team_conn",
 			"description": null
 		},
 		{
-			"id": "E6129223-7657-47ED-A4AD-A94D1B3E9804",
-			"name": "qa_reported_issues_conn",
+			"id": "7be4abfb-513c-ee11-b8f0-000d3ab39e52",
+			"name": "qa_github_issue_conn_23",
+			"description": "Connector for Re-verification"
+		},
+		{
+			"id": "718de0d1-eadc-4842-80d5-7e863eb88a69",
+			"name": "qa_application_list_conn",
 			"description": null
+		},
+		{
+			"id": "54861475-ac49-ed11-819b-000d3aba7edc",
+			"name": "qa_new_features_conn",
+			"description": null
+		},
+		{
+			"id": "4fdd3dc4-c13d-ee11-b8f0-000d3ab39e52",
+			"name": "qa_team_members_conn",
+			"description": "Connector for the list of assigned testers"
+		},
+		{
+			"id": "477c17d8-a43d-ee11-b8f0-000d3ab39e52",
+			"name": "qa_issue_status_23_conn",
+			"description": "Types of status for re-verification, new feature tests and reported issues"
+		},
+		{
+			"id": "3f6dda31-f646-4833-b4b1-89c6b1565b7d",
+			"name": "qa_github_issue_conn",
+			"description": null
+		},
+		{
+			"id": "282c5d65-173c-ee11-b8f0-000d3ab39e52",
+			"name": "qa_feature_testing_conn_23",
+			"description": "Connector for Feature Testing list"
 		}
-	]
+	],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
 }

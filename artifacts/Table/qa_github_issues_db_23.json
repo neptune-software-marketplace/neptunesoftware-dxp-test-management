@@ -1,0 +1,72 @@
+{
+	"id": "b308c8aa-0f3c-ee11-b8f0-000d3ab39e52",
+	"createdAt": "2023-08-16T08:34:09.506Z",
+	"createdBy": "rommel@neptune-software.com",
+	"fields": [
+		{
+			"id": "96a2ab08-3d8f-469d-b794-3aea7b2ef75d",
+			"fieldName": "ISSUE_ID",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "27381e8f-666d-4d63-db09-59877a1cc82f",
+			"fieldName": "ISSUE_TITLE",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "a8c698bf-81b3-437a-92ae-03cffbf16471",
+			"fieldName": "COMMENTS",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "deebad3b-ff0a-4836-f568-9167cf46a049",
+			"fieldName": "DXP_EDITION",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "1eea43f8-0121-4bc5-99ee-7df061048b1d",
+			"fieldName": "VERIFICATION_STEPS",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "06daca8a-9f6f-4361-9839-c8c427c7e77e",
+			"fieldName": "STATUS",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "957bf53f-33a1-4e86-887c-b21ad1a65d0f",
+			"fieldName": "REMARKS",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "35b72264-061e-469b-ad02-b9ca7425461d",
+			"fieldName": "USER_ID",
+			"fieldType": "mediumtext",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "qa_github_issues_db_23",
+	"description": "List of fixed issues that require re-verification",
+	"ver": "23.10.30.179",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"rolesRead": [],
+	"rolesWrite": [
+		{
+			"id": "c11eef3d-4db4-ed11-a8e0-000d3aba7851",
+			"name": "QA Team",
+			"ver": "24.06.03.2236"
+		}
+	]
+}

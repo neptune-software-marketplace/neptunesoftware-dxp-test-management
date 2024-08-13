@@ -1,0 +1,42 @@
+{
+	"id": "d7c9d412-173c-ee11-b8f0-000d3ab39e52",
+	"createdAt": "2023-08-16T09:27:10.743Z",
+	"createdBy": "rommel@neptune-software.com",
+	"fields": [
+		{
+			"id": "2b0e41b9-d808-49ac-ad4a-e4d3a784519b",
+			"fieldName": "FEATURE",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "b4344096-a2c8-4d8f-a4fa-d6dbdb53da85",
+			"fieldName": "FEATURE_ID",
+			"fieldType": "uuid",
+			"isNullable": true
+		},
+		{
+			"id": "e356456d-05d3-40c3-d674-d5592fce423c",
+			"fieldName": "DESCRIPTION",
+			"fieldType": "mediumtext",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "qa_new_features_db_23",
+	"description": "List of new features in Neptune DXP 23-LTS",
+	"ver": "23.10.2.1031",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"rolesRead": [],
+	"rolesWrite": [
+		{
+			"id": "439fc28c-fd60-ee11-9937-000d3ab39899",
+			"name": "Test Manager",
+			"ver": "23.10.2.829"
+		}
+	]
+}

@@ -1,0 +1,93 @@
+{
+	"id": "8867fcc2-0f3c-ee11-b8f0-000d3ab39e52",
+	"createdAt": "2023-08-16T08:34:50.123Z",
+	"createdBy": "rommel@neptune-software.com",
+	"fields": [
+		{
+			"id": "1da1948f-c872-4413-f79e-db846c6425ff",
+			"fieldName": "FEATURE_ID",
+			"fieldType": "uuid",
+			"isNullable": true,
+			"isUnique": false
+		},
+		{
+			"id": "02a02b90-71c2-42ea-83e9-65c2fb87ac0e",
+			"fieldName": "TEST_TITLE",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "24dde0ab-d725-487b-f2cf-2891019a907a",
+			"fieldName": "TEST_STEPS",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "8b934217-ce80-4b41-da4f-d12010330181",
+			"fieldName": "STATUS",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "33b30308-06aa-49b9-b339-71efb5518a66",
+			"fieldName": "TEST_RESULT",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "446aae00-e52c-4eef-9bb0-7a3633fb9021",
+			"fieldName": "COMMENTS",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "39933e16-4e58-4d46-b246-a0310b06f8d6",
+			"fieldName": "DXP_EDITION",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "38d1bd27-3a71-43ba-a224-744553facda0",
+			"fieldName": "GITHUB_ID",
+			"fieldType": "mediumtext",
+			"isNullable": true,
+			"isUnique": false
+		},
+		{
+			"id": "abd7ff0a-54b9-42bd-c174-ec0bf20b347e",
+			"fieldName": "USER_ID",
+			"fieldType": "mediumtext",
+			"isNullable": true
+		},
+		{
+			"id": "2788a573-30e2-437d-e266-f19c926579af",
+			"fieldName": "ON_DOCUMENTATION",
+			"fieldType": "boolean",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "835e6b30-9a7b-45cc-a0d9-dfe11e99fd8e",
+			"fieldName": "ON_CHANGELOG",
+			"fieldType": "boolean",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "qa_feature_testing_db_23",
+	"description": "List of test items related to new features of LTS-23",
+	"ver": "23.10.26.1550",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"rolesRead": [],
+	"rolesWrite": [
+		{
+			"id": "c11eef3d-4db4-ed11-a8e0-000d3aba7851",
+			"name": "QA Team",
+			"ver": "24.06.03.2236"
+		}
+	]
+}

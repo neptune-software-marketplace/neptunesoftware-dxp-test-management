@@ -1,0 +1,16 @@
+// Check for page content. Could be deleted after onOffline/onOnline and RebuildTiles
+let currentPage = AppCacheNav.getCurrentPage();
+
+// Only for Tile Group + Childs 
+if (currentPage.sId.indexOf('page') > -1 && !currentPage.getContent().length) {
+    let cat = currentPage.sId;
+    cat = cat.split('page')[1];
+    let dataCat = ModelData.FindFirst(AppCacheCategory, 'id', cat);
+
+    if (dataCat) {
+        sap.n.Launchpad.BuildTiles(dataCat);
+    } else {
+        dataCat = ModelData.FindFirst(AppCacheCategoryChild, 'id', cat);
+        if (dataCat) sap.n.Launchpad.BuildTiles(dataCat, dataCat.id);
+    }
+}

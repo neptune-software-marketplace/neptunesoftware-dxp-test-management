@@ -1,0 +1,14 @@
+report.sortBy = modelpopHeader.oData.name;
+report.sortOrder = "ASC";
+
+if (modelAppConfig.oData.settings.properties.table.enablePagination) {
+    report.run();
+} else {
+    report.handleSortingClient();
+}
+
+report.handleTableSortIndicator();
+
+popHeader.close();
+
+

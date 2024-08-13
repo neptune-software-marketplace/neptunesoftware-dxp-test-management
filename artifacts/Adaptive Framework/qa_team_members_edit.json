@@ -1,0 +1,268 @@
+{
+	"id": "4e311254-c33d-ee11-b8f0-000d3ab39e52",
+	"createdAt": "2023-08-18T12:32:44.366Z",
+	"createdBy": "rommel@neptune-software.com",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"actionButtonLeft": false,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Ghost",
+				"iconButtonSave": "",
+				"textButtonSave": "Save",
+				"textToastSave": "Saved",
+				"typeButtonSave": "Emphasized",
+				"iconButtonDelete": "",
+				"textButtonDelete": "Delete",
+				"textToastDelete": "Deleted",
+				"typeButtonDelete": "Reject",
+				"iconButtonAttachment": "",
+				"textButtonAttachment": "Add Attachment",
+				"typeButtonAttachment": "Transparent",
+				"tab0Text": "General",
+				"tabAText": "Attachment",
+				"tab1Text": "FEATURE TESTS",
+				"tab2Text": "RE-VERIFICATION ISSUES",
+				"tab3Text": "REPORTED ISSUES",
+				"tab4Text": "Tab 4",
+				"tab5Text": "Tab 5",
+				"enableClose": true,
+				"enableSave": true,
+				"enableDelete": false,
+				"enableAttachment": false,
+				"enableTab1": true,
+				"enableTab2": true,
+				"enableTab3": true,
+				"enableTab4": false,
+				"enableTab5": false,
+				"enableUppercase": true,
+				"enablePadding": true,
+				"avatarIcon": "sap-icon://group",
+				"avatarBackgroundColor": "Accent1",
+				"title": "QA Team Members",
+				"dynamicSubTitle": "NAME",
+				"subTitle": "Manage assigned tester",
+				"_tab1Nav": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetF": "6150b949-063e-ee11-b8f0-000d3ab39e52",
+					"keyField": [
+						{
+							"fieldName": "USER_ID",
+							"key": "USER_ID",
+							"value": ""
+						}
+					]
+				},
+				"_tab2Nav": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetF": "2f120f7c-073e-ee11-b8f0-000d3ab39e52",
+					"keyField": [
+						{
+							"fieldName": "USER_ID",
+							"key": "USER_ID",
+							"value": ""
+						}
+					]
+				},
+				"_tab3Nav": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetF": "eb71d91e-b43d-ee11-b8f0-000d3ab39e52",
+					"keyField": [
+						{
+							"fieldName": "USER_ID",
+							"key": "USER_ID",
+							"value": ""
+						}
+					]
+				}
+			},
+			"form": {
+				"enableCompact": false,
+				"enableCentered": true,
+				"labelSpanM": "12"
+			},
+			"table": {}
+		},
+		"fieldCatalog": [
+			{
+				"name": "ACTIVE",
+				"label": "ACTIVE",
+				"type": "boolean",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "DXP_VERSION",
+				"label": "DXP_VERSION",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "NAME",
+				"label": "NAME",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "REMARKS",
+				"label": "REMARKS",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "USER_ID",
+				"label": "USER_ID",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [
+			{
+				"inputFormatter": "",
+				"editable": true,
+				"visible": false,
+				"name": "USER_ID",
+				"text": "ID",
+				"fieldPos": 1,
+				"unique": true,
+				"columnLabel": "GENERAL",
+				"type": "Input",
+				"lookupTable": "qa_users_db",
+				"lookupFieldKey": "USER_ID",
+				"lookupFieldText": "NAME",
+				"lookupShowOnlyText": true,
+				"required": true,
+				"scriptValue": "38821E6A-A33D-4A99-915D-C7825EC47D59"
+			},
+			{
+				"inputFormatter": "",
+				"editable": true,
+				"visible": true,
+				"name": "NAME",
+				"text": "Name",
+				"fieldPos": 2,
+				"required": true
+			},
+			{
+				"inputFormatter": "",
+				"editable": true,
+				"visible": true,
+				"name": "DXP_VERSION",
+				"text": "DXP Version",
+				"fieldPos": 3,
+				"description": "Assign this tester to this Neptune DXP Version",
+				"type": "SingleSelectLookup",
+				"lookupTable": "qa_neptune_dxp_edition",
+				"lookupFieldKey": "VERSION_ID",
+				"lookupFieldText": "VERSION",
+				"lookupShowOnlyText": true,
+				"required": false
+			},
+			{
+				"inputFormatter": "",
+				"editable": true,
+				"visible": true,
+				"name": "ACTIVE",
+				"text": "Active",
+				"fieldPos": 4,
+				"type": "Switch"
+			},
+			{
+				"inputFormatter": "",
+				"editable": true,
+				"visible": true,
+				"name": "REMARKS",
+				"text": "Remarks",
+				"fieldPos": 5,
+				"type": "TextArea",
+				"textAreaRows": "3"
+			},
+			{
+				"inputFormatter": "",
+				"editable": false,
+				"visible": true,
+				"name": "updatedAt",
+				"text": "Updated At",
+				"fieldPos": 6,
+				"columnLabel": "DATES",
+				"enableNewForm": true,
+				"labelSpanM": "12",
+				"type": "DateTimePicker"
+			},
+			{
+				"inputFormatter": "",
+				"editable": false,
+				"visible": true,
+				"name": "createdAt",
+				"text": "Created At",
+				"fieldPos": 7,
+				"type": "DateTimePicker"
+			}
+		],
+		"fieldsRun": [
+			{
+				"name": "USER_ID",
+				"text": "USER_ID",
+				"fieldPos": 8
+			}
+		],
+		"defaultVariant": {
+			"id": "9ddb6c35-35f2-4019-870a-a83d4c83a54f",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "qa_team_members_edit",
+	"description": "Form for assigning a user to the QA Team",
+	"group": "",
+	"type": "C",
+	"connectorid": "4fdd3dc4-c13d-ee11-b8f0-000d3ab39e52",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "23.9.28.2220",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_edit",
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

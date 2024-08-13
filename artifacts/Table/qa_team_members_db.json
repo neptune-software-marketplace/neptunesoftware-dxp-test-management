@@ -1,0 +1,58 @@
+{
+	"id": "53225d44-c13d-ee11-b8f0-000d3ab39e52",
+	"createdAt": "2023-08-18T12:17:59.316Z",
+	"createdBy": "rommel@neptune-software.com",
+	"fields": [
+		{
+			"id": "0dff4cbd-b29e-4687-d4af-254dd48b0802",
+			"fieldName": "USER_ID",
+			"fieldType": "mediumtext",
+			"isUnique": true,
+			"isNullable": true
+		},
+		{
+			"id": "d32d0fb7-eb00-491e-dbf5-457165fdb5da",
+			"fieldName": "DXP_VERSION",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "da277756-261f-4db8-9470-4f74553ba05f",
+			"fieldName": "NAME",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "abde40c6-3bdc-430b-8d5c-4758d3130215",
+			"fieldName": "ACTIVE",
+			"fieldType": "boolean",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "83558053-a1a0-433f-c1d2-c788d6e60622",
+			"fieldName": "REMARKS",
+			"fieldType": "mediumtext",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "qa_team_members_db",
+	"description": "List of responsible testers for Neptune DXP 23-LTS",
+	"ver": "23.10.2.1032",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"rolesRead": [],
+	"rolesWrite": [
+		{
+			"id": "439fc28c-fd60-ee11-9937-000d3ab39899",
+			"name": "Test Manager",
+			"ver": "23.10.2.829"
+		}
+	]
+}

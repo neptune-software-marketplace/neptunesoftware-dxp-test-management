@@ -1,0 +1,31 @@
+{
+	"id": "69120bf9-5982-4b53-afec-93c6ef6c1f93",
+	"createdAt": "2022-10-12T10:12:43.440Z",
+	"createdBy": "rommel",
+	"fields": [
+		{
+			"id": "1a014414-1aee-435b-c55a-de95b6d1f2cd",
+			"fieldName": "RESULT_ID",
+			"fieldType": "mediumtext",
+			"isUnique": true,
+			"isNullable": true
+		},
+		{
+			"id": "5345c048-3221-4b47-cfc7-40d925b5acf5",
+			"fieldName": "RESULT",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "qa_test_result_db",
+	"description": null,
+	"ver": "22.10.12.1212",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"rolesRead": [],
+	"rolesWrite": []
+}

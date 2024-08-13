@@ -1,0 +1,121 @@
+{
+	"id": "94a784e2-527a-ee11-b75e-000d3ab395ac",
+	"createdAt": "2023-11-03T14:11:31.146Z",
+	"createdBy": "rommel@neptune-software.com",
+	"translation": [],
+	"tilesOrder": [
+		"17062bfd-547a-ee11-b75e-000d3ab395ac",
+		"a3838db0-567a-ee11-b75e-000d3ab395ac",
+		"b8ad0bcc-5e7a-ee11-b75e-000d3ab395ac",
+		"7fed683a-607a-ee11-b75e-000d3ab395ac",
+		"02b80c07-617a-ee11-b75e-000d3ab395ac",
+		"08ed65b1-617a-ee11-b75e-000d3ab395ac",
+		"2359cd25-6d7a-ee11-b75e-000d3ab395ac"
+	],
+	"tilegroupsOrder": [],
+	"configMessage": {},
+	"title": "Cockpit Apps",
+	"subTitle": "Cockpit apps used for maintenance of this Test Management",
+	"description": "Cockpit apps used for maintenance of this Test Management",
+	"titleAlignment": null,
+	"enableFullScreen": false,
+	"hideHeader": false,
+	"backgroundType": "cards",
+	"backgroundColor": "",
+	"backgroundShade": null,
+	"type": null,
+	"image": null,
+	"icon": null,
+	"sort": null,
+	"inclFav": false,
+	"styleClass": null,
+	"enableScroll": false,
+	"enableShadeCalc": false,
+	"numTiles": null,
+	"enableMessage": false,
+	"ver": "23.11.3.1719",
+	"headColor": null,
+	"headTxtClr": null,
+	"subheadTxtClr": null,
+	"headBorderClr": null,
+	"headBorderWidth": null,
+	"imageTablet": null,
+	"imageMobile": null,
+	"imageCover": false,
+	"imageTabletCover": false,
+	"imageMobileCover": false,
+	"imageMobileHeight": null,
+	"imageTabletHeight": null,
+	"imageHeight": null,
+	"name": "Neptune DXP — QA: Cockpit Apps",
+	"cardContentWidth": null,
+	"cardContentAlign": null,
+	"cardPerRow": null,
+	"cardStyle": null,
+	"cardHeightFit": false,
+	"imagePlacement": null,
+	"imageRepeat": null,
+	"imageSize": null,
+	"imageTabletPlacement": null,
+	"imageTabletRepeat": null,
+	"imageTabletSize": null,
+	"imageMobilePlacement": null,
+	"imageMobileRepeat": null,
+	"imageMobileSize": null,
+	"hideFromMenu": false,
+	"roleTag": null,
+	"cockpitTileGroup": false,
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"roles": [
+		{
+			"id": "439fc28c-fd60-ee11-9937-000d3ab39899",
+			"name": "Test Manager",
+			"ver": "23.10.2.829"
+		}
+	],
+	"tiles": [
+		{
+			"id": "b8ad0bcc-5e7a-ee11-b75e-000d3ab395ac",
+			"name": "Neptune DXP — QA: Connector",
+			"title": "Connector",
+			"ver": "23.11.16.1135"
+		},
+		{
+			"id": "a3838db0-567a-ee11-b75e-000d3ab395ac",
+			"name": "Neptune DXP — QA: Rules Engine",
+			"title": "Rules Engine",
+			"ver": "23.11.16.1129"
+		},
+		{
+			"id": "7fed683a-607a-ee11-b75e-000d3ab395ac",
+			"name": "Neptune DXP — QA: Tile",
+			"title": "Tile",
+			"ver": "23.11.16.1136"
+		},
+		{
+			"id": "2359cd25-6d7a-ee11-b75e-000d3ab395ac",
+			"name": "Neptune DXP — QA: Table Definition",
+			"title": "Table Definition",
+			"ver": "23.11.16.1136"
+		},
+		{
+			"id": "17062bfd-547a-ee11-b75e-000d3ab395ac",
+			"name": "Neptune DXP — QA: Adaptive Designer",
+			"title": "Adaptive Designer",
+			"ver": "23.11.16.1135"
+		},
+		{
+			"id": "08ed65b1-617a-ee11-b75e-000d3ab395ac",
+			"name": "Neptune DXP — QA: Launchpad",
+			"title": "Launchpad",
+			"ver": "23.11.16.1136"
+		},
+		{
+			"id": "02b80c07-617a-ee11-b75e-000d3ab395ac",
+			"name": "Neptune DXP — QA: Tile Group",
+			"title": "Tile Group",
+			"ver": "23.11.16.1136"
+		}
+	],
+	"tilegroups": []
+}

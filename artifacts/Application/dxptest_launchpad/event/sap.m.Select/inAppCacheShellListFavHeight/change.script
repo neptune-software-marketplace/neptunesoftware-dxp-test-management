@@ -1,0 +1,3 @@
+setCacheAppCacheTilesFav();
+sap.n.Launchpad.saveFav();
+sap.n.Launchpad.handleFavRedraw();

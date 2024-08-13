@@ -1,0 +1,64 @@
+{
+	"id": "c8a3bf4b-7a3c-ee11-b8f0-000d3ab39e52",
+	"createdAt": "2023-08-16T21:17:25.973Z",
+	"createdBy": "rommel@neptune-software.com",
+	"interface": [
+		{
+			"id": "f8d52efe-b29b-4cd7-e8c2-bf9ad7a4ff83",
+			"parent": "",
+			"name": "DXP_EDITION",
+			"objectType": "string",
+			"description": ""
+		},
+		{
+			"id": "3658ccc3-e5de-4789-c195-fd8248ea09b7",
+			"parent": "",
+			"name": "GITHUB_ISSUE_ID",
+			"objectType": "string",
+			"description": ""
+		}
+	],
+	"rules": [
+		{
+			"id": "71d85195-40d3-4fdb-dc79-d6462a33cc4b",
+			"result": "https://github.com/neptune-software/planet9/issues/",
+			"items": [
+				{
+					"id": "498daf93-982f-46bc-a1d1-8898912afa84",
+					"field": "f8d52efe-b29b-4cd7-e8c2-bf9ad7a4ff83",
+					"operator": "equal",
+					"value": "OE"
+				}
+			]
+		},
+		{
+			"id": "75b677c2-9d95-4985-ead0-43f8a3b1f2ec",
+			"result": "https://github.com/neptune-software/dxp-sap-edition/issues/",
+			"items": [
+				{
+					"id": "0ceb186b-7a4f-4726-dd60-1abedff6fa62",
+					"field": "f8d52efe-b29b-4cd7-e8c2-bf9ad7a4ff83",
+					"operator": "equal",
+					"value": "SE"
+				}
+			]
+		},
+		{
+			"id": "b82a6862-4fe2-4b55-f1e2-147c593cea7d",
+			"result": "https://github.com/neptune-software/dxp-sap-edition/issues/",
+			"items": [
+				{
+					"id": "9e494fbd-2373-4fa6-fa16-ed6ac300a667",
+					"field": "f8d52efe-b29b-4cd7-e8c2-bf9ad7a4ff83",
+					"operator": "equal",
+					"value": "NAIA"
+				}
+			]
+		}
+	],
+	"name": "Neptune DXP — QA: GitHub URL",
+	"description": "Logic definition for getting GitHub URL of the bug tracker",
+	"ver": "24.1.11.1210",
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"roles": []
+}
