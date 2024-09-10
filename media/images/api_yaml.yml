@@ -1,0 +1,247 @@
+openapi: 3.0.0
+info:
+  description: Global Customer Service - Warehouse API for Stock Orders B2C v2\n"Used to
+    request status of article in a warehouse and delivery date
+  version: 1.2.0
+  title: Global Customer Service - WH API for Stock Orders B2C
+  termsOfService: http://swagger.io/terms/
+tags:
+  - name: PartsAvailability/StockOrderB2C
+    description: Global Customer Service - Warehouse API for Stock Orders B2C v2\n"Used to
+      request status of article in a warehouse and delivery date
+paths:
+  /PartsAvailability/v2/StockOrderB2C.rest/GetStockOrderB2C:
+    get:
+      tags:
+        - PartsAvailability/StockOrderB2C/GetStockOrderB2C
+      summary: Get availability and estimated delivery date for the requested article.
+        B2C
+      description: >-
+        Retrieves stock balance and estimated delivery date for the requested
+        article. Specify ZIp code, Country code, and article numbers and get
+        back current balance and eta date for requested articles.
+
+
+        if probe=true, then this will only verify the service and return a dummy response.
+      operationId: GetStockOrder B2C
+      parameters:
+        - name: user-key
+          in: header
+          description: user-key header
+          required: true
+          x-data-threescale-name: user_keys
+          schema:
+            type: string
+        - name: RESTRequest
+          in: query
+          description: RESTRequest Query String Parameter
+          required: true
+          x-enumNames:
+            - GetStockOrderB2C
+          schema:
+            type: string
+            default: GetStockOrderB2C
+        - name: probe
+          in: query
+          description: probe Query String Parameter
+          required: false
+          schema:
+            type: string
+        - name: Country
+          in: query
+          description: Country Query String Parameter
+          required: true
+          schema:
+            type: string
+        - name: ZIPCode
+          in: query
+          description: ZIPCode Query String Parameter
+          required: true
+          schema:
+            type: string
+        - name: productNo
+          in: query
+          description: productNo Query String Parameter
+          required: true
+          schema:
+            type: string
+        - name: quantity
+          in: query
+          description: quantity Query String Parameter
+          required: true
+          schema:
+            type: integer
+        - name: correlationId
+          in: query
+          description: correlationId Query String Parameter
+          required: false
+          schema:
+            type: string
+        - name: callerId
+          in: query
+          description: callerId Query String Parameter
+          required: false
+          schema:
+            type: string
+        - name: created
+          in: query
+          description: created Query String Parameter
+          required: false
+          schema:
+            type: string
+        - name: traceon
+          in: query
+          description: traceon Query String Parameter
+          required: false
+          schema:
+            type: boolean
+        - name: traceflush
+          in: query
+          description: traceflush Query String Parameter
+          required: false
+          schema:
+            type: boolean
+        - name: tracefile
+          in: query
+          description: tracefile Query String Parameter
+          required: false
+          schema:
+            type: boolean
+      responses:
+        "200":
+          description: Get info about product warehouse status From a B2C Consumer
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  stockOrderResponse:
+                    type: object
+                    properties:
+                      messageHeader:
+                        type: object
+                        properties:
+                          callerId:
+                            type: string
+                          created:
+                            type: string
+                          correlationId:
+                            type: string
+                          messageInfo:
+                            type: string
+                          messageStatus:
+                            type: string
+                      articles:
+                        type: object
+                        properties:
+                          additionalProductNo:
+                            type: string
+                          available:
+                            type: boolean
+                          deliveringDc:
+                            type: string
+                          description:
+                            type: string
+                          etaCalculated:
+                            type: boolean
+                          etaDate:
+                            type: string
+                          productNo:
+                            type: string
+                          productStatusCode:
+                            type: string
+                          productStatusDescription:
+                            type: string
+                          quantity:
+                            type: integer
+                          stockQuantity:
+                            type: integer
+                          unit:
+                            type: string
+                      latestEtaDate:
+                        type: string
+                      Country:
+                        type: string
+                      ZIPCode:
+                        type: string
+              examples:
+                response:
+                  value:
+                    stockOrderResponse:
+                      messageHeader:
+                        callerId: some text
+                        created: some text
+                        correlationId: some text
+                        messageInfo: some text
+                        messageStatus: some text
+                      articles:
+                        additionalProductNo: some text
+                        available: true
+                        deliveringDc: some text
+                        description: some text
+                        etaCalculated: true
+                        etaDate: some text
+                        productNo: some text
+                        productStatusCode: some text
+                        productStatusDescription: some text
+                        quantity: 4
+                        stockQuantity: 72
+                        unit: some text
+                      customerId: some text
+                      district: some text
+                      latestEtaDate: some text
+            application/xml:
+              schema:
+                type: object
+                properties:
+                  stockOrderResponse:
+                    type: object
+                    properties:
+                      messageHeader:
+                        type: object
+                        properties:
+                          callerId:
+                            type: string
+                          created:
+                            type: string
+                          correlationId:
+                            type: string
+                          messageInfo:
+                            type: string
+                          messageStatus:
+                            type: string
+                      articles:
+                        type: object
+                        properties:
+                          additionalProductNo:
+                            type: string
+                          available:
+                            type: boolean
+                          deliveringDc:
+                            type: string
+                          description:
+                            type: string
+                          etaCalculated:
+                            type: boolean
+                          etaDate:
+                            type: string
+                          productNo:
+                            type: string
+                          productStatusCode:
+                            type: string
+                          productStatusDescription:
+                            type: string
+                          quantity:
+                            type: integer
+                          stockQuantity:
+                            type: integer
+                          unit:
+                            type: string
+                      latestEtaDate:
+                        type: string
+                      Country:
+                        type: string
+                      ZIPCode:
+                        type: string
+servers:
+  - url: https://se-api.volvocars.biz/partslogistic/
