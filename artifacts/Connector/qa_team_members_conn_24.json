@@ -1,0 +1,18 @@
+{
+	"id": "401777d1-c85b-ef11-991a-000d3ad84563",
+	"createdAt": "2024-08-16T12:12:35.260Z",
+	"createdBy": "rommel@neptune-software.com",
+	"settings": {
+		"previewable": true,
+		"tableid": "a7671c4c-6059-ef11-991a-000d3ad84563",
+		"hasDocumentation": false
+	},
+	"documentation": {},
+	"name": "qa_team_members_conn_24",
+	"description": "Connector for the list of assigned testers for 24-LTS testing",
+	"group": null,
+	"type": "T",
+	"ver": "24.08.16.1212",
+	"disabled": false,
+	"package": "29805ca6-5925-4de9-a761-47279405b041"
+}

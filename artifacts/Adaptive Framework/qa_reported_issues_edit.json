@@ -26,24 +26,10 @@
 				"enableTab3": false,
 				"enableTab4": false,
 				"enableTab5": false,
-				"title": "Neptune DXP 22-LTS Bug Tracker",
+				"title": "Issue: Bug Report",
 				"subTitle": "Create and manage reported issues found on Neptune DXP 22-LTS",
 				"avatarIcon": "sap-icon://fa-solid/bug",
-				"avatarBackgroundColor": "Accent1",
-				"actionButtonLeft": false,
-				"iconButtonDelete": "",
-				"textButtonDelete": "Delete",
-				"textToastDelete": "Deleted",
-				"typeButtonDelete": "Reject",
-				"iconButtonAttachment": "",
-				"textButtonAttachment": "Add Attachment",
-				"typeButtonAttachment": "Transparent",
-				"tabAText": "Attachment",
-				"enableDelete": false,
-				"enableAttachment": false,
-				"enableUppercase": false,
-				"enablePadding": true,
-				"dynamicSubTitle": "BRIEF_TITLE"
+				"avatarBackgroundColor": "Accent1"
 			},
 			"form": {
 				"enableCompact": true,
@@ -54,14 +40,8 @@
 		},
 		"fieldCatalog": [
 			{
-				"name": "ACTUAL_BEHAVIOR",
-				"label": "ACTUAL_BEHAVIOR",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
-				"name": "APPLICATION",
-				"label": "APPLICATION",
+				"name": "BUG_STATUS",
+				"label": "BUG_STATUS",
 				"type": "text",
 				"usage": "BOTH"
 			},
@@ -72,50 +52,20 @@
 				"usage": "BOTH"
 			},
 			{
-				"name": "BUG_STATUS",
-				"label": "BUG_STATUS",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
-				"name": "COMMENTS",
-				"label": "COMMENTS",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
-				"name": "createdAt",
-				"label": "Created At",
-				"type": "timestamp",
-				"usage": "BOTH"
-			},
-			{
-				"name": "createdBy",
-				"label": "Created By",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
 				"name": "DESCRIPTION",
 				"label": "DESCRIPTION",
 				"type": "text",
 				"usage": "BOTH"
 			},
 			{
-				"name": "EXPECTED_BEHAVIOR",
-				"label": "EXPECTED_BEHAVIOR",
+				"name": "VERSION",
+				"label": "VERSION",
 				"type": "text",
 				"usage": "BOTH"
 			},
 			{
-				"name": "GITHUB_ISSUE_ID",
-				"label": "GITHUB_ISSUE_ID",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
-				"name": "ISSUE_TYPE",
-				"label": "ISSUE_TYPE",
+				"name": "APPLICATION",
+				"label": "APPLICATION",
 				"type": "text",
 				"usage": "BOTH"
 			},
@@ -126,8 +76,44 @@
 				"usage": "BOTH"
 			},
 			{
+				"name": "ACTUAL_BEHAVIOR",
+				"label": "ACTUAL_BEHAVIOR",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "EXPECTED_BEHAVIOR",
+				"label": "EXPECTED_BEHAVIOR",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "COMMENTS",
+				"label": "COMMENTS",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "ISSUE_TYPE",
+				"label": "ISSUE_TYPE",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "GITHUB_ISSUE_ID",
+				"label": "GITHUB_ISSUE_ID",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
 				"name": "updatedAt",
 				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
 				"type": "timestamp",
 				"usage": "BOTH"
 			},
@@ -138,8 +124,8 @@
 				"usage": "BOTH"
 			},
 			{
-				"name": "VERSION",
-				"label": "VERSION",
+				"name": "createdBy",
+				"label": "Created By",
 				"type": "text",
 				"usage": "BOTH"
 			}
@@ -285,14 +271,14 @@
 		}
 	},
 	"name": "qa_reported_issues_edit",
-	"description": "List of issues found in Neptune DXP 23-LTS",
+	"description": "",
 	"group": "",
 	"type": "C",
 	"connectorid": "e6129223-7657-47ed-a4ad-a94d1b3e9804",
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "23.8.18.823",
+	"ver": "22.10.19.1335",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_edit",

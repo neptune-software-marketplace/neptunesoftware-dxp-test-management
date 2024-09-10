@@ -1,0 +1,481 @@
+{
+	"id": "a959dd4f-aa59-ef11-991a-000d3ad84563",
+	"createdAt": "2024-08-13T19:29:17.423Z",
+	"createdBy": "rommel@neptune-software.com",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Ghost",
+				"iconButtonCreate": "",
+				"textButtonCreate": "Create",
+				"typeButtonCreate": "Emphasized",
+				"iconButtonExport": "sap-icon://excel-attachment",
+				"textButtonExport": "",
+				"typeButtonExport": "Transparent",
+				"iconButtonImport": "sap-icon://fa-solid/file-import",
+				"textButtonImport": "",
+				"typeButtonImport": "Transparent",
+				"iconButtonMultiSelect": "",
+				"textButtonMultiSelect": "MultiSelect",
+				"typeButtonMultiSelect": "Emphasized",
+				"iconButtonRun": "",
+				"textButtonRun": "Update",
+				"typeButtonRun": "Ghost",
+				"enableRun": true,
+				"enableCreate": true,
+				"enableClose": true,
+				"enableDelete": false,
+				"enableExport": false,
+				"enableImport": false,
+				"enableMultiSelect": false,
+				"enableVariant": false,
+				"hideHeader": false,
+				"autoRun": true,
+				"autoRunFocus": false,
+				"searchLabel": "Search",
+				"searchPlaceholder": "",
+				"title": "Feature Testing (Open Edition)",
+				"subTitle": "Test procedures on how to test the new features of Neptune DXP 24-LTS",
+				"avatarIcon": "sap-icon://lab",
+				"avatarBackgroundColor": "Accent1",
+				"_navigationItemPress": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetF": "316cdf97-b359-ef11-991a-000d3ad84563",
+					"keyField": [],
+					"dialogResize": true,
+					"dialogHeight": "90%",
+					"dialogWidth": "80%"
+				},
+				"_navigationCreate": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetF": "316cdf97-b359-ef11-991a-000d3ad84563",
+					"keyField": [],
+					"dialogResize": true,
+					"dialogScrollHorizontal": true,
+					"dialogHeight": "90%",
+					"dialogWidth": "80%"
+				},
+				"actionButtonLeft": false
+			},
+			"form": {
+				"enableCompact": false,
+				"headerExpanded": true,
+				"headerPreserveState": true
+			},
+			"table": {
+				"enablePagination": false,
+				"paginationShowSelection": false,
+				"paginationRows": "100",
+				"action1Text": "",
+				"action1Type": "Accept",
+				"action2Text": "",
+				"action2Type": "Transparent",
+				"action3Text": "",
+				"action3Type": "Transparent",
+				"alternateRowColors": true,
+				"enableCompact": true,
+				"enableAction1": false,
+				"enableAction2": false,
+				"enableAction3": false,
+				"fixedLayout": false,
+				"inset": false,
+				"initialGroupField": "APP_ID",
+				"initialGroupOrder": "ASC",
+				"initialSortField": "GITHUB_ID",
+				"initialSortOrder": "ASC",
+				"showSeparators": "All",
+				"enableAutoPopin": false,
+				"enableAction4": false,
+				"enableAction5": false,
+				"action4Text": "",
+				"action4Type": "Transparent",
+				"action5Text": "",
+				"action5Type": "Transparent",
+				"action1Icon": "sap-icon://fa-brands/github",
+				"_action1Nav": {
+					"destinationType": "S",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetA": "qa_test_strategy",
+					"keyField": [],
+					"sourceTargetS": "D1E24699-373C-EE11-B8F0-000D3AB39E52",
+					"destinationTargetS": "1B2F306D-7B3C-EE11-B8F0-000D3AB39E52"
+				},
+				"postProcessingScript": null,
+				"action1VisibleFieldName": "",
+				"action1VisibleCondition": "",
+				"action1VisibleFixedValue": "",
+				"headerText": "",
+				"footerText": ""
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "APP_ID",
+				"label": "APP_ID",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "CHANGELOG_STATUS",
+				"label": "CHANGELOG_STATUS",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "COMMENTS",
+				"label": "COMMENTS",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "DXP_EDITION",
+				"label": "DXP_EDITION",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "FEATURE_BODY",
+				"label": "FEATURE_BODY",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "FEATURE_ID",
+				"label": "FEATURE_ID",
+				"type": "uuid",
+				"usage": "BOTH"
+			},
+			{
+				"name": "GITHUB_ID",
+				"label": "GITHUB_ID",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "ISSUE_REPO",
+				"label": "ISSUE_REPO",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "ON_CHANGELOG",
+				"label": "ON_CHANGELOG",
+				"type": "boolean",
+				"usage": "BOTH"
+			},
+			{
+				"name": "ON_DOCUMENTATION",
+				"label": "ON_DOCUMENTATION",
+				"type": "boolean",
+				"usage": "BOTH"
+			},
+			{
+				"name": "STATUS",
+				"label": "STATUS",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "TEST_RESULT",
+				"label": "TEST_RESULT",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "TEST_STEPS",
+				"label": "TEST_STEPS",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "TEST_TITLE",
+				"label": "TEST_TITLE",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "USER_ID",
+				"label": "USER_ID",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [
+			{
+				"visible": false,
+				"name": "DXP_EDITION",
+				"text": "DXP_EDITION",
+				"fieldPos": 1,
+				"default": "OE"
+			},
+			{
+				"visible": true,
+				"name": "APP_ID",
+				"text": "Application",
+				"fieldPos": 2,
+				"type": "MultiSelectLookup",
+				"lookupTable": "qa_application_list_db",
+				"lookupFieldKey": "APP_ID",
+				"lookupFieldText": "NAME",
+				"lookupShowOnlyText": true
+			},
+			{
+				"visible": true,
+				"name": "STATUS",
+				"text": "Status",
+				"fieldPos": 3,
+				"type": "MultiSelectLookup",
+				"lookupTable": "qa_issue_status_feature_db",
+				"lookupFieldKey": "STATUS_ID",
+				"lookupFieldText": "STATUS",
+				"lookupFieldAdditional": "DESCRIPTION",
+				"lookupShowOnlyText": true,
+				"lookupFieldGrouping1": false
+			},
+			{
+				"visible": true,
+				"name": "USER_ID",
+				"text": "Assignee",
+				"fieldPos": 4,
+				"type": "MultiSelectScript",
+				"lookupTable": "qa_team_members_db",
+				"lookupFieldKey": "USER_ID",
+				"lookupFieldText": "NAME",
+				"lookupShowOnlyText": true,
+				"lookupFieldAdditional": "",
+				"scriptSelect": "9904969D-2262-EF11-991A-000D3AD84563"
+			}
+		],
+		"fieldsRun": [
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": false,
+				"enableSort": false,
+				"visible": false,
+				"name": "APP_ID",
+				"text": "Application",
+				"fieldPos": 5,
+				"valueType": "Lookup",
+				"valueLookup": {
+					"table": "qa_application_list_db",
+					"textField": "NAME",
+					"keyField": [
+						{
+							"fieldName": "APP_ID",
+							"key": "APP_ID",
+							"value": ""
+						}
+					],
+					"hideKey": true,
+					"butType": "Accept"
+				},
+				"formatter": "uppercase",
+				"enableGroup": true
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": false,
+				"name": "DXP_EDITION",
+				"text": "DXP_EDITION",
+				"fieldPos": 6
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Block",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "GITHUB_ID",
+				"text": "GITHUB ID",
+				"fieldPos": 7,
+				"type": "Link",
+				"linkHrefType": "Rule",
+				"linkHrefRule": "C8A3BF4B-7A3C-EE11-B8F0-000D3AB39E52",
+				"hAlign": "Center"
+			},
+			{
+				"enableFilter": true,
+				"enableSort": false,
+				"visible": true,
+				"name": "TEST_TITLE",
+				"text": "TEST TITLE",
+				"fieldPos": 8,
+				"width": "40%"
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "USER_ID",
+				"text": "ASSIGNEE",
+				"fieldPos": 9,
+				"valueType": "Lookup",
+				"valueLookup": {
+					"table": "qa_team_members_db",
+					"textField": "NAME",
+					"keyField": [
+						{
+							"fieldName": "USER_ID",
+							"key": "USER_ID",
+							"value": ""
+						}
+					],
+					"hideKey": true,
+					"butType": "Accept"
+				}
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "STATUS",
+				"text": "STATUS",
+				"fieldPos": 10,
+				"type": "ObjectStatus",
+				"valueType": "Lookup",
+				"valueLookup": {
+					"table": "qa_issue_status_feature_db",
+					"textField": "STATUS",
+					"keyField": [
+						{
+							"fieldName": "STATUS_ID",
+							"key": "STATUS",
+							"value": ""
+						}
+					],
+					"hideKey": true,
+					"butType": "Accept"
+				},
+				"statusStateType": "Rule",
+				"statusStateRule": "0A737BA1-2A3D-EE11-B8F0-000D3AB39E52",
+				"width": "15%"
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "CHANGELOG_STATUS",
+				"text": "CHANGE LOG",
+				"fieldPos": 11,
+				"type": "ObjectStatus",
+				"valueType": "Lookup",
+				"valueLookup": {
+					"table": "qa_changelog_status_db",
+					"textField": "STATUS",
+					"keyField": [
+						{
+							"fieldName": "STATUS_ID",
+							"key": "CHANGELOG_STATUS",
+							"value": ""
+						}
+					],
+					"hideKey": true,
+					"butType": "Accept"
+				},
+				"statusStateType": "Rule",
+				"statusStateRule": "1DD111BB-1E62-EF11-991A-000D3AD84563"
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "updatedBy",
+				"text": "MODIFIED BY",
+				"fieldPos": 12
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": false,
+				"enableSort": true,
+				"visible": true,
+				"name": "updatedAt",
+				"text": "MODIFIED ON",
+				"fieldPos": 13,
+				"formatter": "date00",
+				"width": "10%"
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": false,
+				"enableSort": false,
+				"visible": false,
+				"name": "ISSUE_REPO",
+				"text": "ISSUE_REPO",
+				"fieldPos": 14
+			}
+		],
+		"defaultVariant": {
+			"id": "b3da770d-2a7c-4dcc-a94a-4243f9753dae",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "qa_feature_testing_list_24",
+	"description": "Test procedures on how to test the new features of Neptune DXP 24-LTS",
+	"group": "",
+	"type": "C",
+	"connectorid": "90308a18-6559-ef11-991a-000d3ad84563",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "24.08.29.2122",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_list_20231004",
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

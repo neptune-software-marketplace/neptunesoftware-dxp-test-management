@@ -1,29 +1,8 @@
 {
-	"id": "74d220a4-c23d-ee11-b8f0-000d3ab39e52",
-	"createdAt": "2023-08-18T12:27:49.200Z",
+	"id": "e6651067-c95b-ef11-991a-000d3ad84563",
+	"createdAt": "2024-08-16T12:16:47.630Z",
 	"createdBy": "rommel@neptune-software.com",
-	"translation": [
-		{
-			"language": "DE",
-			"title": "Mitglieder des QA-Teams",
-			"subTitle": "Liste der zugewiesenen Tester"
-		},
-		{
-			"language": "EN",
-			"title": "QA Team Members",
-			"subTitle": "List of assigned testers"
-		},
-		{
-			"language": "NO",
-			"title": "QA-teammedlemmer",
-			"subTitle": "Liste over tildelte testere"
-		},
-		{
-			"language": "PT",
-			"title": "Membros da equipe de controle de qualidade",
-			"subTitle": "Lista de testadores atribuídos"
-		}
-	],
+	"translation": [],
 	"storeItem": {},
 	"settings": {
 		"adaptive": {
@@ -31,7 +10,7 @@
 		}
 	},
 	"title": "QA Team Members",
-	"subTitle": "List of assigned testers",
+	"subTitle": "List of current and previous assigned testers for LTS testing",
 	"description": null,
 	"categoryID": null,
 	"sort": null,
@@ -40,7 +19,7 @@
 	"actionParameters": null,
 	"actionURL": "",
 	"openDialog": false,
-	"openWindow": true,
+	"openWindow": false,
 	"openFullscreen": false,
 	"forceRow": false,
 	"frameType": null,
@@ -81,7 +60,7 @@
 	"helpText": null,
 	"helpEnabled": false,
 	"openClickTile": true,
-	"ver": "23.10.24.1546",
+	"ver": "24.09.01.2157",
 	"actionWebApp": "",
 	"name": "Neptune DXP — QA: QA Team Members",
 	"cardWidth": "Medium",
@@ -102,5 +81,11 @@
 	"actionType": "F",
 	"cockpitTile": false,
 	"package": "29805ca6-5925-4de9-a761-47279405b041",
-	"roles": []
+	"roles": [
+		{
+			"id": "439fc28c-fd60-ee11-9937-000d3ab39899",
+			"name": "Testing Guild Member",
+			"ver": "24.09.10.2119"
+		}
+	]
 }

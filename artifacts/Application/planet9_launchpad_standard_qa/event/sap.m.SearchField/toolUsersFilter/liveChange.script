@@ -1,3 +1,0 @@
-let binding = AppCacheUsers.getBinding('items');
-let filter = new sap.ui.model.Filter('username', 'Contains', this.getValue());
-binding.filter([filter]);

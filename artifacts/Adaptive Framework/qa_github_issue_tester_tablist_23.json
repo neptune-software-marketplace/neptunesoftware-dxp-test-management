@@ -274,8 +274,8 @@
 				"fieldPos": 6,
 				"valueType": "Lookup",
 				"valueLookup": {
-					"table": "qa_issue_status_23_db",
-					"textField": "STATUS",
+					"table": "qa_issue_status_github_db",
+					"textField": "STATUS_ID",
 					"keyField": [
 						{
 							"fieldName": "STATUS_ID",
@@ -313,14 +313,14 @@
 		}
 	},
 	"name": "qa_github_issue_tester_tablist_23",
-	"description": "List of fixed GitHub issues that require re-verification",
+	"description": "23-LTS: List of assigned issues to be re-verified shown as tab in edit page",
 	"group": "",
 	"type": "C",
 	"connectorid": "7be4abfb-513c-ee11-b8f0-000d3ab39e52",
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "23.10.5.2113",
+	"ver": "24.08.16.1154",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_list_20231004",

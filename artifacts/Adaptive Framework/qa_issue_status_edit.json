@@ -14,20 +14,20 @@
 				"textToastSave": "Saved",
 				"typeButtonSave": "Emphasized",
 				"tab0Text": "General",
-				"tab1Text": "Reported Issues",
+				"tab1Text": "Tab 1",
 				"tab2Text": "Tab 2",
 				"tab3Text": "Tab 3",
 				"tab4Text": "Tab 4",
 				"tab5Text": "Tab 5",
 				"enableClose": true,
 				"enableSave": true,
-				"enableTab1": true,
+				"enableTab1": false,
 				"enableTab2": false,
 				"enableTab3": false,
 				"enableTab4": false,
 				"enableTab5": false,
-				"title": "Issue Status",
-				"subTitle": "Manage status for re-verification, new feature tests and reported issues",
+				"title": "",
+				"subTitle": "Issue Status",
 				"avatarIcon": "sap-icon://order-status",
 				"avatarBackgroundColor": "Accent1",
 				"actionButtonLeft": false,
@@ -41,25 +41,15 @@
 				"tabAText": "Attachment",
 				"enableDelete": false,
 				"enableAttachment": false,
-				"enableUppercase": true,
+				"enableUppercase": false,
 				"enablePadding": true,
-				"dynamicSubTitle": "STATUS",
-				"_tab1Nav": {
-					"destinationType": "F",
-					"openAs": "P",
-					"butType": "Accept",
-					"destinationTargetF": "7b41b3be-b83d-ee11-b8f0-000d3ab39e52",
-					"keyField": [
-						{
-							"fieldName": "STATUS",
-							"key": "STATUS_ID",
-							"value": ""
-						}
-					]
-				}
+				"textConfirmDelete": "Do you want to delete this entry ? ",
+				"titleConfirmDelete": "Delete ",
+				"requiredFieldsToast": "Please fill in all the required fields",
+				"dynamicTitle": "STATUS"
 			},
 			"form": {
-				"enableCompact": false,
+				"enableCompact": true,
 				"enableCentered": true,
 				"labelSpanM": "12"
 			},
@@ -67,14 +57,14 @@
 		},
 		"fieldCatalog": [
 			{
-				"name": "STATUS_ID",
-				"label": "STATUS_ID",
-				"type": "mediumtext",
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
 				"usage": "BOTH"
 			},
 			{
-				"name": "STATUS",
-				"label": "STATUS",
+				"name": "createdBy",
+				"label": "Created By",
 				"type": "text",
 				"usage": "BOTH"
 			},
@@ -91,14 +81,20 @@
 				"usage": "BOTH"
 			},
 			{
-				"name": "updatedAt",
-				"label": "Updated At",
-				"type": "timestamp",
+				"name": "STATUS",
+				"label": "STATUS",
+				"type": "text",
 				"usage": "BOTH"
 			},
 			{
-				"name": "createdAt",
-				"label": "Created At",
+				"name": "STATUS_ID",
+				"label": "STATUS_ID",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
 				"type": "timestamp",
 				"usage": "BOTH"
 			},
@@ -107,23 +103,19 @@
 				"label": "Updated By",
 				"type": "text",
 				"usage": "BOTH"
-			},
-			{
-				"name": "createdBy",
-				"label": "Created By",
-				"type": "text",
-				"usage": "BOTH"
 			}
 		],
 		"fieldsSel": [
 			{
 				"editable": true,
-				"visible": false,
+				"visible": true,
 				"name": "STATUS_ID",
 				"text": "Status ID",
 				"fieldPos": 1,
 				"required": true,
-				"columnLabel": "GENERAL"
+				"columnLabel": "GENERAL",
+				"enableNewForm": true,
+				"labelSpanM": "12"
 			},
 			{
 				"editable": true,
@@ -142,29 +134,25 @@
 				"required": true
 			},
 			{
-				"inputFormatter": "",
-				"editable": true,
-				"visible": true,
-				"name": "ISSUE_TYPE",
-				"text": "Issue Type",
-				"fieldPos": 4,
-				"required": true,
-				"type": "SingleSelectLookup",
-				"lookupTable": "qa_issue_type_db",
-				"lookupFieldKey": "TYPE_ID",
-				"lookupFieldText": "TYPE",
-				"lookupShowOnlyText": true
-			},
-			{
 				"editable": false,
 				"visible": true,
 				"name": "updatedAt",
-				"text": "Modified On",
-				"fieldPos": 5,
-				"type": "DateTimePicker",
-				"columnLabel": "DATES",
+				"text": "Changed On",
+				"fieldPos": 4,
+				"type": "Display",
 				"enableNewForm": true,
+				"columnLabel": "DATES",
+				"formatter": "date00",
 				"labelSpanM": "12"
+			},
+			{
+				"inputFormatter": "",
+				"editable": false,
+				"visible": true,
+				"name": "updatedBy",
+				"text": "Changed By",
+				"fieldPos": 5,
+				"type": "Display"
 			},
 			{
 				"editable": false,
@@ -172,16 +160,21 @@
 				"name": "createdAt",
 				"text": "Created On",
 				"fieldPos": 6,
-				"type": "DateTimePicker"
-			}
-		],
-		"fieldsRun": [
+				"type": "Display",
+				"formatter": "date00"
+			},
 			{
-				"name": "STATUS_ID",
-				"text": "STATUS_ID",
-				"fieldPos": 7
+				"inputFormatter": "",
+				"editable": false,
+				"visible": true,
+				"name": "createdBy",
+				"text": "Created By",
+				"fieldPos": 7,
+				"type": "Display",
+				"formatter": "date00"
 			}
 		],
+		"fieldsRun": [],
 		"defaultVariant": {
 			"id": "138ac858-0bf3-4fcc-87d4-daa80bc6c458",
 			"colOrder": "key_a_to_z",
@@ -194,14 +187,14 @@
 		}
 	},
 	"name": "qa_issue_status_edit",
-	"description": "",
+	"description": "Manage issue status",
 	"group": "",
 	"type": "C",
 	"connectorid": "eab76d59-4906-46e3-83a1-813de261b359",
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "23.8.18.1119",
+	"ver": "24.08.15.2214",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_edit",

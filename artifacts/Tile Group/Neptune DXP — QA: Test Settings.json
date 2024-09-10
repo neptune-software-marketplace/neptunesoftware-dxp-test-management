@@ -4,14 +4,14 @@
 	"createdBy": "rommel@neptune-software.com",
 	"translation": [
 		{
-			"language": "EN",
-			"title": "Test Settings",
-			"subTitle": "Manage test settings"
-		},
-		{
 			"language": "DE",
 			"title": "Testeinstellungen",
 			"subTitle": "Testeinstellungen verwalten"
+		},
+		{
+			"language": "EN",
+			"title": "Test Settings",
+			"subTitle": "Manage test settings"
 		},
 		{
 			"language": "NO",
@@ -27,7 +27,6 @@
 	"tilesOrder": [
 		"22b86576-5993-4f19-96c9-592b680124d1",
 		"507836cc-ada4-4c7a-b19c-ce8a20944520",
-		"0c2118a2-ad49-ed11-819b-000d3aba7edc",
 		"74d220a4-c23d-ee11-b8f0-000d3ab39e52"
 	],
 	"tilegroupsOrder": [],
@@ -54,7 +53,7 @@
 	"enableShadeCalc": false,
 	"numTiles": null,
 	"enableMessage": false,
-	"ver": "23.9.3.1928",
+	"ver": "24.08.14.1226",
 	"headColor": null,
 	"headTxtClr": null,
 	"subheadTxtClr": null,
@@ -87,31 +86,31 @@
 	"roleTag": null,
 	"cockpitTileGroup": false,
 	"package": "29805ca6-5925-4de9-a761-47279405b041",
-	"roles": [],
+	"roles": [
+		{
+			"id": "439fc28c-fd60-ee11-9937-000d3ab39899",
+			"name": "Testing Guild Member",
+			"ver": "24.09.10.2119"
+		}
+	],
 	"tiles": [
 		{
 			"id": "74d220a4-c23d-ee11-b8f0-000d3ab39e52",
-			"name": "Neptune DXP — QA: QA Team Members",
+			"name": "Neptune DXP — QA: QA Team Members (23)",
 			"title": "QA Team Members",
-			"ver": "23.10.24.1546"
+			"ver": "24.08.27.1821"
 		},
 		{
 			"id": "507836cc-ada4-4c7a-b19c-ce8a20944520",
-			"name": "Neptune DXP — QA: Issue Status",
-			"title": "Issue Status",
-			"ver": "23.10.24.1543"
+			"name": "Neptune DXP — QA: Status Type: Reported Issues",
+			"title": "Status Type: Reported Issues",
+			"ver": "24.09.01.2156"
 		},
 		{
 			"id": "22b86576-5993-4f19-96c9-592b680124d1",
 			"name": "Neptune DXP — QA: Neptune DXP Applications",
 			"title": "Neptune DXP Applications",
-			"ver": "23.10.24.1542"
-		},
-		{
-			"id": "0c2118a2-ad49-ed11-819b-000d3aba7edc",
-			"name": "Neptune DXP — QA: New Features",
-			"title": "New Features",
-			"ver": "23.10.24.1545"
+			"ver": "24.08.14.0658"
 		}
 	],
 	"tilegroups": []

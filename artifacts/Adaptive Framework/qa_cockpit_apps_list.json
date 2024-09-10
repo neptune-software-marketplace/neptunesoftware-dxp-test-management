@@ -23,7 +23,7 @@
 				"typeButtonMultiSelect": "Emphasized",
 				"iconButtonRun": "",
 				"textButtonRun": "Update",
-				"typeButtonRun": "Default",
+				"typeButtonRun": "Ghost",
 				"enableRun": true,
 				"enableCreate": true,
 				"enableClose": false,
@@ -39,11 +39,11 @@
 				"searchPlaceholder": "",
 				"title": "Neptune DXP Applications",
 				"subTitle": "List of Neptune DXP Cockpit applications",
-				"avatarIcon": "sap-icon://tnt/application-service",
+				"avatarIcon": "sap-icon://tnt/application",
 				"avatarBackgroundColor": "Accent1",
 				"_navigationCreate": {
 					"destinationType": "F",
-					"openAs": "P",
+					"openAs": "D",
 					"butType": "Accept",
 					"destinationTargetF": "58dc842d-a092-453e-a325-118ba6f8049d",
 					"keyField": [],
@@ -52,19 +52,24 @@
 				},
 				"_navigationItemPress": {
 					"destinationType": "F",
-					"openAs": "P",
+					"openAs": "D",
 					"butType": "Accept",
 					"dialogHeight": "430px",
 					"dialogWidth": "700px",
 					"destinationTargetF": "58dc842d-a092-453e-a325-118ba6f8049d",
 					"keyField": []
 				},
-				"actionButtonLeft": false
+				"actionButtonLeft": false,
+				"requiredFieldsToast": "Please fill in all required fields",
+				"textConfirmDelete": "Do you want to delete this entry ? ",
+				"titleConfirmDelete": "Delete",
+				"odataValueList": "Field does not have any OData ValueList reference"
 			},
 			"form": {
 				"enableCompact": false,
 				"headerExpanded": true,
-				"headerPreserveState": true
+				"headerPreserveState": false,
+				"enableSearchWildcard": false
 			},
 			"table": {
 				"enablePagination": false,
@@ -76,7 +81,7 @@
 				"action2Type": "Transparent",
 				"action3Text": "",
 				"action3Type": "Transparent",
-				"alternateRowColors": true,
+				"alternateRowColors": false,
 				"enableCompact": true,
 				"enableAction1": false,
 				"enableAction2": false,
@@ -92,8 +97,7 @@
 				"action4Text": "",
 				"action4Type": "Transparent",
 				"action5Text": "",
-				"action5Type": "Transparent",
-				"headerText": ""
+				"action5Type": "Transparent"
 			}
 		},
 		"fieldCatalog": [
@@ -106,12 +110,6 @@
 			{
 				"name": "APP_ID",
 				"label": "APP_ID",
-				"type": "mediumtext",
-				"usage": "BOTH"
-			},
-			{
-				"name": "DESCRIPTION",
-				"label": "DESCRIPTION",
 				"type": "mediumtext",
 				"usage": "BOTH"
 			},
@@ -145,7 +143,7 @@
 			{
 				"enableFilter": true,
 				"enableSort": false,
-				"visible": false,
+				"visible": true,
 				"name": "APP_ID",
 				"text": "APPLICATION ID",
 				"fieldPos": 1,
@@ -167,8 +165,7 @@
 					],
 					"hideKey": false,
 					"butType": "Accept"
-				},
-				"width": "10%"
+				}
 			},
 			{
 				"enableFilter": true,
@@ -176,40 +173,16 @@
 				"visible": true,
 				"name": "NAME",
 				"text": "APPLICATION NAME",
-				"fieldPos": 2,
-				"width": "15%"
-			},
-			{
-				"buttonType": "Transparent",
-				"popinDisplay": "Inline",
-				"enableFilter": true,
-				"enableSort": false,
-				"visible": true,
-				"name": "DESCRIPTION",
-				"text": "DESCRIPTION",
-				"fieldPos": 3,
-				"width": "60%"
-			},
-			{
-				"buttonType": "Transparent",
-				"popinDisplay": "Inline",
-				"enableFilter": true,
-				"enableSort": false,
-				"visible": true,
-				"name": "updatedBy",
-				"text": "MODIFIED BY",
-				"fieldPos": 4,
-				"width": "15%"
+				"fieldPos": 2
 			},
 			{
 				"enableFilter": false,
 				"enableSort": false,
 				"visible": true,
 				"name": "updatedAt",
-				"text": "MODIFIED ON",
-				"fieldPos": 5,
-				"formatter": "date00",
-				"width": "10%"
+				"text": "CHANGED ON",
+				"fieldPos": 3,
+				"formatter": "date00"
 			}
 		],
 		"defaultVariant": {
@@ -231,10 +204,10 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "23.10.5.2113",
+	"ver": "24.08.14.1151",
 	"disabled": false,
 	"appType": "A",
-	"application": "planet9_adaptive_list_20231004",
+	"application": "planet9_adaptive_list",
 	"package": "29805ca6-5925-4de9-a761-47279405b041",
 	"roles": [],
 	"scriptSelObj": null,

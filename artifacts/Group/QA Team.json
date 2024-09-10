@@ -1,0 +1,21 @@
+{
+	"id": "9c532347-aa68-ef11-bdfd-000d3ad848de",
+	"createdAt": "2024-09-01T21:36:42.930Z",
+	"createdBy": "rommel@neptune-software.com",
+	"name": "QA Team",
+	"description": null,
+	"ver": "24.09.10.2118",
+	"parent": null,
+	"isExternal": false,
+	"idpSource": "local",
+	"idpSourceId": null,
+	"idpSourceKey": null,
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"roles": [
+		{
+			"id": "c11eef3d-4db4-ed11-a8e0-000d3aba7851",
+			"name": "QA Member",
+			"ver": "24.09.10.1926"
+		}
+	]
+}

@@ -112,14 +112,38 @@
 		},
 		"fieldCatalog": [
 			{
-				"name": "STATUS",
-				"label": "STATUS",
+				"name": "ACTUAL_BEHAVIOR",
+				"label": "ACTUAL_BEHAVIOR",
 				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "APP_ID",
+				"label": "APP_ID",
+				"type": "mediumtext",
 				"usage": "BOTH"
 			},
 			{
 				"name": "BRIEF_TITLE",
 				"label": "BRIEF_TITLE",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "COMMENTS",
+				"label": "COMMENTS",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
 				"type": "text",
 				"usage": "BOTH"
 			},
@@ -136,38 +160,8 @@
 				"usage": "BOTH"
 			},
 			{
-				"name": "APP_ID",
-				"label": "APP_ID",
-				"type": "mediumtext",
-				"usage": "BOTH"
-			},
-			{
-				"name": "STEPS",
-				"label": "STEPS",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
-				"name": "ACTUAL_BEHAVIOR",
-				"label": "ACTUAL_BEHAVIOR",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
 				"name": "EXPECTED_BEHAVIOR",
 				"label": "EXPECTED_BEHAVIOR",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
-				"name": "COMMENTS",
-				"label": "COMMENTS",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
-				"name": "ISSUE_TYPE",
-				"label": "ISSUE_TYPE",
 				"type": "text",
 				"usage": "BOTH"
 			},
@@ -178,9 +172,27 @@
 				"usage": "BOTH"
 			},
 			{
+				"name": "ISSUE_TYPE",
+				"label": "ISSUE_TYPE",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
 				"name": "PRIORITY_NUMBER",
 				"label": "PRIORITY_NUMBER",
 				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "STATUS",
+				"label": "STATUS",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "STEPS",
+				"label": "STEPS",
+				"type": "text",
 				"usage": "BOTH"
 			},
 			{
@@ -196,20 +208,8 @@
 				"usage": "BOTH"
 			},
 			{
-				"name": "createdAt",
-				"label": "Created At",
-				"type": "timestamp",
-				"usage": "BOTH"
-			},
-			{
 				"name": "updatedBy",
 				"label": "Updated By",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
-				"name": "createdBy",
-				"label": "Created By",
 				"type": "text",
 				"usage": "BOTH"
 			}
@@ -243,10 +243,10 @@
 				"text": "Status",
 				"fieldPos": 3,
 				"type": "MultiSelectLookup",
-				"lookupTable": "qa_issue_status_23_db",
+				"lookupTable": "qa_issue_status_db",
 				"lookupFieldKey": "STATUS_ID",
 				"lookupFieldText": "STATUS",
-				"lookupFieldAdditional": "ISSUE_TYPE",
+				"lookupFieldAdditional": "",
 				"lookupShowOnlyText": true,
 				"lookupFieldGrouping1": true
 			},
@@ -424,8 +424,8 @@
 				"type": "ObjectStatus",
 				"valueType": "Lookup",
 				"valueLookup": {
-					"table": "qa_issue_status_23_db",
-					"textField": "STATUS",
+					"table": "qa_issue_status_db",
+					"textField": "STATUS_ID",
 					"keyField": [
 						{
 							"fieldName": "STATUS_ID",
@@ -601,14 +601,14 @@
 		}
 	},
 	"name": "qa_reported_issues_list_23",
-	"description": "List of issues found in Neptune DXP 23-LTS",
+	"description": "23-LTS: List of issues found in Neptune DXP 23-LTS",
 	"group": "",
 	"type": "C",
 	"connectorid": "fdcfcc06-723c-ee11-b8f0-000d3ab39e52",
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "23.10.10.846",
+	"ver": "24.08.13.1954",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_list_20231004",

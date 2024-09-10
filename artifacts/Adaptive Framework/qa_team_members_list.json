@@ -8,9 +8,9 @@
 				"showIcon": true,
 				"iconButtonClose": "",
 				"textButtonClose": "Close",
-				"typeButtonClose": "Transparent",
+				"typeButtonClose": "Ghost",
 				"iconButtonCreate": "",
-				"textButtonCreate": "Assign New Tester",
+				"textButtonCreate": "Create",
 				"typeButtonCreate": "Emphasized",
 				"iconButtonExport": "sap-icon://excel-attachment",
 				"textButtonExport": "",
@@ -23,10 +23,10 @@
 				"typeButtonMultiSelect": "Emphasized",
 				"iconButtonRun": "",
 				"textButtonRun": "Update",
-				"typeButtonRun": "Default",
+				"typeButtonRun": "Ghost",
 				"enableRun": true,
 				"enableCreate": true,
-				"enableClose": false,
+				"enableClose": true,
 				"enableDelete": true,
 				"enableExport": false,
 				"enableImport": false,
@@ -59,12 +59,17 @@
 				},
 				"avatarBackgroundColor": "Accent1",
 				"avatarIcon": "sap-icon://group",
-				"actionButtonLeft": false
+				"actionButtonLeft": false,
+				"requiredFieldsToast": "Please fill in all required fields",
+				"textConfirmDelete": "Do you want to delete this entry ? ",
+				"titleConfirmDelete": "Delete",
+				"odataValueList": "Field does not have any OData ValueList reference"
 			},
 			"form": {
 				"enableCompact": true,
 				"headerExpanded": true,
-				"headerPreserveState": true
+				"headerPreserveState": true,
+				"enableSearchWildcard": false
 			},
 			"table": {
 				"enablePagination": false,
@@ -99,21 +104,9 @@
 		},
 		"fieldCatalog": [
 			{
-				"name": "ACTIVE",
-				"label": "ACTIVE",
-				"type": "boolean",
-				"usage": "BOTH"
-			},
-			{
-				"name": "createdAt",
-				"label": "Created At",
-				"type": "timestamp",
-				"usage": "BOTH"
-			},
-			{
-				"name": "createdBy",
-				"label": "Created By",
-				"type": "text",
+				"name": "USER_ID",
+				"label": "USER_ID",
+				"type": "mediumtext",
 				"usage": "BOTH"
 			},
 			{
@@ -129,15 +122,21 @@
 				"usage": "BOTH"
 			},
 			{
+				"name": "ACTIVE",
+				"label": "ACTIVE",
+				"type": "boolean",
+				"usage": "BOTH"
+			},
+			{
 				"name": "REMARKS",
 				"label": "REMARKS",
 				"type": "mediumtext",
 				"usage": "BOTH"
 			},
 			{
-				"name": "USER_ID",
-				"label": "USER_ID",
-				"type": "mediumtext",
+				"name": "DEPARTMENT",
+				"label": "DEPARTMENT",
+				"type": "text",
 				"usage": "BOTH"
 			},
 			{
@@ -147,8 +146,20 @@
 				"usage": "BOTH"
 			},
 			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
 				"name": "updatedBy",
 				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
 				"type": "text",
 				"usage": "BOTH"
 			}
@@ -157,13 +168,21 @@
 			{
 				"visible": true,
 				"name": "DXP_VERSION",
-				"text": "DXP Version",
+				"text": "DXP Edition",
 				"fieldPos": 1,
 				"type": "SingleSelectLookup",
 				"lookupTable": "qa_neptune_dxp_edition",
 				"lookupFieldKey": "VERSION_ID",
 				"lookupFieldText": "VERSION",
 				"lookupShowOnlyText": true
+			},
+			{
+				"visible": true,
+				"name": "DEPARTMENT",
+				"text": "Department",
+				"fieldPos": 2,
+				"type": "MultiSelectScript",
+				"scriptSelect": "DC8FF611-4766-EF11-BDFD-000D3AD848DE"
 			}
 		],
 		"fieldsRun": [
@@ -175,7 +194,7 @@
 				"visible": false,
 				"name": "USER_ID",
 				"text": "TESTER NAME",
-				"fieldPos": 2,
+				"fieldPos": 3,
 				"valueType": "",
 				"valueLookup": {
 					"table": "qa_users_db",
@@ -199,9 +218,20 @@
 				"visible": true,
 				"name": "NAME",
 				"text": "NAME",
-				"fieldPos": 3,
+				"fieldPos": 4,
 				"enableGroup": false,
 				"width": "20%"
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "DEPARTMENT",
+				"text": "DEPARTMENT",
+				"fieldPos": 5,
+				"width": "10%"
 			},
 			{
 				"buttonType": "Transparent",
@@ -211,10 +241,12 @@
 				"visible": true,
 				"name": "ACTIVE",
 				"text": "ACTIVE",
-				"fieldPos": 4,
+				"fieldPos": 6,
 				"type": "Switch",
 				"editable": true,
-				"width": "6%"
+				"width": "6%",
+				"hAlign": "Center",
+				"vAlign": "Middle"
 			},
 			{
 				"buttonType": "Transparent",
@@ -224,7 +256,7 @@
 				"visible": false,
 				"name": "DXP_VERSION",
 				"text": "ASSIGNED DXP VERSION",
-				"fieldPos": 5,
+				"fieldPos": 7,
 				"valueType": "Lookup",
 				"valueLookup": {
 					"table": "qa_neptune_dxp_edition",
@@ -249,8 +281,8 @@
 				"visible": true,
 				"name": "REMARKS",
 				"text": "REMARKS",
-				"fieldPos": 6,
-				"width": "49%"
+				"fieldPos": 8,
+				"width": "39%"
 			},
 			{
 				"buttonType": "Transparent",
@@ -260,7 +292,7 @@
 				"visible": true,
 				"name": "updatedBy",
 				"text": "MODIFIED BY",
-				"fieldPos": 7,
+				"fieldPos": 9,
 				"width": "15%"
 			},
 			{
@@ -271,7 +303,7 @@
 				"visible": true,
 				"name": "updatedAt",
 				"text": "MODIFIED ON",
-				"fieldPos": 8,
+				"fieldPos": 10,
 				"type": "",
 				"formatter": "date00",
 				"width": "10%"
@@ -296,7 +328,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "23.9.27.1151",
+	"ver": "24.08.29.2057",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_list",

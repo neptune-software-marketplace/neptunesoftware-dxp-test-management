@@ -1,2 +1,0 @@
-// Apply Standard Theme for Mobile
-if (AppCache.isMobile && AppCache.layout) sap.n.Launchpad.applyLayout(AppCache.layout[0]);

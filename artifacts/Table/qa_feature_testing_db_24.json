@@ -1,0 +1,121 @@
+{
+	"id": "84ac6bf2-6459-ef11-991a-000d3ad84563",
+	"createdAt": "2024-08-13T11:12:38.993Z",
+	"createdBy": "rommel@neptune-software.com",
+	"fields": [
+		{
+			"id": "cad45e8f-9770-439d-9aa8-41d2873ba32f",
+			"fieldName": "FEATURE_ID",
+			"fieldType": "uuid",
+			"isNullable": true,
+			"isUnique": false
+		},
+		{
+			"id": "d113a2d8-5c45-4300-b0fd-9ad9c88ce667",
+			"fieldName": "TEST_TITLE",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "b3f7db7a-7445-4258-effc-515364a48633",
+			"fieldName": "FEATURE_BODY",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "c89882f5-167e-41c4-f793-c9d0f4977f59",
+			"fieldName": "TEST_STEPS",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "d6714c89-2642-430b-fe9d-f2521237f489",
+			"fieldName": "STATUS",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "7a70b497-7277-4b7b-9af4-4bf6abd63a52",
+			"fieldName": "TEST_RESULT",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "23be6760-4209-4baa-9716-c826b82367c4",
+			"fieldName": "COMMENTS",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "14055dcd-e0e8-40d4-bb44-c05435ea0c9f",
+			"fieldName": "DXP_EDITION",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "79b9a40d-ac23-4f35-ae88-1c28f96b6f9e",
+			"fieldName": "GITHUB_ID",
+			"fieldType": "mediumtext",
+			"isNullable": true,
+			"isUnique": false
+		},
+		{
+			"id": "1721499d-7454-41b7-ea10-1145d17586f3",
+			"fieldName": "ISSUE_REPO",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "20ffd8a8-12d9-4667-bde7-6b6852101534",
+			"fieldName": "USER_ID",
+			"fieldType": "mediumtext",
+			"isNullable": true
+		},
+		{
+			"id": "592b3ac0-bd09-40c9-9952-fe0f8b9d698b",
+			"fieldName": "ON_DOCUMENTATION",
+			"fieldType": "boolean",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "09e799c0-6e64-4333-ca82-b64df846697d",
+			"fieldName": "ON_CHANGELOG",
+			"fieldType": "boolean",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "ca427c95-7ce1-490f-b0fa-4c9a16229a84",
+			"fieldName": "APP_ID",
+			"fieldType": "mediumtext",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "838539b1-827f-401e-f635-c650fa931d82",
+			"fieldName": "CHANGELOG_STATUS",
+			"fieldType": "mediumtext",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "qa_feature_testing_db_24",
+	"description": "List of test items related to new features of LTS-24",
+	"ver": "24.08.29.1549",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"rolesRead": [],
+	"rolesWrite": [
+		{
+			"id": "c11eef3d-4db4-ed11-a8e0-000d3aba7851",
+			"name": "QA Member",
+			"ver": "24.09.10.1926"
+		}
+	]
+}

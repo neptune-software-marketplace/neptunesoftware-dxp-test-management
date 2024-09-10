@@ -1,0 +1,132 @@
+[
+	{
+		"id": "eb93e61e-9d5b-ef11-991a-000d3ad84563",
+		"createdAt": "1723791586735",
+		"updatedAt": "1723791586735",
+		"createdBy": "rommel@neptune-software.com",
+		"updatedBy": "rommel@neptune-software.com",
+		"STATUS_ID": "FR-1003",
+		"STATUS": "Ready for Verification",
+		"DESCRIPTION": "The new feature is now available in the system and ready for verification"
+	},
+	{
+		"id": "e97afa70-9d5b-ef11-991a-000d3ad84563",
+		"createdAt": "1723791724532",
+		"updatedAt": "1723791724532",
+		"createdBy": "rommel@neptune-software.com",
+		"updatedBy": "rommel@neptune-software.com",
+		"STATUS_ID": "FR-1005",
+		"STATUS": "Available in Next Build",
+		"DESCRIPTION": "The new feature will be available in the next private build"
+	},
+	{
+		"id": "df588e81-9d5b-ef11-991a-000d3ad84563",
+		"createdAt": "1723791752013",
+		"updatedAt": "1723791752013",
+		"createdBy": "rommel@neptune-software.com",
+		"updatedBy": "rommel@neptune-software.com",
+		"STATUS_ID": "FR-1006",
+		"STATUS": "Already Implemented",
+		"DESCRIPTION": "The the feature request has already been implemented"
+	},
+	{
+		"id": "dab55ce0-9c5b-ef11-991a-000d3ad84563",
+		"createdAt": "1723791481824",
+		"updatedAt": "1723791481824",
+		"createdBy": "rommel@neptune-software.com",
+		"updatedBy": "rommel@neptune-software.com",
+		"STATUS_ID": "FR-1001",
+		"STATUS": "New Feature Verified",
+		"DESCRIPTION": "New feature has been tested and verified"
+	},
+	{
+		"id": "c6f5ecb2-9d5b-ef11-991a-000d3ad84563",
+		"createdAt": "1723791835097",
+		"updatedAt": "1724098094184",
+		"createdBy": "rommel@neptune-software.com",
+		"updatedBy": "rommel@neptune-software.com",
+		"STATUS_ID": "FR-1009",
+		"STATUS": "Feature is Rejected",
+		"DESCRIPTION": "The feature request has been rejected"
+	},
+	{
+		"id": "aec18f2f-f96c-ef11-bdfd-000d3ad77e7c",
+		"createdAt": "1725700298172",
+		"updatedAt": "1725700298172",
+		"createdBy": "rommel@neptune-software.com",
+		"updatedBy": "rommel@neptune-software.com",
+		"STATUS_ID": "FR-1013",
+		"STATUS": "Can't Verify",
+		"DESCRIPTION": "Unable to verify due to another issue that prevents the test"
+	},
+	{
+		"id": "ae7a4609-9d5b-ef11-991a-000d3ad84563",
+		"createdAt": "1723791550468",
+		"updatedAt": "1723791550468",
+		"createdBy": "rommel@neptune-software.com",
+		"updatedBy": "rommel@neptune-software.com",
+		"STATUS_ID": "FR-1002",
+		"STATUS": "Feature is Not Working",
+		"DESCRIPTION": "The new feature has some problems and is not working"
+	},
+	{
+		"id": "abd7a6fe-9d5b-ef11-991a-000d3ad84563",
+		"createdAt": "1723791962125",
+		"updatedAt": "1724740688184",
+		"createdBy": "rommel@neptune-software.com",
+		"updatedBy": "rommel@neptune-software.com",
+		"STATUS_ID": "FR-1010",
+		"STATUS": "Cancelled",
+		"DESCRIPTION": "The requester has closed the request. No actions were made"
+	},
+	{
+		"id": "a384c58e-9d5b-ef11-991a-000d3ad84563",
+		"createdAt": "1723791774504",
+		"updatedAt": "1723791774504",
+		"createdBy": "rommel@neptune-software.com",
+		"updatedBy": "rommel@neptune-software.com",
+		"STATUS_ID": "FR-1007",
+		"STATUS": "On Hold",
+		"DESCRIPTION": "The new feature needs some changes or the test will be performed later"
+	},
+	{
+		"id": "9eacf016-4964-ef11-bdfd-000d3ad848de",
+		"createdAt": "1724745056202",
+		"updatedAt": "1724745056202",
+		"createdBy": "rommel@neptune-software.com",
+		"updatedBy": "rommel@neptune-software.com",
+		"STATUS_ID": "FR-1012",
+		"STATUS": "Duplicate",
+		"DESCRIPTION": "There is already an existing feature request"
+	},
+	{
+		"id": "403c229a-9d5b-ef11-991a-000d3ad84563",
+		"createdAt": "1723791797033",
+		"updatedAt": "1724154614800",
+		"createdBy": "rommel@neptune-software.com",
+		"updatedBy": "rommel@neptune-software.com",
+		"STATUS_ID": "FR-1008",
+		"STATUS": "Need More Info",
+		"DESCRIPTION": "Missing steps or need more details on how to verify"
+	},
+	{
+		"id": "3afbc0ca-af5b-ef11-991a-000d3ad84563",
+		"createdAt": "1723799610069",
+		"updatedAt": "1723799610069",
+		"createdBy": "rommel@neptune-software.com",
+		"updatedBy": "rommel@neptune-software.com",
+		"STATUS_ID": "FR-1011",
+		"STATUS": "New Import",
+		"DESCRIPTION": "Newly imported issue from GitHub"
+	},
+	{
+		"id": "26f37f61-9d5b-ef11-991a-000d3ad84563",
+		"createdAt": "1723791698480",
+		"updatedAt": "1723791698480",
+		"createdBy": "rommel@neptune-software.com",
+		"updatedBy": "rommel@neptune-software.com",
+		"STATUS_ID": "FR-1004",
+		"STATUS": "Feature Not Found",
+		"DESCRIPTION": "Feature is not found or still not available in the system"
+	}
+]

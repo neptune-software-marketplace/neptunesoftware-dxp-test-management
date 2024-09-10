@@ -1,0 +1,162 @@
+{
+	"id": "76b3596f-fb4a-ed11-819b-000d3aba7edc",
+	"createdAt": "2022-10-13T13:37:18.076Z",
+	"createdBy": "rommel@neptune-software.com",
+	"objects": [
+		{
+			"fieldNo": "618a65d0-3d78-476f-9c81-a7a1abd05a46",
+			"fieldName": "oApp",
+			"fieldParent": 0,
+			"fieldType": "sap.m.App",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "7d1c105a-3be3-4b34-b8d1-a9cfe3ae5c00",
+					"fieldName": "oPage",
+					"fieldParent": "618a65d0-3d78-476f-9c81-a7a1abd05a46",
+					"fieldType": "sap.m.Page",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "showHeader",
+							"grouping": "Properties",
+							"value": "false",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "showFooter",
+							"grouping": "Properties",
+							"value": "false",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "ebeab045-2622-440c-ebc0-8a96a8c5e041",
+							"fieldName": "oPDFViewer",
+							"fieldParent": "7d1c105a-3be3-4b34-b8d1-a9cfe3ae5c00",
+							"fieldType": "sap.m.PDFViewer",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "title",
+									"grouping": "Properties",
+									"value": "Neptune DXP — Test Plan",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "source",
+									"grouping": "Properties",
+									"value": "https://portal-dev.neptune-software.com/media/root/Test-Management/pdfs/Neptune-DXP-Open-Edition-Test-Plan.pdf",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "showDownloadButton",
+									"grouping": "Properties",
+									"value": "false",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "displayType",
+									"grouping": "Properties",
+									"value": "Embedded",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "736003e0-fced-4a95-92ac-2ec57655b984",
+					"fieldName": "RestAPI",
+					"fieldParent": 99999,
+					"fieldType": "neptune.restapi",
+					"script": "",
+					"customComponent": false,
+					"restSource": "9185a6cd-aa19-ef11-aaee-000d3add27c6",
+					"restOperation": "b54dd073-817b-4e17-a22f-cf7071afc690",
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "24.09.06.2212",
+	"application": "qa_test_plan_open_edition",
+	"title": "Neptune DXP — Test Plan",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": true,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_fiori_3",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "file:///css.css",
+	"compiledCss": "file://script/undefined/undefined.script",
+	"header": "",
+	"manifest": "",
+	"globalScript": "",
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"apis": [
+		{
+			"id": "9185a6cd-aa19-ef11-aaee-000d3add27c6",
+			"name": "Swagger Petstore - OpenAPI 3.0",
+			"ver": "24.05.24.0851"
+		}
+	],
+	"package": "29805ca6-5925-4de9-a761-47279405b041"
+}

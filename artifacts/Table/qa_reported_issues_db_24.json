@@ -1,0 +1,102 @@
+{
+	"id": "0b454f96-ad59-ef11-991a-000d3ad84563",
+	"createdAt": "2024-08-13T19:52:37.660Z",
+	"createdBy": "rommel@neptune-software.com",
+	"fields": [
+		{
+			"id": "77cabdce-0b9b-4468-8782-6376fd6f28a0",
+			"fieldName": "STATUS",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "22bfdb45-55f6-4dbf-d0ea-5f174fe2b318",
+			"fieldName": "BRIEF_TITLE",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "cbef2635-a428-4ff5-a774-dfe39908f164",
+			"fieldName": "DESCRIPTION",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "d2cc0a04-2e25-4524-d5bc-851ae12a5d06",
+			"fieldName": "DXP_EDITION",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "536baf37-6185-4c40-8165-39f7facbd6ca",
+			"fieldName": "APP_ID",
+			"fieldType": "mediumtext",
+			"isNullable": true
+		},
+		{
+			"id": "e4ad06a1-bded-43c5-b7fb-eb5182bb6cd1",
+			"fieldName": "STEPS",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "e62f1648-21a5-4bb3-aa21-cfbdca949d96",
+			"fieldName": "ACTUAL_BEHAVIOR",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "90f1fb63-3b0d-499a-b697-90fef1941ce8",
+			"fieldName": "EXPECTED_BEHAVIOR",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "8c8077a1-9cf7-41bd-82cb-bff810ddf7f7",
+			"fieldName": "COMMENTS",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "27f90e21-f9af-40b3-b5ba-ff905db83ff4",
+			"fieldName": "ISSUE_TYPE",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "7b4a283e-974b-4745-ba8b-cc581f326159",
+			"fieldName": "GITHUB_ID",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "fbfa8f7c-c390-4aa3-cde1-9429d2a0b18b",
+			"fieldName": "PRIORITY_NUMBER",
+			"fieldType": "integer",
+			"isUnique": false
+		},
+		{
+			"id": "c2e6606f-8ae5-43d8-dbe7-ca377383223a",
+			"fieldName": "USER_ID",
+			"fieldType": "mediumtext",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "qa_reported_issues_db_24",
+	"description": "24-LTS: List of reported issues from Neptune DXP Open and SAP Editions",
+	"ver": "24.08.16.1029",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"rolesRead": [],
+	"rolesWrite": [
+		{
+			"id": "c11eef3d-4db4-ed11-a8e0-000d3aba7851",
+			"name": "QA Member",
+			"ver": "24.09.10.1926"
+		}
+	]
+}

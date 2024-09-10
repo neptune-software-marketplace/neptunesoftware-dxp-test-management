@@ -1,0 +1,129 @@
+{
+	"id": "cdf15d02-203c-ee11-b8f0-000d3ab39e52",
+	"createdAt": "2023-08-16T10:31:08.163Z",
+	"createdBy": "rommel@neptune-software.com",
+	"translation": [
+		{
+			"language": "DE",
+			"title": "Heim"
+		},
+		{
+			"language": "EN"
+		},
+		{
+			"language": "EN"
+		},
+		{
+			"language": "NO",
+			"title": "Hjem"
+		},
+		{
+			"language": "PT",
+			"title": "Lar"
+		}
+	],
+	"tilesOrder": [
+		"5087551a-6459-ef11-991a-000d3ad84563",
+		"76c01631-6b59-ef11-991a-000d3ad84563",
+		"531b8cea-b059-ef11-991a-000d3ad84563"
+	],
+	"tilegroupsOrder": [
+		"3cfc1537-a859-ef11-991a-000d3ad84563",
+		"c8ec90f7-065a-ef11-991a-000d3ad84563",
+		"9bfb065e-135a-ef11-991a-000d3ad84563"
+	],
+	"configMessage": {},
+	"title": "Test Management",
+	"subTitle": "",
+	"description": null,
+	"titleAlignment": null,
+	"enableFullScreen": false,
+	"hideHeader": true,
+	"backgroundType": "cards",
+	"backgroundColor": "ColorSet10",
+	"backgroundShade": "ShadeD",
+	"type": null,
+	"image": "",
+	"icon": null,
+	"sort": null,
+	"inclFav": false,
+	"styleClass": null,
+	"enableScroll": false,
+	"enableShadeCalc": false,
+	"numTiles": null,
+	"enableMessage": false,
+	"ver": "24.09.02.0717",
+	"headColor": null,
+	"headTxtClr": null,
+	"subheadTxtClr": null,
+	"headBorderClr": null,
+	"headBorderWidth": null,
+	"imageTablet": null,
+	"imageMobile": null,
+	"imageCover": false,
+	"imageTabletCover": false,
+	"imageMobileCover": false,
+	"imageMobileHeight": null,
+	"imageTabletHeight": null,
+	"imageHeight": null,
+	"name": "Neptune DXP — QA: Main (24)",
+	"cardContentWidth": null,
+	"cardContentAlign": "",
+	"cardPerRow": null,
+	"cardStyle": null,
+	"cardHeightFit": false,
+	"imagePlacement": null,
+	"imageRepeat": null,
+	"imageSize": null,
+	"imageTabletPlacement": null,
+	"imageTabletRepeat": null,
+	"imageTabletSize": null,
+	"imageMobilePlacement": null,
+	"imageMobileRepeat": null,
+	"imageMobileSize": null,
+	"hideFromMenu": true,
+	"roleTag": null,
+	"cockpitTileGroup": false,
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"roles": [],
+	"tiles": [
+		{
+			"id": "76c01631-6b59-ef11-991a-000d3ad84563",
+			"name": "Neptune DXP — QA: Re-verification Test Progress (24)",
+			"title": "Re-verification Testing",
+			"ver": "24.09.10.1940"
+		},
+		{
+			"id": "531b8cea-b059-ef11-991a-000d3ad84563",
+			"name": "Neptune DXP — QA: Reported Issues (24)",
+			"title": "Reported Issues",
+			"ver": "24.09.10.1937"
+		},
+		{
+			"id": "5087551a-6459-ef11-991a-000d3ad84563",
+			"name": "Neptune DXP — QA: Feature Test Progress (24)",
+			"title": "Feature Testing",
+			"ver": "24.09.10.1939"
+		}
+	],
+	"tilegroups": [
+		{
+			"id": "c8ec90f7-065a-ef11-991a-000d3ad84563",
+			"name": "Neptune DXP — QA: Test Documentation (24)",
+			"title": "Test Documentation",
+			"ver": "24.09.01.2207"
+		},
+		{
+			"id": "9bfb065e-135a-ef11-991a-000d3ad84563",
+			"name": "Neptune DXP — QA: Links (24)",
+			"title": "Links",
+			"ver": "24.09.01.2207"
+		},
+		{
+			"id": "3cfc1537-a859-ef11-991a-000d3ad84563",
+			"name": "Neptune DXP — QA: Testing (24)",
+			"title": "Neptune DXP 24-LTS Testing",
+			"ver": "24.09.01.2207"
+		}
+	]
+}

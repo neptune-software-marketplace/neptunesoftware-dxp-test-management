@@ -1,0 +1,18 @@
+{
+	"id": "124c4c47-9f5b-ef11-991a-000d3ad84563",
+	"createdAt": "2024-08-16T07:15:15.413Z",
+	"createdBy": "rommel@neptune-software.com",
+	"settings": {
+		"previewable": true,
+		"tableid": "a3603308-9f5b-ef11-991a-000d3ad84563",
+		"hasDocumentation": false
+	},
+	"documentation": {},
+	"name": "qa_issue_status_github_db_conn",
+	"description": "Connector for the list of execution status when re-verifying the fixed GitHub issues",
+	"group": null,
+	"type": "T",
+	"ver": "24.08.16.0715",
+	"disabled": false,
+	"package": "29805ca6-5925-4de9-a761-47279405b041"
+}

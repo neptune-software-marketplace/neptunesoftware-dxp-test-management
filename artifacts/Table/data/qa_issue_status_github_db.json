@@ -1,0 +1,92 @@
+[
+	{
+		"id": "fe3e0a54-ea5e-ef11-991a-000d3ad84563",
+		"createdAt": "1724154603525",
+		"updatedAt": "1724154603525",
+		"createdBy": "rommel@neptune-software.com",
+		"updatedBy": "rommel@neptune-software.com",
+		"STATUS_ID": "GH-1009",
+		"STATUS": "Need More Info",
+		"DESCRIPTION": "Missing steps or need more details on how to verify"
+	},
+	{
+		"id": "e69a17aa-af5b-ef11-991a-000d3ad84563",
+		"createdAt": "1723799552664",
+		"updatedAt": "1723799552664",
+		"createdBy": "rommel@neptune-software.com",
+		"updatedBy": "rommel@neptune-software.com",
+		"STATUS_ID": "GH-1008",
+		"STATUS": "New Import",
+		"DESCRIPTION": "Newly imported issue from GitHub"
+	},
+	{
+		"id": "b3a13774-a65b-ef11-991a-000d3ad84563",
+		"createdAt": "1723795601752",
+		"updatedAt": "1723795601752",
+		"createdBy": "rommel@neptune-software.com",
+		"updatedBy": "rommel@neptune-software.com",
+		"STATUS_ID": "GH-1003",
+		"STATUS": "Fix in Next Private Build",
+		"DESCRIPTION": "Fix is provided but will be available in the next private build"
+	},
+	{
+		"id": "ae05e6e4-a65b-ef11-991a-000d3ad84563",
+		"createdAt": "1723795785553",
+		"updatedAt": "1723795785553",
+		"createdBy": "rommel@neptune-software.com",
+		"updatedBy": "rommel@neptune-software.com",
+		"STATUS_ID": "GH-1007",
+		"STATUS": "Won't Test",
+		"DESCRIPTION": "Verification is no longer required. Reported as bug but no needed fix is made"
+	},
+	{
+		"id": "77e2c595-a65b-ef11-991a-000d3ad84563",
+		"createdAt": "1723795655986",
+		"updatedAt": "1723795655986",
+		"createdBy": "rommel@neptune-software.com",
+		"updatedBy": "rommel@neptune-software.com",
+		"STATUS_ID": "GH-1004",
+		"STATUS": "Can't Test",
+		"DESCRIPTION": "Unable to verify the fix due to a blocker - another issue that prevents you to continue"
+	},
+	{
+		"id": "6b6579e3-a35b-ef11-991a-000d3ad84563",
+		"createdAt": "1723794502851",
+		"updatedAt": "1723794502851",
+		"createdBy": "rommel@neptune-software.com",
+		"updatedBy": "rommel@neptune-software.com",
+		"STATUS_ID": "GH-1002",
+		"STATUS": "Verified as Fixed",
+		"DESCRIPTION": "Solution has been tested and verified as fixed"
+	},
+	{
+		"id": "6a5274bb-a65b-ef11-991a-000d3ad84563",
+		"createdAt": "1723795720231",
+		"updatedAt": "1723795726673",
+		"createdBy": "rommel@neptune-software.com",
+		"updatedBy": "rommel@neptune-software.com",
+		"STATUS_ID": "GH-1005",
+		"STATUS": "Fix Not Working",
+		"DESCRIPTION": "The provided fix is not working, problem still exists"
+	},
+	{
+		"id": "2dd1c3c5-a35b-ef11-991a-000d3ad84563",
+		"createdAt": "1723794448178",
+		"updatedAt": "1723794448178",
+		"createdBy": "rommel@neptune-software.com",
+		"updatedBy": "rommel@neptune-software.com",
+		"STATUS_ID": "GH-1001",
+		"STATUS": "Waiting for Verification",
+		"DESCRIPTION": "Fix is provided and it is ready to be verified on the test system"
+	},
+	{
+		"id": "090507d0-a65b-ef11-991a-000d3ad84563",
+		"createdAt": "1723795756845",
+		"updatedAt": "1723795756845",
+		"createdBy": "rommel@neptune-software.com",
+		"updatedBy": "rommel@neptune-software.com",
+		"STATUS_ID": "GH-1006",
+		"STATUS": "Removed Functionality",
+		"DESCRIPTION": "The functionality has been removed or replaced"
+	}
+]

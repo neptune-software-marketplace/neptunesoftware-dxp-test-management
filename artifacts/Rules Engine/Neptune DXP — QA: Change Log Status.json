@@ -1,0 +1,45 @@
+{
+	"id": "1dd111bb-1e62-ef11-991a-000d3ad84563",
+	"createdAt": "2024-08-24T13:42:40.903Z",
+	"createdBy": "rommel@neptune-software.com",
+	"interface": [
+		{
+			"id": "7fd86ff6-30f9-4319-b484-44f600412cef",
+			"parent": "",
+			"name": "CHANGELOG_STATUS",
+			"objectType": "string",
+			"description": ""
+		}
+	],
+	"rules": [
+		{
+			"id": "60570b94-7231-4129-bc93-cae592a4d92f",
+			"result": "Success",
+			"items": [
+				{
+					"id": "ee7b8ee4-6f7d-4b1d-9395-0496da6e1d6f",
+					"field": "7fd86ff6-30f9-4319-b484-44f600412cef",
+					"operator": "equal",
+					"value": "CL-1001"
+				}
+			]
+		},
+		{
+			"id": "b6d2ace7-c6d7-4711-c064-eef26721c591",
+			"result": "Error",
+			"items": [
+				{
+					"id": "b3514655-1d46-43cc-f443-be2a3c40c281",
+					"field": "7fd86ff6-30f9-4319-b484-44f600412cef",
+					"operator": "equal",
+					"value": "CL-1002"
+				}
+			]
+		}
+	],
+	"name": "Neptune DXP — QA: Change Log Status",
+	"description": "Logic definition for the existence of an entry in the Change Log",
+	"ver": "24.08.24.1345",
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"roles": []
+}

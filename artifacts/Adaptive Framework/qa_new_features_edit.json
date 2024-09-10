@@ -29,20 +29,7 @@
 				"title": "New Features",
 				"subTitle": "Manage new feature item",
 				"avatarIcon": "sap-icon://add-favorite",
-				"avatarBackgroundColor": "Accent1",
-				"actionButtonLeft": false,
-				"iconButtonDelete": "",
-				"textButtonDelete": "Delete",
-				"textToastDelete": "Deleted",
-				"typeButtonDelete": "Reject",
-				"iconButtonAttachment": "",
-				"textButtonAttachment": "Add Attachment",
-				"typeButtonAttachment": "Transparent",
-				"tabAText": "Attachment",
-				"enableDelete": false,
-				"enableAttachment": false,
-				"enableUppercase": false,
-				"enablePadding": true
+				"avatarBackgroundColor": "Accent1"
 			},
 			"form": {
 				"enableCompact": false,
@@ -59,38 +46,32 @@
 			{
 				"name": "FEATURE",
 				"label": "FEATURE",
-				"type": "text",
-				"usage": "BOTH"
+				"type": "text"
 			},
 			{
 				"name": "FEATURE_ID",
 				"label": "FEATURE_ID",
-				"type": "integer",
-				"usage": "BOTH"
+				"type": "integer"
 			},
 			{
 				"name": "updatedAt",
 				"label": "Updated At",
-				"type": "timestamp",
-				"usage": "BOTH"
+				"type": "timestamp"
 			},
 			{
 				"name": "createdAt",
 				"label": "Created At",
-				"type": "timestamp",
-				"usage": "BOTH"
+				"type": "timestamp"
 			},
 			{
 				"name": "updatedBy",
 				"label": "Updated By",
-				"type": "text",
-				"usage": "BOTH"
+				"type": "text"
 			},
 			{
 				"name": "createdBy",
 				"label": "Created By",
-				"type": "text",
-				"usage": "BOTH"
+				"type": "text"
 			}
 		],
 		"fieldsSel": [
@@ -158,7 +139,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "23.8.2.195",
+	"ver": "22.10.12.122",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_edit",

@@ -1,0 +1,119 @@
+{
+	"id": "3cfc1537-a859-ef11-991a-000d3ad84563",
+	"createdAt": "2024-08-13T19:14:09.570Z",
+	"createdBy": "rommel@neptune-software.com",
+	"translation": [
+		{
+			"language": "DE",
+			"title": "Neptune DXP 24-LTS-Test",
+			"subTitle": "Liste der am aktuellen Neptune DXP 24-LTS zu testenden Elemente"
+		},
+		{
+			"language": "NO",
+			"title": "Neptune DXP 24-LTS-testing",
+			"subTitle": "Liste over elementer som skal testes på gjeldende Neptune DXP 24-LTS"
+		},
+		{
+			"language": "PT",
+			"title": "Teste Neptune DXP 24-LTS",
+			"subTitle": "Lista de itens a serem testados no atual Neptune DXP 24-LTS"
+		}
+	],
+	"tilesOrder": [
+		"39b757a4-3d5a-ef11-991a-000d3ad84563",
+		"8c116453-405a-ef11-991a-000d3ad84563",
+		"ea8d46d9-ab59-ef11-991a-000d3ad84563",
+		"b659b934-9d64-ef11-bdfd-000d3ad848de",
+		"682fe29e-af59-ef11-991a-000d3ad84563"
+	],
+	"tilegroupsOrder": [],
+	"configMessage": {
+		"type": "None"
+	},
+	"title": "Neptune DXP 24-LTS Testing",
+	"subTitle": "List of items to be tested on current Neptune DXP 24-LTS",
+	"description": "List of items to be tested on current Neptune DXP 24-LTS",
+	"titleAlignment": null,
+	"enableFullScreen": false,
+	"hideHeader": false,
+	"backgroundType": "cards",
+	"backgroundColor": "ColorSet10",
+	"backgroundShade": "ShadeD",
+	"type": null,
+	"image": null,
+	"icon": null,
+	"sort": null,
+	"inclFav": false,
+	"styleClass": null,
+	"enableScroll": false,
+	"enableShadeCalc": false,
+	"numTiles": null,
+	"enableMessage": false,
+	"ver": "24.09.01.2207",
+	"headColor": null,
+	"headTxtClr": null,
+	"subheadTxtClr": null,
+	"headBorderClr": null,
+	"headBorderWidth": null,
+	"imageTablet": null,
+	"imageMobile": null,
+	"imageCover": false,
+	"imageTabletCover": false,
+	"imageMobileCover": false,
+	"imageMobileHeight": null,
+	"imageTabletHeight": null,
+	"imageHeight": null,
+	"name": "Neptune DXP — QA: Testing (24)",
+	"cardContentWidth": null,
+	"cardContentAlign": null,
+	"cardPerRow": null,
+	"cardStyle": null,
+	"cardHeightFit": false,
+	"imagePlacement": null,
+	"imageRepeat": null,
+	"imageSize": null,
+	"imageTabletPlacement": null,
+	"imageTabletRepeat": null,
+	"imageTabletSize": null,
+	"imageMobilePlacement": null,
+	"imageMobileRepeat": null,
+	"imageMobileSize": null,
+	"hideFromMenu": true,
+	"roleTag": null,
+	"cockpitTileGroup": false,
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"roles": [],
+	"tiles": [
+		{
+			"id": "ea8d46d9-ab59-ef11-991a-000d3ad84563",
+			"name": "Neptune DXP — QA: GitHub Re-verification (OE-24LTS)",
+			"title": "Open Edition GitHub Issue Re-verification",
+			"ver": "24.08.27.1810"
+		},
+		{
+			"id": "b659b934-9d64-ef11-bdfd-000d3ad848de",
+			"name": "Neptune DXP — QA: GitHub Re-verification (SE-24LTS)",
+			"title": "SAP Edition GitHub Issue Re-verification",
+			"ver": "24.08.27.1755"
+		},
+		{
+			"id": "8c116453-405a-ef11-991a-000d3ad84563",
+			"name": "Neptune DXP — QA: Feature Testing (SAP Edition 24)",
+			"title": "Feature Testing (SAP Edition)",
+			"ver": "24.08.15.2141"
+		},
+		{
+			"id": "682fe29e-af59-ef11-991a-000d3ad84563",
+			"name": "Neptune DXP — QA: Neptune DXP 24-LTS Bug Tracker (24)",
+			"title": "Neptune DXP 24-LTS Bug Tracker",
+			"ver": "24.09.10.1400"
+		},
+		{
+			"id": "39b757a4-3d5a-ef11-991a-000d3ad84563",
+			"name": "Neptune DXP — QA: Feature Testing (Open Edition 24)",
+			"title": "Feature Testing (Open Edition)",
+			"ver": "24.08.23.1208"
+		}
+	],
+	"tilegroups": []
+}

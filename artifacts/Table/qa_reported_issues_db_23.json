@@ -85,8 +85,8 @@
 	"indices": [],
 	"foreignKeys": [],
 	"name": "qa_reported_issues_db_23",
-	"description": "List of reported issues from Neptune DXP Open and SAP Editions",
-	"ver": "23.10.2.1032",
+	"description": "23-LTS: List of reported issues from Neptune DXP Open and SAP Editions",
+	"ver": "24.08.13.1952",
 	"enableAudit": false,
 	"includeDataInPackage": false,
 	"package": "29805ca6-5925-4de9-a761-47279405b041",
@@ -94,8 +94,8 @@
 	"rolesWrite": [
 		{
 			"id": "c11eef3d-4db4-ed11-a8e0-000d3aba7851",
-			"name": "QA Team",
-			"ver": "24.06.03.2236"
+			"name": "QA Member",
+			"ver": "24.09.10.1926"
 		}
 	]
 }

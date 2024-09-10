@@ -1,0 +1,110 @@
+{
+	"id": "c8ec90f7-065a-ef11-991a-000d3ad84563",
+	"createdAt": "2024-08-14T06:32:25.173Z",
+	"createdBy": "rommel@neptune-software.com",
+	"translation": [
+		{
+			"language": "DE",
+			"title": "Testdokumentation",
+			"subTitle": "Testbezogene Dokumentation wie Testplan und -strategie"
+		},
+		{
+			"language": "NO",
+			"title": "Testdokumentasjon",
+			"subTitle": "Dokumentasjon knyttet til testing som testplan og strategi"
+		},
+		{
+			"language": "PT",
+			"title": "Documentação de teste",
+			"subTitle": "Documentação relacionada a testes, como plano e estratégia de teste"
+		}
+	],
+	"tilesOrder": [
+		"65b20767-a860-4cc2-8db5-0dbfb92c1a7f",
+		"9924340d-085a-ef11-991a-000d3ad84563",
+		"394f5f33-095a-ef11-991a-000d3ad84563",
+		"a0ddd5ef-095a-ef11-991a-000d3ad84563"
+	],
+	"tilegroupsOrder": [],
+	"configMessage": {},
+	"title": "Test Documentation",
+	"subTitle": "Documentation related to testing such as test plan and strategy",
+	"description": "24-LTS: Documentation related to testing such as test plan and strategy",
+	"titleAlignment": null,
+	"enableFullScreen": false,
+	"hideHeader": false,
+	"backgroundType": "cards",
+	"backgroundColor": "ColorSet10",
+	"backgroundShade": "ShadeD",
+	"type": null,
+	"image": null,
+	"icon": null,
+	"sort": null,
+	"inclFav": false,
+	"styleClass": null,
+	"enableScroll": false,
+	"enableShadeCalc": false,
+	"numTiles": null,
+	"enableMessage": false,
+	"ver": "24.09.01.2207",
+	"headColor": null,
+	"headTxtClr": null,
+	"subheadTxtClr": null,
+	"headBorderClr": null,
+	"headBorderWidth": null,
+	"imageTablet": null,
+	"imageMobile": null,
+	"imageCover": false,
+	"imageTabletCover": false,
+	"imageMobileCover": false,
+	"imageMobileHeight": null,
+	"imageTabletHeight": null,
+	"imageHeight": null,
+	"name": "Neptune DXP — QA: Test Documentation (24)",
+	"cardContentWidth": null,
+	"cardContentAlign": "",
+	"cardPerRow": null,
+	"cardStyle": null,
+	"cardHeightFit": false,
+	"imagePlacement": null,
+	"imageRepeat": null,
+	"imageSize": null,
+	"imageTabletPlacement": null,
+	"imageTabletRepeat": null,
+	"imageTabletSize": null,
+	"imageMobilePlacement": null,
+	"imageMobileRepeat": null,
+	"imageMobileSize": null,
+	"hideFromMenu": true,
+	"roleTag": null,
+	"cockpitTileGroup": false,
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"roles": [],
+	"tiles": [
+		{
+			"id": "a0ddd5ef-095a-ef11-991a-000d3ad84563",
+			"name": "Neptune DXP — QA: Release Testing (General Info) — SAP Edition (24)",
+			"title": "Release Testing — General Info",
+			"ver": "24.09.10.2116"
+		},
+		{
+			"id": "9924340d-085a-ef11-991a-000d3ad84563",
+			"name": "Neptune DXP — QA: Test Plan — Open Edition (24)",
+			"title": "Test Plan — Open Edition",
+			"ver": "24.09.10.2107"
+		},
+		{
+			"id": "65b20767-a860-4cc2-8db5-0dbfb92c1a7f",
+			"name": "Neptune DXP — QA: Test Strategy",
+			"title": "Test Strategy",
+			"ver": "24.08.15.2158"
+		},
+		{
+			"id": "394f5f33-095a-ef11-991a-000d3ad84563",
+			"name": "Neptune DXP — QA: Test Plan — SAP Edition (24)",
+			"title": "Test Plan — SAP Edition",
+			"ver": "24.09.10.2115"
+		}
+	],
+	"tilegroups": []
+}

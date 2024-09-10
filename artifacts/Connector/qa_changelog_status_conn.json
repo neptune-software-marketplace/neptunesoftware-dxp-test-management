@@ -1,0 +1,18 @@
+{
+	"id": "1797a653-1662-ef11-991a-000d3ad84563",
+	"createdAt": "2024-08-24T12:42:31.403Z",
+	"createdBy": "rommel@neptune-software.com",
+	"settings": {
+		"hasDocumentation": false,
+		"tableid": "c8f2490d-1662-ef11-991a-000d3ad84563",
+		"previewable": true
+	},
+	"documentation": {},
+	"name": "qa_changelog_status_conn",
+	"description": "List of status for the change log",
+	"group": null,
+	"type": "T",
+	"ver": "24.08.24.1242",
+	"disabled": false,
+	"package": "29805ca6-5925-4de9-a761-47279405b041"
+}

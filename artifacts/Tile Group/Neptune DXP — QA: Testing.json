@@ -50,7 +50,7 @@
 	"enableShadeCalc": false,
 	"numTiles": null,
 	"enableMessage": false,
-	"ver": "23.10.5.1945",
+	"ver": "24.08.13.1911",
 	"headColor": null,
 	"headTxtClr": null,
 	"subheadTxtClr": null,
@@ -95,7 +95,7 @@
 			"id": "5eff06d0-373c-ee11-b8f0-000d3ab39e52",
 			"name": "Neptune DXP — QA: Feature Testing (23)",
 			"title": "Feature Testing",
-			"ver": "23.10.24.1539"
+			"ver": "24.08.23.1156"
 		},
 		{
 			"id": "42af4dfc-723c-ee11-b8f0-000d3ab39e52",

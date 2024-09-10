@@ -1,0 +1,58 @@
+{
+	"id": "a7671c4c-6059-ef11-991a-000d3ad84563",
+	"createdAt": "2024-08-13T10:39:29.663Z",
+	"createdBy": "rommel@neptune-software.com",
+	"fields": [
+		{
+			"id": "b213bb10-5b04-4ce3-dee3-5a49acbb2159",
+			"fieldName": "USER_ID",
+			"fieldType": "mediumtext",
+			"isUnique": true,
+			"isNullable": true
+		},
+		{
+			"id": "4c016e26-636c-41c3-bc06-4997fe8f053e",
+			"fieldName": "DXP_VERSION",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "37f69a26-ec78-44f3-af4c-c2ab43b8b37c",
+			"fieldName": "NAME",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "e8b92b6f-2ee3-4708-f137-1c7a5d5dbae0",
+			"fieldName": "ACTIVE",
+			"fieldType": "boolean",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "560ad360-57b0-4e87-a273-2d077b7d568b",
+			"fieldName": "REMARKS",
+			"fieldType": "mediumtext",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "qa_team_members_db_24",
+	"description": "List of responsible testers for Neptune DXP 24-LTS",
+	"ver": "24.08.13.1039",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"rolesRead": [],
+	"rolesWrite": [
+		{
+			"id": "439fc28c-fd60-ee11-9937-000d3ab39899",
+			"name": "Testing Guild Member",
+			"ver": "24.09.10.2119"
+		}
+	]
+}

@@ -1,0 +1,42 @@
+{
+	"id": "c8f2490d-1662-ef11-991a-000d3ad84563",
+	"createdAt": "2024-08-24T12:40:34.180Z",
+	"createdBy": "rommel@neptune-software.com",
+	"fields": [
+		{
+			"id": "a949b2f4-c04e-4a63-fa8f-ab0a0ac4daff",
+			"fieldName": "STATUS_ID",
+			"fieldType": "mediumtext",
+			"isNullable": true,
+			"isUnique": true
+		},
+		{
+			"id": "187db09b-19d9-4cf6-84e1-9c3a08c6fd7f",
+			"fieldName": "STATUS",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "4932fd97-98c1-4e96-9768-d9562ff3c5ba",
+			"fieldName": "DESCRIPTION",
+			"fieldType": "text",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "qa_changelog_status_db",
+	"description": "List of status for the change log",
+	"ver": "24.08.24.1241",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"rolesRead": [],
+	"rolesWrite": [
+		{
+			"id": "439fc28c-fd60-ee11-9937-000d3ab39899",
+			"name": "Testing Guild Member",
+			"ver": "24.09.10.2119"
+		}
+	]
+}

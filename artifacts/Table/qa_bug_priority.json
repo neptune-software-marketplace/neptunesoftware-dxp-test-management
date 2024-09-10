@@ -20,7 +20,7 @@
 	"foreignKeys": [],
 	"name": "qa_bug_priority",
 	"description": "Definition for the priority of the reported issue",
-	"ver": "23.10.2.1032",
+	"ver": "24.08.16.1037",
 	"enableAudit": false,
 	"includeDataInPackage": true,
 	"package": "29805ca6-5925-4de9-a761-47279405b041",
@@ -28,8 +28,8 @@
 	"rolesWrite": [
 		{
 			"id": "439fc28c-fd60-ee11-9937-000d3ab39899",
-			"name": "Test Manager",
-			"ver": "23.10.2.829"
+			"name": "Testing Guild Member",
+			"ver": "24.09.10.2119"
 		}
 	]
 }

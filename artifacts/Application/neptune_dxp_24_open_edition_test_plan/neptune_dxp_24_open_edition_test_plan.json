@@ -1,0 +1,141 @@
+{
+	"id": "cd85fd63-b86f-ef11-bdfd-000d3ad77e7c",
+	"createdAt": "2024-09-10T21:06:02.683Z",
+	"createdBy": "rommel@neptune-software.com",
+	"objects": [
+		{
+			"fieldNo": "618a65d0-3d78-476f-9c81-a7a1abd05a46",
+			"fieldName": "oApp",
+			"fieldParent": 0,
+			"fieldType": "sap.m.App",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "7d1c105a-3be3-4b34-b8d1-a9cfe3ae5c00",
+					"fieldName": "oPage",
+					"fieldParent": "618a65d0-3d78-476f-9c81-a7a1abd05a46",
+					"fieldType": "sap.m.Page",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "showHeader",
+							"grouping": "Properties",
+							"value": "false",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "showFooter",
+							"grouping": "Properties",
+							"value": "false",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "ebeab045-2622-440c-ebc0-8a96a8c5e041",
+							"fieldName": "oPDFViewer",
+							"fieldParent": "7d1c105a-3be3-4b34-b8d1-a9cfe3ae5c00",
+							"fieldType": "sap.m.PDFViewer",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "title",
+									"grouping": "Properties",
+									"value": "Neptune DXP  — Open Edition 24-LTS (Test Plan)",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "source",
+									"grouping": "Properties",
+									"value": "https://portal-dev.neptune-software.com/media/root/Test-Management/pdfs/Neptune%20DXP%2024%20Open%20Edition%20-%20Test%20Plan.pdf",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "showDownloadButton",
+									"grouping": "Properties",
+									"value": "false",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "displayType",
+									"grouping": "Properties",
+									"value": "Embedded",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": []
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "24.09.10.2106",
+	"application": "neptune_dxp_24_open_edition_test_plan",
+	"title": "Neptune DXP  — Open Edition 24-LTS (Test Plan)",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": true,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_fiori_3",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "file:///css.css",
+	"compiledCss": "file://script/undefined/undefined.script",
+	"header": "",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"apis": [],
+	"package": "29805ca6-5925-4de9-a761-47279405b041"
+}

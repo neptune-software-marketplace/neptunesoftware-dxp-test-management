@@ -1,0 +1,18 @@
+{
+	"id": "90308a18-6559-ef11-991a-000d3ad84563",
+	"createdAt": "2024-08-13T11:13:42.006Z",
+	"createdBy": "rommel@neptune-software.com",
+	"settings": {
+		"tableid": "84ac6bf2-6459-ef11-991a-000d3ad84563",
+		"hasDocumentation": false,
+		"previewable": true
+	},
+	"documentation": {},
+	"name": "qa_feature_testing_conn_24",
+	"description": "Connector for Feature Testing list",
+	"group": null,
+	"type": "T",
+	"ver": "24.08.13.1129",
+	"disabled": false,
+	"package": "29805ca6-5925-4de9-a761-47279405b041"
+}

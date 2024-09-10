@@ -1,0 +1,352 @@
+{
+	"id": "ba70065d-c65b-ef11-991a-000d3ad84563",
+	"createdAt": "2024-08-16T11:55:03.913Z",
+	"createdBy": "rommel@neptune-software.com",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Default",
+				"iconButtonCreate": "",
+				"textButtonCreate": "New GitHub Issue",
+				"typeButtonCreate": "Emphasized",
+				"iconButtonExport": "sap-icon://excel-attachment",
+				"textButtonExport": "",
+				"typeButtonExport": "Transparent",
+				"iconButtonImport": "sap-icon://fa-solid/file-import",
+				"textButtonImport": "",
+				"typeButtonImport": "Transparent",
+				"iconButtonMultiSelect": "",
+				"textButtonMultiSelect": "MultiSelect",
+				"typeButtonMultiSelect": "Emphasized",
+				"iconButtonRun": "",
+				"textButtonRun": "Update",
+				"typeButtonRun": "Default",
+				"enableRun": false,
+				"enableCreate": false,
+				"enableClose": false,
+				"enableDelete": false,
+				"enableExport": false,
+				"enableImport": false,
+				"enableMultiSelect": false,
+				"enableVariant": false,
+				"hideHeader": true,
+				"autoRun": true,
+				"autoRunFocus": false,
+				"searchLabel": "Search",
+				"searchPlaceholder": "",
+				"title": "GitHub Issue Re-verification",
+				"subTitle": "List of fixed GitHub issues that require re-verification",
+				"avatarIcon": "sap-icon://fa-brands/github",
+				"avatarBackgroundColor": "Accent1",
+				"actionButtonLeft": false,
+				"_navigationMultiSelect": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Default"
+				}
+			},
+			"form": {
+				"enableCompact": false,
+				"headerExpanded": false,
+				"headerPreserveState": true
+			},
+			"table": {
+				"enablePagination": false,
+				"paginationShowSelection": false,
+				"paginationRows": "1000",
+				"action1Text": "",
+				"action1Type": "Transparent",
+				"action2Text": "",
+				"action2Type": "Transparent",
+				"action3Text": "",
+				"action3Type": "Transparent",
+				"alternateRowColors": true,
+				"enableCompact": true,
+				"enableAction1": false,
+				"enableAction2": false,
+				"enableAction3": false,
+				"fixedLayout": false,
+				"inset": false,
+				"initialGroupField": "APP_ID",
+				"initialSortField": "updatedAt",
+				"initialSortOrder": "DESC",
+				"showSeparators": "All",
+				"enableAutoPopin": false,
+				"enableAction4": false,
+				"enableAction5": false,
+				"action4Text": "",
+				"action4Type": "Transparent",
+				"action5Text": "",
+				"action5Type": "Transparent",
+				"initialGroupOrder": "ASC"
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "ISSUE_ID",
+				"label": "ISSUE_ID",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "ISSUE_TITLE",
+				"label": "ISSUE_TITLE",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "ISSUE_BODY",
+				"label": "ISSUE_BODY",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "COMMENTS",
+				"label": "COMMENTS",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "DXP_EDITION",
+				"label": "DXP_EDITION",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "VERIFICATION_STEPS",
+				"label": "VERIFICATION_STEPS",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "STATUS",
+				"label": "STATUS",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "REMARKS",
+				"label": "REMARKS",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "USER_ID",
+				"label": "USER_ID",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "APP_ID",
+				"label": "APP_ID",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [
+			{
+				"visible": true,
+				"name": "USER_ID",
+				"text": "USER_ID",
+				"fieldPos": 1,
+				"type": "SingleSelectLookup",
+				"lookupTable": "qa_team_members_db_24",
+				"lookupFieldKey": "USER_ID",
+				"lookupFieldText": "NAME",
+				"lookupShowOnlyText": true
+			}
+		],
+		"fieldsRun": [
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": false,
+				"name": "APP_ID",
+				"text": "APP_ID",
+				"fieldPos": 2,
+				"valueType": "Lookup",
+				"valueLookup": {
+					"table": "qa_application_list_db",
+					"textField": "NAME",
+					"keyField": [
+						{
+							"fieldName": "APP_ID",
+							"key": "APP_ID",
+							"value": ""
+						}
+					],
+					"hideKey": true,
+					"butType": "Accept"
+				},
+				"formatter": "uppercase"
+			},
+			{
+				"enableFilter": true,
+				"enableSort": false,
+				"visible": true,
+				"name": "ISSUE_ID",
+				"text": "GITHUB ID",
+				"fieldPos": 3,
+				"type": "Link",
+				"width": "7%",
+				"linkHrefType": "Rule",
+				"linkHrefBinding": "ISSUE_ID",
+				"valueType": "",
+				"valueFixed": "View on GitHub",
+				"linkHrefRule": "C8A3BF4B-7A3C-EE11-B8F0-000D3AB39E52",
+				"hAlign": "Center"
+			},
+			{
+				"enableFilter": false,
+				"enableSort": false,
+				"visible": true,
+				"name": "DXP_EDITION",
+				"text": "DXP EDITION",
+				"fieldPos": 4,
+				"enableGroup": false,
+				"valueType": "Lookup",
+				"valueLookup": {
+					"table": "qa_neptune_dxp_edition",
+					"textField": "VERSION",
+					"keyField": [
+						{
+							"fieldName": "VERSION_ID",
+							"key": "DXP_EDITION",
+							"value": ""
+						}
+					],
+					"hideKey": true,
+					"butType": "Accept"
+				},
+				"formatter": ""
+			},
+			{
+				"enableFilter": true,
+				"enableSort": false,
+				"visible": true,
+				"name": "ISSUE_TITLE",
+				"text": "TITLE",
+				"fieldPos": 5,
+				"wrapping": true,
+				"width": "53%"
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": false,
+				"name": "USER_ID",
+				"text": "ASSIGNEE",
+				"fieldPos": 6,
+				"valueType": "Lookup",
+				"valueLookup": {
+					"table": "qa_team_members_db",
+					"textField": "NAME",
+					"keyField": [
+						{
+							"fieldName": "USER_ID",
+							"key": "USER_ID",
+							"value": ""
+						}
+					],
+					"hideKey": true,
+					"butType": "Accept"
+				}
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "STATUS",
+				"text": "STATUS",
+				"fieldPos": 7,
+				"valueType": "Lookup",
+				"valueLookup": {
+					"table": "qa_issue_status_github_db",
+					"textField": "STATUS",
+					"keyField": [
+						{
+							"fieldName": "STATUS_ID",
+							"key": "STATUS",
+							"value": ""
+						}
+					],
+					"hideKey": true,
+					"butType": "Accept"
+				},
+				"type": "ObjectStatus",
+				"statusStateType": "Rule",
+				"statusStateRule": "0A737BA1-2A3D-EE11-B8F0-000D3AB39E52"
+			},
+			{
+				"enableFilter": false,
+				"enableSort": true,
+				"visible": true,
+				"name": "updatedAt",
+				"text": "MODIFIED ON",
+				"fieldPos": 8,
+				"formatter": "date00",
+				"width": "10%"
+			}
+		],
+		"defaultVariant": {
+			"id": "16a4d241-22e5-41ed-97d4-7ead15543675",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "qa_github_issue_tester_tablist_24",
+	"description": "24-LTS: List of assigned issues to be re-verified shown as tab in edit page",
+	"group": "",
+	"type": "C",
+	"connectorid": "15d091d8-6859-ef11-991a-000d3ad84563",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "24.08.16.1237",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_list_20231004",
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

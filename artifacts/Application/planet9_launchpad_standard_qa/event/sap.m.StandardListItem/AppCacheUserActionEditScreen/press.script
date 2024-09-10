@@ -1,2 +1,0 @@
-sap.n.Customization.setActivation(true);
-sap.n.Launchpad.settingsMenuClose();

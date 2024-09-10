@@ -1,0 +1,17 @@
+{
+	"id": "b5204bb0-9a64-ef11-bdfd-000d3ad848de",
+	"createdAt": "2024-08-27T17:35:12.440Z",
+	"createdBy": "rommel@neptune-software.com",
+	"settings": {
+		"tableid": "43cf3f3f-9a64-ef11-bdfd-000d3ad848de",
+		"hasDocumentation": false
+	},
+	"documentation": {},
+	"name": "qa_github_issues_24_se_conn",
+	"description": "SE-24LTS: Data source for SAP Edition GitHub issues that require re-verification",
+	"group": null,
+	"type": "T",
+	"ver": "24.08.27.1735",
+	"disabled": false,
+	"package": "29805ca6-5925-4de9-a761-47279405b041"
+}

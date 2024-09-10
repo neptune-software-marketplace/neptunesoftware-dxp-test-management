@@ -1,0 +1,81 @@
+{
+	"id": "108ebfb7-3c68-ef11-bdfd-000d3ad848de",
+	"createdAt": "2024-09-01T08:32:27.253Z",
+	"createdBy": "rommel@neptune-software.com",
+	"translation": [],
+	"tilesOrder": [
+		"08427cab-3d68-ef11-bdfd-000d3ad848de"
+	],
+	"tilegroupsOrder": [],
+	"configMessage": {
+		"type": "None"
+	},
+	"title": "QA Portal Cockpit",
+	"subTitle": null,
+	"description": null,
+	"titleAlignment": null,
+	"enableFullScreen": false,
+	"hideHeader": false,
+	"backgroundType": "cards",
+	"backgroundColor": "",
+	"backgroundShade": null,
+	"type": null,
+	"image": null,
+	"icon": null,
+	"sort": null,
+	"inclFav": false,
+	"styleClass": null,
+	"enableScroll": false,
+	"enableShadeCalc": false,
+	"numTiles": null,
+	"enableMessage": false,
+	"ver": "24.09.01.0840",
+	"headColor": null,
+	"headTxtClr": null,
+	"subheadTxtClr": null,
+	"headBorderClr": null,
+	"headBorderWidth": null,
+	"imageTablet": null,
+	"imageMobile": null,
+	"imageCover": false,
+	"imageTabletCover": false,
+	"imageMobileCover": false,
+	"imageMobileHeight": null,
+	"imageTabletHeight": null,
+	"imageHeight": null,
+	"name": "Neptune DXP — QA: QA Portal Cockpit",
+	"cardContentWidth": null,
+	"cardContentAlign": null,
+	"cardPerRow": null,
+	"cardStyle": null,
+	"cardHeightFit": false,
+	"imagePlacement": null,
+	"imageRepeat": null,
+	"imageSize": null,
+	"imageTabletPlacement": null,
+	"imageTabletRepeat": null,
+	"imageTabletSize": null,
+	"imageMobilePlacement": null,
+	"imageMobileRepeat": null,
+	"imageMobileSize": null,
+	"hideFromMenu": false,
+	"roleTag": null,
+	"cockpitTileGroup": true,
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"roles": [
+		{
+			"id": "c11eef3d-4db4-ed11-a8e0-000d3aba7851",
+			"name": "QA Member",
+			"ver": "24.09.10.1926"
+		}
+	],
+	"tiles": [
+		{
+			"id": "08427cab-3d68-ef11-bdfd-000d3ad848de",
+			"name": "Neptune DXP — QA: QA Portal Cockpit",
+			"title": "Test Management Tool",
+			"ver": "24.09.01.0840"
+		}
+	],
+	"tilegroups": []
+}

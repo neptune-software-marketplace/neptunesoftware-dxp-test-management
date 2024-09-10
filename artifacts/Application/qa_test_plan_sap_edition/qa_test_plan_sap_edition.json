@@ -91,7 +91,7 @@
 			"data": []
 		}
 	],
-	"componentInterface": null,
+	"componentInterface": [],
 	"ver": "22.10.14.1445",
 	"application": "qa_test_plan_sap_edition",
 	"title": "Neptune DXP — Test Plan",

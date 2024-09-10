@@ -16,29 +16,16 @@
 			"fieldType": "mediumtext",
 			"isNullable": true,
 			"isUnique": true
-		},
-		{
-			"id": "71b45cef-82f0-4d09-a761-8a36f839dc33",
-			"fieldName": "DESCRIPTION",
-			"fieldType": "mediumtext",
-			"isUnique": false,
-			"isNullable": true
 		}
 	],
 	"indices": [],
 	"foreignKeys": [],
 	"name": "qa_application_list_db",
 	"description": "List of applications in SAP and Open Edition",
-	"ver": "23.10.2.1029",
+	"ver": "22.10.12.1255",
 	"enableAudit": false,
 	"includeDataInPackage": false,
 	"package": "29805ca6-5925-4de9-a761-47279405b041",
 	"rolesRead": [],
-	"rolesWrite": [
-		{
-			"id": "439fc28c-fd60-ee11-9937-000d3ab39899",
-			"name": "Test Manager",
-			"ver": "23.10.2.829"
-		}
-	]
+	"rolesWrite": []
 }

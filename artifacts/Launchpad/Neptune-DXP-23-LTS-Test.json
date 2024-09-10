@@ -5,7 +5,7 @@
 	"extUserRoles": [],
 	"extUserDepartments": [],
 	"catOrder": [
-		"cdf15d02-203c-ee11-b8f0-000d3ab39e52"
+		"7650b03d-7759-ef11-991a-000d3ad84563"
 	],
 	"layout": [
 		{
@@ -266,7 +266,8 @@
 		"activeAppsSide": false,
 		"loginSubTitle": "Please login using your Azure account",
 		"disableCustomizations": true,
-		"loginTitle": "Neptune DXP 23-LTS — QA"
+		"loginTitle": "Neptune DXP 23-LTS — QA",
+		"showAccessibilityFocusIndicator": true
 	},
 	"enhancement": [],
 	"name": "Neptune-DXP-23-LTS-Test",
@@ -302,7 +303,7 @@
 	"searchEnableShadeCalc": null,
 	"usedEnableShadeCalc": null,
 	"enableTrace": false,
-	"ver": "23.10.30.1713",
+	"ver": "24.08.23.1217",
 	"pwa_enable": false,
 	"pwa_customImageIos": null,
 	"pwa_customImageAndroidOld": null,
@@ -315,10 +316,10 @@
 	"package": "29805ca6-5925-4de9-a761-47279405b041",
 	"cat": [
 		{
-			"id": "cdf15d02-203c-ee11-b8f0-000d3ab39e52",
-			"name": "Neptune DXP — QA: Main",
+			"id": "7650b03d-7759-ef11-991a-000d3ad84563",
+			"name": "Neptune DXP — QA: Main (23)",
 			"title": "Home",
-			"ver": "23.11.3.1412"
+			"ver": "24.08.13.1911"
 		}
 	]
 }

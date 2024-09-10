@@ -1,0 +1,39 @@
+{
+	"id": "597bca46-0666-ef11-bdfd-000d3ad848de",
+	"createdAt": "2024-08-29T12:57:50.496Z",
+	"createdBy": "jens-uwe.gross@neptune-software.com",
+	"scripts": [
+		{
+			"id": "E7CBE270-615A-EF11-991A-000D3AD84563",
+			"name": "GetTestIssues",
+			"number": 1,
+			"abort": true,
+			"continue": false,
+			"skipto": false
+		},
+		{
+			"id": "033AE90F-1566-EF11-BDFD-000D3AD848DE",
+			"name": "GetTestIssuesSapEdition",
+			"number": 2,
+			"abort": true,
+			"continue": false,
+			"skipto": false
+		}
+	],
+	"name": "LTS 24 Test Management Automation",
+	"description": "Import relevant GitHub issues into the Test Management database",
+	"alertEmail": null,
+	"active": true,
+	"intervalMonths": null,
+	"intervalDays": null,
+	"intervalHours": 2,
+	"intervalMinutes": null,
+	"intervalSeconds": null,
+	"maxRuntimeSeconds": "0",
+	"restartMaxRuntimeAbort": false,
+	"startdate": "2024-08-29T13:00:53.000Z",
+	"stopdate": "9999-12-31T00:00:00.000Z",
+	"executeInNextCycle": false,
+	"ver": "24.09.03.1154",
+	"package": "29805ca6-5925-4de9-a761-47279405b041"
+}

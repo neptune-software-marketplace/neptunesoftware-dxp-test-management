@@ -5,8 +5,8 @@
 	"translation": [],
 	"storeItem": {},
 	"settings": null,
-	"title": "Launchpad",
-	"subTitle": "User’s primary access point, responsible for managing the login process",
+	"title": "",
+	"subTitle": "",
 	"description": null,
 	"categoryID": null,
 	"sort": null,
@@ -56,10 +56,10 @@
 	"helpText": null,
 	"helpEnabled": false,
 	"openClickTile": true,
-	"ver": "23.11.16.1136",
+	"ver": "24.08.14.1102",
 	"actionWebApp": "",
 	"name": "Neptune DXP — QA: Launchpad",
-	"cardWidth": "Medium",
+	"cardWidth": "",
 	"cardHeight": null,
 	"cardHeightFit": false,
 	"cardImage": null,
@@ -67,8 +67,8 @@
 	"cardButtonIconOnly": false,
 	"imagePlacement": null,
 	"imageRepeat": null,
-	"imageSize": null,
-	"imagePosition": "top",
+	"imageSize": "contain",
+	"imagePosition": "cover",
 	"openText": null,
 	"imageHeight": "260px",
 	"bodyHeight": null,
@@ -80,8 +80,8 @@
 	"roles": [
 		{
 			"id": "439fc28c-fd60-ee11-9937-000d3ab39899",
-			"name": "Test Manager",
-			"ver": "23.10.2.829"
+			"name": "Testing Guild Member",
+			"ver": "24.09.10.2119"
 		}
 	]
 }

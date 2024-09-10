@@ -1,0 +1,57 @@
+{
+	"id": "d1f302d3-bb5b-ef11-991a-000d3ad84563",
+	"createdAt": "2024-08-16T10:39:33.920Z",
+	"createdBy": "rommel@neptune-software.com",
+	"interface": [
+		{
+			"id": "14ef8c60-7c82-4288-d61d-a9a7604997df",
+			"parent": "",
+			"name": "PRIORITY_NUMBER",
+			"objectType": "number",
+			"description": ""
+		}
+	],
+	"rules": [
+		{
+			"id": "d3979f9a-ed7a-47cc-fa3c-dca2f0abed81",
+			"result": "Error",
+			"items": [
+				{
+					"id": "8c5a050e-27be-42df-eaa3-6e5f65474746",
+					"field": "14ef8c60-7c82-4288-d61d-a9a7604997df",
+					"operator": "equal",
+					"value": "1"
+				}
+			]
+		},
+		{
+			"id": "057f2475-e173-4ebf-ba42-2d70491d26e4",
+			"result": "Warning",
+			"items": [
+				{
+					"id": "01f4f672-7e4c-458f-8fd0-3c5a4cd9ff2a",
+					"field": "14ef8c60-7c82-4288-d61d-a9a7604997df",
+					"operator": "equal",
+					"value": "2"
+				}
+			]
+		},
+		{
+			"id": "ffda538a-0689-4311-cac9-a45ba6c71312",
+			"result": "Success",
+			"items": [
+				{
+					"id": "ce868616-2757-434f-867a-b5942c15b7b2",
+					"field": "14ef8c60-7c82-4288-d61d-a9a7604997df",
+					"operator": "equal",
+					"value": "3"
+				}
+			]
+		}
+	],
+	"name": "Neptune DXP — QA: Priority",
+	"description": "Logic definition for the priority of the reported issues",
+	"ver": "24.08.16.1041",
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"roles": []
+}

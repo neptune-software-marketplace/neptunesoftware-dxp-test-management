@@ -110,30 +110,6 @@
 		},
 		"fieldCatalog": [
 			{
-				"name": "COMMENTS",
-				"label": "COMMENTS",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
-				"name": "createdAt",
-				"label": "Created At",
-				"type": "timestamp",
-				"usage": "BOTH"
-			},
-			{
-				"name": "createdBy",
-				"label": "Created By",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
-				"name": "DXP_EDITION",
-				"label": "DXP_EDITION",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
 				"name": "ISSUE_ID",
 				"label": "ISSUE_ID",
 				"type": "text",
@@ -146,14 +122,32 @@
 				"usage": "BOTH"
 			},
 			{
-				"name": "REMARKS",
-				"label": "REMARKS",
+				"name": "COMMENTS",
+				"label": "COMMENTS",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "DXP_EDITION",
+				"label": "DXP_EDITION",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "VERIFICATION_STEPS",
+				"label": "VERIFICATION_STEPS",
 				"type": "text",
 				"usage": "BOTH"
 			},
 			{
 				"name": "STATUS",
 				"label": "STATUS",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "REMARKS",
+				"label": "REMARKS",
 				"type": "text",
 				"usage": "BOTH"
 			},
@@ -170,14 +164,20 @@
 				"usage": "BOTH"
 			},
 			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
 				"name": "updatedBy",
 				"label": "Updated By",
 				"type": "text",
 				"usage": "BOTH"
 			},
 			{
-				"name": "VERIFICATION_STEPS",
-				"label": "VERIFICATION_STEPS",
+				"name": "createdBy",
+				"label": "Created By",
 				"type": "text",
 				"usage": "BOTH"
 			}
@@ -200,12 +200,12 @@
 				"text": "Status",
 				"fieldPos": 2,
 				"type": "MultiSelectLookup",
-				"lookupTable": "qa_issue_status_23_db",
+				"lookupTable": "qa_issue_status_db",
 				"lookupFieldKey": "STATUS_ID",
 				"lookupFieldText": "STATUS",
 				"lookupShowOnlyText": true,
-				"lookupFieldAdditional": "ISSUE_TYPE",
-				"lookupFieldGrouping1": true
+				"lookupFieldAdditional": "DESCRIPTION",
+				"lookupFieldGrouping1": false
 			},
 			{
 				"visible": true,
@@ -306,7 +306,7 @@
 				"fieldPos": 8,
 				"valueType": "Lookup",
 				"valueLookup": {
-					"table": "qa_issue_status_23_db",
+					"table": "qa_issue_status_db",
 					"textField": "STATUS",
 					"keyField": [
 						{
@@ -353,7 +353,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "23.10.30.1545",
+	"ver": "24.08.13.1946",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_list_20231004",

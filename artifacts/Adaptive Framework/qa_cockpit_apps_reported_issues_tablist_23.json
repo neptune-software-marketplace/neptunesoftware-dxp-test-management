@@ -91,14 +91,38 @@
 		},
 		"fieldCatalog": [
 			{
-				"name": "STATUS",
-				"label": "STATUS",
+				"name": "ACTUAL_BEHAVIOR",
+				"label": "ACTUAL_BEHAVIOR",
 				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "APP_ID",
+				"label": "APP_ID",
+				"type": "mediumtext",
 				"usage": "BOTH"
 			},
 			{
 				"name": "BRIEF_TITLE",
 				"label": "BRIEF_TITLE",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "COMMENTS",
+				"label": "COMMENTS",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
 				"type": "text",
 				"usage": "BOTH"
 			},
@@ -115,38 +139,8 @@
 				"usage": "BOTH"
 			},
 			{
-				"name": "APP_ID",
-				"label": "APP_ID",
-				"type": "mediumtext",
-				"usage": "BOTH"
-			},
-			{
-				"name": "STEPS",
-				"label": "STEPS",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
-				"name": "ACTUAL_BEHAVIOR",
-				"label": "ACTUAL_BEHAVIOR",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
 				"name": "EXPECTED_BEHAVIOR",
 				"label": "EXPECTED_BEHAVIOR",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
-				"name": "COMMENTS",
-				"label": "COMMENTS",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
-				"name": "ISSUE_TYPE",
-				"label": "ISSUE_TYPE",
 				"type": "text",
 				"usage": "BOTH"
 			},
@@ -157,9 +151,27 @@
 				"usage": "BOTH"
 			},
 			{
+				"name": "ISSUE_TYPE",
+				"label": "ISSUE_TYPE",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
 				"name": "PRIORITY_NUMBER",
 				"label": "PRIORITY_NUMBER",
 				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "STATUS",
+				"label": "STATUS",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "STEPS",
+				"label": "STEPS",
+				"type": "text",
 				"usage": "BOTH"
 			},
 			{
@@ -175,20 +187,8 @@
 				"usage": "BOTH"
 			},
 			{
-				"name": "createdAt",
-				"label": "Created At",
-				"type": "timestamp",
-				"usage": "BOTH"
-			},
-			{
 				"name": "updatedBy",
 				"label": "Updated By",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
-				"name": "createdBy",
-				"label": "Created By",
 				"type": "text",
 				"usage": "BOTH"
 			}
@@ -346,7 +346,7 @@
 				"type": "ObjectStatus",
 				"valueType": "Lookup",
 				"valueLookup": {
-					"table": "qa_issue_status_23_db",
+					"table": "qa_issue_status_db",
 					"textField": "STATUS",
 					"keyField": [
 						{
@@ -530,7 +530,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "23.10.5.219",
+	"ver": "24.08.14.1213",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_list_20231004",

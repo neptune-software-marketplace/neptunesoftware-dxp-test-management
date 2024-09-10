@@ -6,12 +6,7 @@
 		{
 			"language": "DE",
 			"title": "Teststrategie",
-			"subTitle": "Dokument, das vom QA-Team als Leitfaden für die Testverwaltung für dieses Projekt verwendet wird"
-		},
-		{
-			"language": "EN",
-			"title": "Test Strategy",
-			"subTitle": "Document used by the QA team to guide how testing will be managed for this project"
+			"subTitle": "Vom QA-Team verwendetes Dokument zur Anleitung der Durchführung von Tests für dieses Projekt"
 		},
 		{
 			"language": "NO",
@@ -21,7 +16,7 @@
 		{
 			"language": "PT",
 			"title": "Estratégia de teste",
-			"subTitle": "Documento usado pela equipe de controle de qualidade para orientar como os testes serão gerenciados neste projeto"
+			"subTitle": "Documento usado pela equipe de controle de qualidade para orientar como os testes serão gerenciados para este projeto"
 		}
 	],
 	"storeItem": {},
@@ -36,7 +31,7 @@
 	"categoryID": null,
 	"sort": null,
 	"urlApplication": null,
-	"actionApplication": "neptune_dxp_test_strategy",
+	"actionApplication": "qa_test_strategy",
 	"actionParameters": null,
 	"actionURL": "",
 	"openDialog": false,
@@ -46,7 +41,7 @@
 	"frameType": null,
 	"type": null,
 	"image": "/media/root/Test-Management/images/Test-Streategy-4.jpg",
-	"icon": "sap-icon://bo-strategy-management",
+	"icon": "sap-icon://fa-regular/lightbulb",
 	"backgroundType": null,
 	"backgroundColor": null,
 	"backgroundShade": null,
@@ -78,10 +73,10 @@
 	"blackoutEnabled": false,
 	"blackoutText": null,
 	"blackoutDescription": null,
-	"helpText": "",
+	"helpText": "<p><br></p>",
 	"helpEnabled": false,
 	"openClickTile": true,
-	"ver": "23.9.28.131",
+	"ver": "24.08.15.2158",
 	"actionWebApp": "",
 	"name": "Neptune DXP — QA: Test Strategy",
 	"cardWidth": "Medium",

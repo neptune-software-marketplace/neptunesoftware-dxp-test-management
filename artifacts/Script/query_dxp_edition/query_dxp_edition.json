@@ -1,0 +1,27 @@
+{
+	"id": "ce705ccb-a964-ef11-bdfd-000d3ad848de",
+	"createdAt": "2024-08-27T19:23:10.606Z",
+	"createdBy": "rommel@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "33B657B2-F63D-43CA-AB36-16FD604088D9",
+			"name": "qa_neptune_dxp_edition",
+			"contextname": "qa_neptune_dxp_edition"
+		}
+	],
+	"apis": [],
+	"name": "query_dxp_edition",
+	"ver": "24.08.27.1929",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "804a083b-b0df-447e-a677-91db0212db0a",
+	"package": "29805ca6-5925-4de9-a761-47279405b041"
+}

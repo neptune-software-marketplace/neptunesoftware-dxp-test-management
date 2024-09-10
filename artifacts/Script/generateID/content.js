@@ -1,5 +1,5 @@
 result.data = generateID();
-console.log(result.data);
+
 complete();
 
 function generateID() {

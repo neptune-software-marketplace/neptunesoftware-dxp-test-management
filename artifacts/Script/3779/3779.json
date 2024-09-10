@@ -1,0 +1,21 @@
+{
+	"id": "0c0d2417-e96d-ef11-bdfd-000d3ad77e7c",
+	"createdAt": "2024-09-08T13:48:56.510Z",
+	"createdBy": "rommel@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [],
+	"apis": [],
+	"name": "3779",
+	"ver": "24.09.08.1349",
+	"description": null,
+	"folder": "",
+	"content": "console.log(\"Test\")",
+	"useAsGlobalScript": false,
+	"transpiledContent": "file:///transpiledContent.ts",
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "typescript",
+	"jsscriptGroup": "804a083b-b0df-447e-a677-91db0212db0a",
+	"package": "29805ca6-5925-4de9-a761-47279405b041"
+}

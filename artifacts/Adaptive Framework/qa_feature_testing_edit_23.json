@@ -44,7 +44,10 @@
 				"enableUppercase": true,
 				"enablePadding": true,
 				"dynamicTitle": "",
-				"dynamicSubTitle": "TEST_TITLE"
+				"dynamicSubTitle": "TEST_TITLE",
+				"textConfirmDelete": "Do you want to delete this entry ? ",
+				"titleConfirmDelete": "Delete ",
+				"requiredFieldsToast": "Please fill in all the required fields"
 			},
 			"form": {
 				"enableCompact": false,
@@ -229,14 +232,14 @@
 				"enableNewForm": true,
 				"labelSpanM": "12",
 				"type": "SingleSelectLookup",
-				"lookupTable": "qa_issue_status_23_db",
+				"lookupTable": "qa_issue_status_db",
 				"lookupFieldKey": "STATUS_ID",
 				"lookupFieldText": "STATUS",
-				"lookupFieldAdditional": "ISSUE_TYPE",
+				"lookupFieldAdditional": "DESCRIPTION",
 				"lookupShowOnlyText": true,
 				"required": true,
 				"default": "FR-1003",
-				"lookupFieldGrouping1": true
+				"lookupFieldGrouping1": false
 			},
 			{
 				"inputFormatter": "",
@@ -336,14 +339,14 @@
 		}
 	},
 	"name": "qa_feature_testing_edit_23",
-	"description": "",
+	"description": "23-LTS: Manage test cases for feature testing",
 	"group": "",
 	"type": "C",
 	"connectorid": "282c5d65-173c-ee11-b8f0-000d3ab39e52",
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "23.10.30.1617",
+	"ver": "24.08.13.2035",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_edit",

@@ -1,0 +1,18 @@
+{
+	"id": "15d091d8-6859-ef11-991a-000d3ad84563",
+	"createdAt": "2024-08-13T11:40:32.666Z",
+	"createdBy": "rommel@neptune-software.com",
+	"settings": {
+		"previewable": true,
+		"tableid": "47e1caa0-6859-ef11-991a-000d3ad84563",
+		"hasDocumentation": false
+	},
+	"documentation": {},
+	"name": "qa_github_issue_conn_24",
+	"description": "24-LTS: Connector for Re-verification",
+	"group": null,
+	"type": "T",
+	"ver": "24.08.13.1140",
+	"disabled": false,
+	"package": "29805ca6-5925-4de9-a761-47279405b041"
+}

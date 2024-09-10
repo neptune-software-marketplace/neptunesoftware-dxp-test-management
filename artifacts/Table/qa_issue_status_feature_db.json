@@ -1,0 +1,36 @@
+{
+	"id": "f91b90d4-995b-ef11-991a-000d3ad84563",
+	"createdAt": "2024-08-16T06:36:18.220Z",
+	"createdBy": "rommel@neptune-software.com",
+	"fields": [
+		{
+			"id": "48f933ca-1aae-43ad-96b2-596f1e565b5a",
+			"fieldName": "STATUS_ID",
+			"fieldType": "mediumtext",
+			"isNullable": true,
+			"isUnique": true
+		},
+		{
+			"id": "8d5fee56-2878-4da2-a032-296f11559c0c",
+			"fieldName": "STATUS",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "a7edb0b6-f511-4764-d291-0e0269eb2162",
+			"fieldName": "DESCRIPTION",
+			"fieldType": "text",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "qa_issue_status_feature_db",
+	"description": "List of execution status when testing the new features",
+	"ver": "24.08.16.0636",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"rolesRead": [],
+	"rolesWrite": []
+}

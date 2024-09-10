@@ -1,4 +1,0 @@
-//clearing dialog fields
-
-informSetPasswordOne.setValue="";
-informSetPasswordTwo.setValue="";

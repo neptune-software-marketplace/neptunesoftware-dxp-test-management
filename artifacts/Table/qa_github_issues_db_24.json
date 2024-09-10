@@ -1,0 +1,100 @@
+{
+	"id": "47e1caa0-6859-ef11-991a-000d3ad84563",
+	"createdAt": "2024-08-13T11:39:07.413Z",
+	"createdBy": "rommel@neptune-software.com",
+	"fields": [
+		{
+			"id": "5d3bf14f-7519-44d3-f82b-de141fe86a3c",
+			"fieldName": "ISSUE_ID",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "f21fe07b-f12d-4a02-ebb0-da64d4b6afef",
+			"fieldName": "ISSUE_REPO",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "84afc3f4-9961-4108-9bbb-2d9d87748bb4",
+			"fieldName": "ISSUE_TITLE",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "31307bca-4ee5-4272-88f5-46b9d3f67535",
+			"fieldName": "ISSUE_BODY",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "83af10eb-ca77-4c79-ba5d-4290558e6876",
+			"fieldName": "COMMENTS",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "08e58bc3-ffd2-45be-b3df-4195d0856009",
+			"fieldName": "DXP_EDITION",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "c7d0d201-4f35-4b07-8f3d-49249dbbb1e0",
+			"fieldName": "VERIFICATION_STEPS",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "96244d3a-4e45-4bf5-de96-69099b665e7c",
+			"fieldName": "STATUS",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "ea74cee1-b5d1-48ba-dbc0-2b03e2359ca6",
+			"fieldName": "REMARKS",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "5c6a7a43-be5f-426e-8e88-6cfd7ee75399",
+			"fieldName": "USER_ID",
+			"fieldType": "mediumtext",
+			"isNullable": true
+		},
+		{
+			"id": "7ed9a8c9-73f0-4c56-83f7-d18cc491e9e5",
+			"fieldName": "APP_ID",
+			"fieldType": "mediumtext",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "531ab237-7e03-4fd5-e174-8df39f2dfbd0",
+			"fieldName": "CHANGELOG_STATUS",
+			"fieldType": "mediumtext",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "qa_github_issues_db_24",
+	"description": "24-LTS: List of fixed issues that require re-verification",
+	"ver": "24.08.29.1938",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"rolesRead": [],
+	"rolesWrite": [
+		{
+			"id": "c11eef3d-4db4-ed11-a8e0-000d3aba7851",
+			"name": "QA Member",
+			"ver": "24.09.10.1926"
+		}
+	]
+}

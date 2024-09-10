@@ -91,38 +91,14 @@
 		},
 		"fieldCatalog": [
 			{
-				"name": "ACTUAL_BEHAVIOR",
-				"label": "ACTUAL_BEHAVIOR",
+				"name": "STATUS",
+				"label": "STATUS",
 				"type": "text",
-				"usage": "BOTH"
-			},
-			{
-				"name": "APP_ID",
-				"label": "APP_ID",
-				"type": "mediumtext",
 				"usage": "BOTH"
 			},
 			{
 				"name": "BRIEF_TITLE",
 				"label": "BRIEF_TITLE",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
-				"name": "COMMENTS",
-				"label": "COMMENTS",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
-				"name": "createdAt",
-				"label": "Created At",
-				"type": "timestamp",
-				"usage": "BOTH"
-			},
-			{
-				"name": "createdBy",
-				"label": "Created By",
 				"type": "text",
 				"usage": "BOTH"
 			},
@@ -139,14 +115,32 @@
 				"usage": "BOTH"
 			},
 			{
+				"name": "APP_ID",
+				"label": "APP_ID",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "STEPS",
+				"label": "STEPS",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "ACTUAL_BEHAVIOR",
+				"label": "ACTUAL_BEHAVIOR",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
 				"name": "EXPECTED_BEHAVIOR",
 				"label": "EXPECTED_BEHAVIOR",
 				"type": "text",
 				"usage": "BOTH"
 			},
 			{
-				"name": "GITHUB_ID",
-				"label": "GITHUB_ID",
+				"name": "COMMENTS",
+				"label": "COMMENTS",
 				"type": "text",
 				"usage": "BOTH"
 			},
@@ -157,21 +151,15 @@
 				"usage": "BOTH"
 			},
 			{
+				"name": "GITHUB_ID",
+				"label": "GITHUB_ID",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
 				"name": "PRIORITY_NUMBER",
 				"label": "PRIORITY_NUMBER",
 				"type": "integer",
-				"usage": "BOTH"
-			},
-			{
-				"name": "STATUS",
-				"label": "STATUS",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
-				"name": "STEPS",
-				"label": "STEPS",
-				"type": "text",
 				"usage": "BOTH"
 			},
 			{
@@ -187,23 +175,32 @@
 				"usage": "BOTH"
 			},
 			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
 				"name": "updatedBy",
 				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
 				"type": "text",
 				"usage": "BOTH"
 			}
 		],
 		"fieldsSel": [
 			{
-				"visible": false,
-				"name": "USER_ID",
-				"text": "USER_ID",
+				"visible": true,
+				"name": "createdBy",
+				"text": "Created By",
 				"fieldPos": 1,
 				"type": "SingleSelectLookup",
-				"lookupTable": "qa_team_members_db",
-				"lookupFieldKey": "USER_ID",
-				"lookupFieldText": "NAME",
-				"lookupShowOnlyText": true
+				"lookupTable": "qa_reported_issues_db_24"
 			}
 		],
 		"fieldsRun": [
@@ -521,14 +518,14 @@
 		}
 	},
 	"name": "qa_reported_issues_tester_tablist_23",
-	"description": "List of issues found in Neptune DXP 23-LTS",
+	"description": "23-LTS: List of issues reported by the tester shown as tab in edit page",
 	"group": "",
 	"type": "C",
 	"connectorid": "fdcfcc06-723c-ee11-b8f0-000d3ab39e52",
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "23.10.5.2114",
+	"ver": "24.08.16.1200",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_list_20231004",

@@ -57,16 +57,10 @@
 	"foreignKeys": [],
 	"name": "qa_github_issues_db",
 	"description": "List of fixed issues that require re-verification",
-	"ver": "23.8.16.1033",
+	"ver": "22.10.12.2041",
 	"enableAudit": false,
 	"includeDataInPackage": false,
 	"package": "29805ca6-5925-4de9-a761-47279405b041",
 	"rolesRead": [],
-	"rolesWrite": [
-		{
-			"id": "c11eef3d-4db4-ed11-a8e0-000d3aba7851",
-			"name": "QA Team",
-			"ver": "24.06.03.2236"
-		}
-	]
+	"rolesWrite": []
 }

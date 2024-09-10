@@ -1,0 +1,313 @@
+{
+	"id": "a776eaf0-c85b-ef11-991a-000d3ad84563",
+	"createdAt": "2024-08-16T12:13:29.323Z",
+	"createdBy": "rommel@neptune-software.com",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Ghost",
+				"iconButtonCreate": "",
+				"textButtonCreate": "Create",
+				"typeButtonCreate": "Emphasized",
+				"iconButtonExport": "sap-icon://excel-attachment",
+				"textButtonExport": "",
+				"typeButtonExport": "Transparent",
+				"iconButtonImport": "sap-icon://fa-solid/file-import",
+				"textButtonImport": "",
+				"typeButtonImport": "Transparent",
+				"iconButtonMultiSelect": "",
+				"textButtonMultiSelect": "MultiSelect",
+				"typeButtonMultiSelect": "Emphasized",
+				"iconButtonRun": "",
+				"textButtonRun": "Update",
+				"typeButtonRun": "Ghost",
+				"enableRun": true,
+				"enableCreate": true,
+				"enableClose": true,
+				"enableDelete": true,
+				"enableExport": false,
+				"enableImport": false,
+				"enableMultiSelect": false,
+				"enableVariant": false,
+				"hideHeader": false,
+				"autoRun": true,
+				"autoRunFocus": false,
+				"searchLabel": "Search",
+				"searchPlaceholder": "",
+				"title": "QA Team Members",
+				"subTitle": "List of assigned testers",
+				"_navigationCreate": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetF": "4e311254-c33d-ee11-b8f0-000d3ab39e52",
+					"keyField": [],
+					"dialogHeight": "610px",
+					"dialogWidth": "750px"
+				},
+				"_navigationItemPress": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Accept",
+					"destinationTargetF": "4e311254-c33d-ee11-b8f0-000d3ab39e52",
+					"keyField": [],
+					"dialogWidth": "750px",
+					"dialogHeight": "610px"
+				},
+				"avatarBackgroundColor": "Accent1",
+				"avatarIcon": "sap-icon://group",
+				"actionButtonLeft": false,
+				"requiredFieldsToast": "Please fill in all required fields",
+				"textConfirmDelete": "Do you want to delete this entry ? ",
+				"titleConfirmDelete": "Delete",
+				"odataValueList": "Field does not have any OData ValueList reference"
+			},
+			"form": {
+				"enableCompact": true,
+				"headerExpanded": true,
+				"headerPreserveState": true,
+				"enableSearchWildcard": false
+			},
+			"table": {
+				"enablePagination": false,
+				"paginationShowSelection": false,
+				"paginationRows": 25,
+				"action1Text": "",
+				"action1Type": "Transparent",
+				"action2Text": "",
+				"action2Type": "Transparent",
+				"action3Text": "",
+				"action3Type": "Transparent",
+				"alternateRowColors": true,
+				"enableCompact": true,
+				"enableAction1": false,
+				"enableAction2": false,
+				"enableAction3": false,
+				"fixedLayout": true,
+				"inset": false,
+				"initialSortField": "",
+				"initialSortOrder": "ASC",
+				"initialGroupField": "DXP_VERSION",
+				"initialGroupOrder": "DESC",
+				"showSeparators": "All",
+				"enableAutoPopin": false,
+				"enableAction4": false,
+				"enableAction5": false,
+				"action4Text": "",
+				"action4Type": "Transparent",
+				"action5Text": "",
+				"action5Type": "Transparent"
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "USER_ID",
+				"label": "USER_ID",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "DXP_VERSION",
+				"label": "DXP_VERSION",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "NAME",
+				"label": "NAME",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "ACTIVE",
+				"label": "ACTIVE",
+				"type": "boolean",
+				"usage": "BOTH"
+			},
+			{
+				"name": "REMARKS",
+				"label": "REMARKS",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [
+			{
+				"visible": true,
+				"name": "DXP_VERSION",
+				"text": "DXP Edition",
+				"fieldPos": 1,
+				"type": "SingleSelectLookup",
+				"lookupTable": "qa_neptune_dxp_edition",
+				"lookupFieldKey": "VERSION_ID",
+				"lookupFieldText": "VERSION",
+				"lookupShowOnlyText": true
+			}
+		],
+		"fieldsRun": [
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": false,
+				"enableSort": false,
+				"visible": false,
+				"name": "USER_ID",
+				"text": "TESTER NAME",
+				"fieldPos": 2,
+				"valueType": "",
+				"valueLookup": {
+					"table": "qa_users_db",
+					"textField": "NAME",
+					"keyField": [
+						{
+							"fieldName": "USER_ID",
+							"key": "USER_ID",
+							"value": ""
+						}
+					],
+					"hideKey": true,
+					"butType": "Accept"
+				}
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "NAME",
+				"text": "NAME",
+				"fieldPos": 3,
+				"enableGroup": false,
+				"width": "20%"
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": false,
+				"enableSort": false,
+				"visible": true,
+				"name": "ACTIVE",
+				"text": "ACTIVE",
+				"fieldPos": 4,
+				"type": "Switch",
+				"editable": true,
+				"width": "6%"
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": false,
+				"enableSort": false,
+				"visible": false,
+				"name": "DXP_VERSION",
+				"text": "ASSIGNED DXP VERSION",
+				"fieldPos": 5,
+				"valueType": "Lookup",
+				"valueLookup": {
+					"table": "qa_neptune_dxp_edition",
+					"textField": "VERSION",
+					"keyField": [
+						{
+							"fieldName": "VERSION_ID",
+							"key": "DXP_VERSION",
+							"value": ""
+						}
+					],
+					"hideKey": true,
+					"butType": "Accept"
+				},
+				"formatter": "uppercase"
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": true,
+				"enableSort": true,
+				"visible": true,
+				"name": "REMARKS",
+				"text": "REMARKS",
+				"fieldPos": 6,
+				"width": "49%"
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": false,
+				"enableSort": false,
+				"visible": true,
+				"name": "updatedBy",
+				"text": "MODIFIED BY",
+				"fieldPos": 7,
+				"width": "15%"
+			},
+			{
+				"buttonType": "Transparent",
+				"popinDisplay": "Inline",
+				"enableFilter": false,
+				"enableSort": true,
+				"visible": true,
+				"name": "updatedAt",
+				"text": "MODIFIED ON",
+				"fieldPos": 8,
+				"type": "",
+				"formatter": "date00",
+				"width": "10%"
+			}
+		],
+		"defaultVariant": {
+			"id": "92adf5d2-0adf-4d12-e7d3-5bca001c4623",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "qa_team_members_24_list",
+	"description": "List of assigned testers for 24-LTS testing",
+	"group": "",
+	"type": "C",
+	"connectorid": "401777d1-c85b-ef11-991a-000d3ad84563",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "24.08.16.1213",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_list",
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

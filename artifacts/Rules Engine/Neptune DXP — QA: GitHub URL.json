@@ -16,6 +16,13 @@
 			"name": "GITHUB_ISSUE_ID",
 			"objectType": "string",
 			"description": ""
+		},
+		{
+			"id": "03f35e14-04bd-4fbb-a6e9-6515344376d4",
+			"parent": "",
+			"name": "ISSUE_REPO",
+			"objectType": "string",
+			"description": ""
 		}
 	],
 	"rules": [
@@ -40,6 +47,32 @@
 					"field": "f8d52efe-b29b-4cd7-e8c2-bf9ad7a4ff83",
 					"operator": "equal",
 					"value": "SE"
+				},
+				{
+					"id": "34e4b6f5-f6af-4031-f533-8c39bc46c4e7",
+					"field": "03f35e14-04bd-4fbb-a6e9-6515344376d4",
+					"operator": "equal",
+					"value": "dxp-sap-edition",
+					"valuebool": false
+				}
+			]
+		},
+		{
+			"id": "886934d7-65eb-4860-e35f-c9f729d87e4f",
+			"result": "https://github.com/neptune-software/dxp-sap-edition-abap/issues/",
+			"items": [
+				{
+					"id": "3e28e5af-54b1-4148-e104-775b6d70cbf3",
+					"field": "f8d52efe-b29b-4cd7-e8c2-bf9ad7a4ff83",
+					"operator": "equal",
+					"value": "SE"
+				},
+				{
+					"id": "6c442180-6de1-4948-c057-3c04af42064a",
+					"field": "03f35e14-04bd-4fbb-a6e9-6515344376d4",
+					"operator": "equal",
+					"value": "dxp-sap-edition-abap",
+					"valuebool": false
 				}
 			]
 		},
@@ -58,7 +91,7 @@
 	],
 	"name": "Neptune DXP — QA: GitHub URL",
 	"description": "Logic definition for getting GitHub URL of the bug tracker",
-	"ver": "24.1.11.1210",
+	"ver": "24.08.29.2121",
 	"package": "29805ca6-5925-4de9-a761-47279405b041",
 	"roles": []
 }

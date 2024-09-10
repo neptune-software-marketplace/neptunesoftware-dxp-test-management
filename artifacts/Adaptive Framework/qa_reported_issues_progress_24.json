@@ -1,0 +1,207 @@
+{
+	"id": "caa2e0c6-b059-ef11-991a-000d3ad84563",
+	"createdAt": "2024-08-13T20:15:26.763Z",
+	"createdBy": "rommel@neptune-software.com",
+	"settings": {
+		"properties": {
+			"report": {
+				"paginationRows": "1000",
+				"updateTime": 0
+			},
+			"form": {
+				"enableCompact": false,
+				"showFilter": true
+			},
+			"table": {
+				"titleAlign": "center",
+				"chartHeight": 250,
+				"chartType": "column",
+				"enableSorting": false,
+				"enableMonochrome": false,
+				"pieInnerSize": 0,
+				"enable3D": true,
+				"alpha3D": 0,
+				"beta3D": 0,
+				"depth3D": 100,
+				"legendEnable": true,
+				"legendAlign": "center",
+				"legendVerticalAlign": "bottom",
+				"legendLayout": "horizontal",
+				"xAxisTitleEnable": false,
+				"xAxisReversed": false,
+				"xAxisStartOnTick": true,
+				"xAxisGridLineWidth": 0,
+				"yAxisTitleEnable": true,
+				"yAxisReversed": false,
+				"yAxisStartOnTick": true,
+				"yAxisGridLineWidth": 1,
+				"chartColor": "[\"#F6B221\", \"#83C8BC\", \"#00839b\", \"#f28b82\", \"#fdf1d6\"]",
+				"title": "Stats: Reported Issues",
+				"subTitle": "Reported issues by the number"
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "STATUS",
+				"label": "STATUS",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "BRIEF_TITLE",
+				"label": "BRIEF_TITLE",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "DESCRIPTION",
+				"label": "DESCRIPTION",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "DXP_EDITION",
+				"label": "DXP_EDITION",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "APP_ID",
+				"label": "APP_ID",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "STEPS",
+				"label": "STEPS",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "ACTUAL_BEHAVIOR",
+				"label": "ACTUAL_BEHAVIOR",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "EXPECTED_BEHAVIOR",
+				"label": "EXPECTED_BEHAVIOR",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "COMMENTS",
+				"label": "COMMENTS",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "ISSUE_TYPE",
+				"label": "ISSUE_TYPE",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "GITHUB_ID",
+				"label": "GITHUB_ID",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "PRIORITY_NUMBER",
+				"label": "PRIORITY_NUMBER",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "USER_ID",
+				"label": "USER_ID",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [
+			{
+				"visible": true,
+				"name": "DXP_EDITION",
+				"text": "DXP Edition",
+				"fieldPos": 1,
+				"type": "SingleSelectScript",
+				"scriptSelect": "CE705CCB-A964-EF11-BDFD-000D3AD848DE"
+			}
+		],
+		"fieldsRun": [
+			{
+				"visible": true,
+				"name": "STATUS",
+				"text": "STATUS",
+				"fieldPos": 2,
+				"valueType": "Lookup",
+				"valueLookup": {
+					"table": "qa_issue_status_reported_db",
+					"textField": "STATUS",
+					"keyField": [
+						{
+							"fieldName": "STATUS_ID",
+							"key": "STATUS",
+							"value": ""
+						}
+					],
+					"hideKey": true,
+					"butType": "Accept"
+				}
+			}
+		],
+		"defaultVariant": {
+			"id": "8e9f80e5-c27c-4f23-8893-f416732f2701",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "qa_reported_issues_progress_24",
+	"description": "24-LTS: Progress chart for the reported issues",
+	"group": "",
+	"type": "C",
+	"connectorid": "3fd4f4cd-ad59-ef11-991a-000d3ad84563",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "24.09.10.1932",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_tile_chart",
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

@@ -1,0 +1,122 @@
+{
+	"id": "9bfb065e-135a-ef11-991a-000d3ad84563",
+	"createdAt": "2024-08-14T08:01:14.183Z",
+	"createdBy": "rommel@neptune-software.com",
+	"translation": [
+		{
+			"language": "DE",
+			"title": "Links",
+			"subTitle": "Hilfreiche Links zum Testen"
+		},
+		{
+			"language": "EN",
+			"title": "Links",
+			"subTitle": "Helpful links used for testing"
+		},
+		{
+			"language": "NO",
+			"title": "Linker",
+			"subTitle": "Nyttige lenker som brukes til testing"
+		},
+		{
+			"language": "PT",
+			"title": "Ligações",
+			"subTitle": "Links úteis usados para testes"
+		}
+	],
+	"tilesOrder": [
+		"29438e1c-135a-ef11-991a-000d3ad84563",
+		"8dea3356-1b80-4920-8ad7-9009d9a0252c",
+		"7d323fec-bb3d-4f8a-9f56-a439acc42e7b",
+		"e00540f6-b2d6-4603-91e7-1d996f424a2b",
+		"5fc97757-155a-ef11-991a-000d3ad84563"
+	],
+	"tilegroupsOrder": [],
+	"configMessage": {},
+	"title": "Links",
+	"subTitle": "Helpful links used for testing",
+	"description": null,
+	"titleAlignment": null,
+	"enableFullScreen": false,
+	"hideHeader": false,
+	"backgroundType": "cards",
+	"backgroundColor": "ColorSet10",
+	"backgroundShade": "ShadeD",
+	"type": null,
+	"image": null,
+	"icon": null,
+	"sort": null,
+	"inclFav": false,
+	"styleClass": null,
+	"enableScroll": false,
+	"enableShadeCalc": false,
+	"numTiles": null,
+	"enableMessage": false,
+	"ver": "24.09.01.2207",
+	"headColor": null,
+	"headTxtClr": null,
+	"subheadTxtClr": null,
+	"headBorderClr": null,
+	"headBorderWidth": null,
+	"imageTablet": null,
+	"imageMobile": null,
+	"imageCover": false,
+	"imageTabletCover": false,
+	"imageMobileCover": false,
+	"imageMobileHeight": null,
+	"imageTabletHeight": null,
+	"imageHeight": null,
+	"name": "Neptune DXP — QA: Links (24)",
+	"cardContentWidth": null,
+	"cardContentAlign": "",
+	"cardPerRow": null,
+	"cardStyle": null,
+	"cardHeightFit": false,
+	"imagePlacement": null,
+	"imageRepeat": null,
+	"imageSize": null,
+	"imageTabletPlacement": null,
+	"imageTabletRepeat": null,
+	"imageTabletSize": null,
+	"imageMobilePlacement": null,
+	"imageMobileRepeat": null,
+	"imageMobileSize": null,
+	"hideFromMenu": true,
+	"roleTag": null,
+	"cockpitTileGroup": false,
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"roles": [],
+	"tiles": [
+		{
+			"id": "e00540f6-b2d6-4603-91e7-1d996f424a2b",
+			"name": "Neptune DXP — QA: SAP Edition GitHub Issue List",
+			"title": "SAP Edition GitHub Issue List",
+			"ver": "24.08.15.2145"
+		},
+		{
+			"id": "8dea3356-1b80-4920-8ad7-9009d9a0252c",
+			"name": "Neptune DXP — QA: Test System (SAP Edition 24-LTS)",
+			"title": "Test System (SAP Edition)",
+			"ver": "24.08.15.2142"
+		},
+		{
+			"id": "7d323fec-bb3d-4f8a-9f56-a439acc42e7b",
+			"name": "Neptune DXP — QA: Open Edition GitHub Issue List",
+			"title": "Open Edition GitHub Issue List",
+			"ver": "24.08.15.2138"
+		},
+		{
+			"id": "5fc97757-155a-ef11-991a-000d3ad84563",
+			"name": "Neptune DXP — QA: Open Edition Development System",
+			"title": "Open Edition Development System",
+			"ver": "24.08.15.2138"
+		},
+		{
+			"id": "29438e1c-135a-ef11-991a-000d3ad84563",
+			"name": "Neptune DXP — QA: Test System (Open Edition 24-LTS)",
+			"title": "Test System (Open Edition)",
+			"ver": "24.08.15.2139"
+		}
+	],
+	"tilegroups": []
+}

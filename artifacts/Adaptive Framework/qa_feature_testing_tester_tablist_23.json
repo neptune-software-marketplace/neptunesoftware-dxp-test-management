@@ -303,7 +303,7 @@
 				"type": "ObjectStatus",
 				"valueType": "Lookup",
 				"valueLookup": {
-					"table": "qa_issue_status_23_db",
+					"table": "qa_issue_status_feature_db",
 					"textField": "STATUS",
 					"keyField": [
 						{
@@ -344,14 +344,14 @@
 		}
 	},
 	"name": "qa_feature_testing_tester_tablist_23",
-	"description": "",
+	"description": "23-LTS: List of new features shown as tab in the edit page",
 	"group": "",
 	"type": "C",
 	"connectorid": "282c5d65-173c-ee11-b8f0-000d3ab39e52",
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "23.10.5.2115",
+	"ver": "24.08.16.1147",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_list_20231004",

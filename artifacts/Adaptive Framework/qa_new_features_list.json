@@ -39,7 +39,7 @@
 				"searchPlaceholder": "",
 				"title": "New Features",
 				"subTitle": "List of new features in Neptune DXP LTS",
-				"avatarIcon": "sap-icon://add-coursebook",
+				"avatarIcon": "sap-icon://favorite-list",
 				"avatarBackgroundColor": "Accent1",
 				"_navigationItemPress": {
 					"destinationType": "F",
@@ -58,13 +58,11 @@
 					"dialogWidth": "700px",
 					"destinationTargetF": "ee27d4be-ae49-ed11-819b-000d3aba7edc",
 					"keyField": []
-				},
-				"actionButtonLeft": false
+				}
 			},
 			"form": {
 				"enableCompact": false,
-				"headerExpanded": true,
-				"headerPreserveState": false
+				"headerExpanded": true
 			},
 			"table": {
 				"enablePagination": false,
@@ -83,52 +81,39 @@
 				"enableAction2": false,
 				"enableAction3": false,
 				"fixedLayout": false,
-				"inset": false,
-				"enableAutoPopin": false,
-				"enableAction4": false,
-				"enableAction5": false,
-				"action4Text": "",
-				"action4Type": "Transparent",
-				"action5Text": "",
-				"action5Type": "Transparent"
+				"inset": false
 			}
 		},
 		"fieldCatalog": [
 			{
 				"name": "FEATURE",
 				"label": "FEATURE",
-				"type": "text",
-				"usage": "BOTH"
+				"type": "text"
 			},
 			{
 				"name": "FEATURE_ID",
 				"label": "FEATURE_ID",
-				"type": "integer",
-				"usage": "BOTH"
-			},
-			{
-				"name": "updatedAt",
-				"label": "Updated At",
-				"type": "timestamp",
-				"usage": "BOTH"
+				"type": "integer"
 			},
 			{
 				"name": "createdAt",
 				"label": "Created At",
-				"type": "timestamp",
-				"usage": "BOTH"
-			},
-			{
-				"name": "updatedBy",
-				"label": "Updated By",
-				"type": "text",
-				"usage": "BOTH"
+				"type": "timestamp"
 			},
 			{
 				"name": "createdBy",
 				"label": "Created By",
-				"type": "text",
-				"usage": "BOTH"
+				"type": "text"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text"
 			}
 		],
 		"fieldsSel": [],
@@ -150,22 +135,12 @@
 				"fieldPos": 2
 			},
 			{
-				"buttonType": "Transparent",
-				"popinDisplay": "Inline",
-				"enableFilter": true,
-				"enableSort": true,
-				"visible": true,
-				"name": "updatedBy",
-				"text": "CHANGED BY",
-				"fieldPos": 3
-			},
-			{
 				"enableFilter": false,
 				"enableSort": false,
 				"visible": true,
 				"name": "updatedAt",
 				"text": "CHANGED ON",
-				"fieldPos": 4,
+				"fieldPos": 3,
 				"formatter": "date00"
 			}
 		],
@@ -188,7 +163,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "23.8.17.1221",
+	"ver": "22.10.12.120",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_list",

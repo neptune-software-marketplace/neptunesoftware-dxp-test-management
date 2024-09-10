@@ -116,51 +116,21 @@
 		},
 		"fieldCatalog": [
 			{
-				"name": "COMMENTS",
-				"label": "COMMENTS",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
-				"name": "createdAt",
-				"label": "Created At",
-				"type": "timestamp",
-				"usage": "BOTH"
-			},
-			{
-				"name": "createdBy",
-				"label": "Created By",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
-				"name": "DXP_EDITION",
-				"label": "DXP_EDITION",
-				"type": "text",
-				"usage": "BOTH"
-			},
-			{
 				"name": "FEATURE_ID",
 				"label": "FEATURE_ID",
 				"type": "uuid",
 				"usage": "BOTH"
 			},
 			{
-				"name": "GITHUB_ID",
-				"label": "GITHUB_ID",
-				"type": "mediumtext",
+				"name": "TEST_TITLE",
+				"label": "TEST_TITLE",
+				"type": "text",
 				"usage": "BOTH"
 			},
 			{
-				"name": "ON_CHANGELOG",
-				"label": "ON_CHANGELOG",
-				"type": "boolean",
-				"usage": "BOTH"
-			},
-			{
-				"name": "ON_DOCUMENTATION",
-				"label": "ON_DOCUMENTATION",
-				"type": "boolean",
+				"name": "TEST_STEPS",
+				"label": "TEST_STEPS",
+				"type": "text",
 				"usage": "BOTH"
 			},
 			{
@@ -176,15 +146,21 @@
 				"usage": "BOTH"
 			},
 			{
-				"name": "TEST_STEPS",
-				"label": "TEST_STEPS",
+				"name": "COMMENTS",
+				"label": "COMMENTS",
 				"type": "text",
 				"usage": "BOTH"
 			},
 			{
-				"name": "TEST_TITLE",
-				"label": "TEST_TITLE",
+				"name": "DXP_EDITION",
+				"label": "DXP_EDITION",
 				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "GITHUB_ID",
+				"label": "GITHUB_ID",
+				"type": "mediumtext",
 				"usage": "BOTH"
 			},
 			{
@@ -194,14 +170,38 @@
 				"usage": "BOTH"
 			},
 			{
+				"name": "ON_DOCUMENTATION",
+				"label": "ON_DOCUMENTATION",
+				"type": "boolean",
+				"usage": "BOTH"
+			},
+			{
+				"name": "ON_CHANGELOG",
+				"label": "ON_CHANGELOG",
+				"type": "boolean",
+				"usage": "BOTH"
+			},
+			{
 				"name": "updatedAt",
 				"label": "Updated At",
 				"type": "timestamp",
 				"usage": "BOTH"
 			},
 			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
 				"name": "updatedBy",
 				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
 				"type": "text",
 				"usage": "BOTH"
 			}
@@ -236,10 +236,10 @@
 				"text": "Status",
 				"fieldPos": 3,
 				"type": "MultiSelectLookup",
-				"lookupTable": "qa_issue_status_23_db",
+				"lookupTable": "qa_issue_status_db",
 				"lookupFieldKey": "STATUS_ID",
 				"lookupFieldText": "STATUS",
-				"lookupFieldAdditional": "ISSUE_TYPE",
+				"lookupFieldAdditional": "",
 				"lookupShowOnlyText": true,
 				"lookupFieldGrouping1": true
 			},
@@ -366,8 +366,8 @@
 				"type": "ObjectStatus",
 				"valueType": "Lookup",
 				"valueLookup": {
-					"table": "qa_issue_status_23_db",
-					"textField": "STATUS",
+					"table": "qa_issue_status_db",
+					"textField": "STATUS_ID",
 					"keyField": [
 						{
 							"fieldName": "STATUS_ID",
@@ -440,7 +440,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "23.10.9.122",
+	"ver": "24.08.15.1541",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_list_20231004",

@@ -1,9 +1,0 @@
-<input
-    id="adaptiveListImport"
-    name="adaptiveListImport"
-    type="file"
-    accept=".csv"
-    onchange="adaptiveListImport(event)"
-    style="display: none;"
-    value=""
-/>

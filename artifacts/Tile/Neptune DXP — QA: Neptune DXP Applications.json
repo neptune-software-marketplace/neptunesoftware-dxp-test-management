@@ -2,28 +2,7 @@
 	"id": "22b86576-5993-4f19-96c9-592b680124d1",
 	"createdAt": "2022-10-10T21:19:25.984Z",
 	"createdBy": "rommel",
-	"translation": [
-		{
-			"language": "DE",
-			"title": "Neptune DXP-Anwendungen",
-			"subTitle": "Liste der Neptune DXP Cockpit-Anwendungen"
-		},
-		{
-			"language": "EN",
-			"title": "Neptune DXP Applications",
-			"subTitle": "List of Neptune DXP Cockpit applications"
-		},
-		{
-			"language": "NO",
-			"title": "Neptune DXP-applikasjoner",
-			"subTitle": "Liste over Neptune DXP Cockpit-applikasjoner"
-		},
-		{
-			"language": "PT",
-			"title": "Aplicativos Netuno DXP",
-			"subTitle": "Lista de aplicativos Neptune DXP Cockpit"
-		}
-	],
+	"translation": [],
 	"storeItem": {},
 	"settings": {
 		"adaptive": {
@@ -45,8 +24,8 @@
 	"forceRow": false,
 	"frameType": null,
 	"type": null,
-	"image": "/media/root/Test-Management/images/Neptune-DXP-Applications.jpg",
-	"icon": "sap-icon://tnt/application-service",
+	"image": "/media/root/Test-Management/images/DXP-Applications.png",
+	"icon": "",
 	"backgroundType": null,
 	"backgroundColor": null,
 	"backgroundShade": null,
@@ -58,8 +37,8 @@
 	"hideTileMobile": false,
 	"hideTileTablet": false,
 	"enableDocumentation": false,
-	"navObject": "settings",
-	"navAction": "applications",
+	"navObject": "",
+	"navAction": "",
 	"dialogWidth": null,
 	"dialogHeight": null,
 	"tileApplicationStyleClass": null,
@@ -81,7 +60,7 @@
 	"helpText": null,
 	"helpEnabled": false,
 	"openClickTile": true,
-	"ver": "23.10.24.1542",
+	"ver": "24.08.14.0658",
 	"actionWebApp": "",
 	"name": "Neptune DXP — QA: Neptune DXP Applications",
 	"cardWidth": "Medium",

@@ -34,7 +34,7 @@
 	"configMessage": {},
 	"title": "Test Documentation",
 	"subTitle": "Documentation related to testing such as test plan and strategy",
-	"description": null,
+	"description": "23-LTS: Documentation related to testing such as test plan and strategy",
 	"titleAlignment": null,
 	"enableFullScreen": false,
 	"hideHeader": false,
@@ -51,7 +51,7 @@
 	"enableShadeCalc": false,
 	"numTiles": null,
 	"enableMessage": false,
-	"ver": "23.9.28.1712",
+	"ver": "24.08.14.0632",
 	"headColor": null,
 	"headTxtClr": null,
 	"subheadTxtClr": null,
@@ -90,13 +90,13 @@
 			"id": "f26f0f3c-0b3e-ee11-b8f0-000d3ab39e52",
 			"name": "Neptune DXP — QA: Test Plan — Open Edition (23)",
 			"title": "Test Plan — Open Edition",
-			"ver": "23.9.28.2043"
+			"ver": "24.08.14.0638"
 		},
 		{
 			"id": "a8292c7f-0a3e-ee11-b8f0-000d3ab39e52",
-			"name": "Neptune DXP — QA: Test Plan - SAP Edition (23)",
+			"name": "Neptune DXP — QA: Test Plan — SAP Edition (23)",
 			"title": "Test Plan — SAP Edition",
-			"ver": "23.9.29.817"
+			"ver": "24.08.14.0646"
 		},
 		{
 			"id": "a7542d24-225e-ee11-9937-000d3ab39899",
@@ -108,7 +108,7 @@
 			"id": "65b20767-a860-4cc2-8db5-0dbfb92c1a7f",
 			"name": "Neptune DXP — QA: Test Strategy",
 			"title": "Test Strategy",
-			"ver": "23.9.28.131"
+			"ver": "24.08.15.2158"
 		}
 	],
 	"tilegroups": []

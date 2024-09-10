@@ -5,8 +5,8 @@
 	"translation": [],
 	"storeItem": {},
 	"settings": null,
-	"title": "Adaptive Designer",
-	"subTitle": "Create applications in a no-code adaptive framework",
+	"title": "",
+	"subTitle": "",
 	"description": "",
 	"categoryID": null,
 	"sort": null,
@@ -56,10 +56,10 @@
 	"helpText": null,
 	"helpEnabled": false,
 	"openClickTile": true,
-	"ver": "23.11.16.1135",
+	"ver": "24.08.14.0944",
 	"actionWebApp": "",
 	"name": "Neptune DXP — QA: Adaptive Designer",
-	"cardWidth": "Medium",
+	"cardWidth": "",
 	"cardHeight": null,
 	"cardHeightFit": false,
 	"cardImage": null,
@@ -67,10 +67,10 @@
 	"cardButtonIconOnly": false,
 	"imagePlacement": null,
 	"imageRepeat": null,
-	"imageSize": null,
-	"imagePosition": "top",
+	"imageSize": "contain",
+	"imagePosition": "cover",
 	"openText": null,
-	"imageHeight": "260px",
+	"imageHeight": "",
 	"bodyHeight": null,
 	"roleTag": null,
 	"sapICFNode": null,
@@ -80,8 +80,8 @@
 	"roles": [
 		{
 			"id": "439fc28c-fd60-ee11-9937-000d3ab39899",
-			"name": "Test Manager",
-			"ver": "23.10.2.829"
+			"name": "Testing Guild Member",
+			"ver": "24.09.10.2119"
 		}
 	]
 }

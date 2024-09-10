@@ -1,0 +1,26 @@
+{
+	"id": "68aff449-ba6f-ef11-bdfd-000d3ad77e7c",
+	"createdAt": "2024-09-10T21:19:06.560Z",
+	"createdBy": "rommel@neptune-software.com",
+	"name": "Testing Guild",
+	"description": null,
+	"ver": "24.09.10.2121",
+	"parent": null,
+	"isExternal": false,
+	"idpSource": "local",
+	"idpSourceId": null,
+	"idpSourceKey": null,
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"roles": [
+		{
+			"id": "c11eef3d-4db4-ed11-a8e0-000d3aba7851",
+			"name": "QA Member",
+			"ver": "24.09.10.1926"
+		},
+		{
+			"id": "439fc28c-fd60-ee11-9937-000d3ab39899",
+			"name": "Testing Guild Member",
+			"ver": "24.09.10.2119"
+		}
+	]
+}

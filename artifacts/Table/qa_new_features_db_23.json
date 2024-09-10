@@ -27,7 +27,7 @@
 	"foreignKeys": [],
 	"name": "qa_new_features_db_23",
 	"description": "List of new features in Neptune DXP 23-LTS",
-	"ver": "23.10.2.1031",
+	"ver": "24.08.16.1242",
 	"enableAudit": false,
 	"includeDataInPackage": false,
 	"package": "29805ca6-5925-4de9-a761-47279405b041",
@@ -35,8 +35,8 @@
 	"rolesWrite": [
 		{
 			"id": "439fc28c-fd60-ee11-9937-000d3ab39899",
-			"name": "Test Manager",
-			"ver": "23.10.2.829"
+			"name": "Testing Guild Member",
+			"ver": "24.09.10.2119"
 		}
 	]
 }

@@ -1,0 +1,32 @@
+[
+	{
+		"id": "cadaacf0-1762-ef11-991a-000d3ad84563",
+		"createdAt": "1724504044275",
+		"updatedAt": "1724504044275",
+		"createdBy": "rommel@neptune-software.com",
+		"updatedBy": "rommel@neptune-software.com",
+		"STATUS_ID": "CL-1002",
+		"STATUS": "Missing In Change Log",
+		"DESCRIPTION": "The new feature or the bug fix has NOT been found in the Change Log"
+	},
+	{
+		"id": "7db35bd0-1762-ef11-991a-000d3ad84563",
+		"createdAt": "1724503990056",
+		"updatedAt": "1724504052014",
+		"createdBy": "rommel@neptune-software.com",
+		"updatedBy": "rommel@neptune-software.com",
+		"STATUS_ID": "CL-1001",
+		"STATUS": "Found In Change Log",
+		"DESCRIPTION": "The new feature or the bug fix has been included in the Change Log"
+	},
+	{
+		"id": "53b5af2d-1862-ef11-991a-000d3ad84563",
+		"createdAt": "1724504146627",
+		"updatedAt": "1724506132639",
+		"createdBy": "rommel@neptune-software.com",
+		"updatedBy": "rommel@neptune-software.com",
+		"STATUS_ID": "CL-1003",
+		"STATUS": "Not Required",
+		"DESCRIPTION": "No need to add an entry in the Change Log for this new feature or bug fix"
+	}
+]

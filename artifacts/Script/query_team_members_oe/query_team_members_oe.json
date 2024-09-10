@@ -1,0 +1,27 @@
+{
+	"id": "9904969d-2262-ef11-991a-000d3ad84563",
+	"createdAt": "2024-08-24T14:10:32.986Z",
+	"createdBy": "rommel@neptune-software.com",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "53225D44-C13D-EE11-B8F0-000D3AB39E52",
+			"name": "qa_team_members_db",
+			"contextname": "qa_team_members_db"
+		}
+	],
+	"apis": [],
+	"name": "query_team_members_oe",
+	"ver": "24.08.27.1831",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"transpiledContent": null,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "804a083b-b0df-447e-a677-91db0212db0a",
+	"package": "29805ca6-5925-4de9-a761-47279405b041"
+}

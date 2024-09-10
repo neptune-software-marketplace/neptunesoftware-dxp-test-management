@@ -9,10 +9,10 @@
 	},
 	"documentation": {},
 	"name": "qa_reported_issues_conn_23",
-	"description": "Connector for reporting GitHub issues",
+	"description": "23-LTS: Connector for reporting GitHub issues",
 	"group": null,
 	"type": "T",
-	"ver": "23.8.16.2018",
+	"ver": "24.08.13.1953",
 	"disabled": false,
 	"package": "29805ca6-5925-4de9-a761-47279405b041"
 }

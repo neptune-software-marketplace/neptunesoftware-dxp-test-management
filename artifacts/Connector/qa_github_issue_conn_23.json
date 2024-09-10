@@ -9,10 +9,10 @@
 	},
 	"documentation": {},
 	"name": "qa_github_issue_conn_23",
-	"description": "Connector for Re-verification",
+	"description": "23-LTS: Connector for Re-verification",
 	"group": null,
 	"type": "T",
-	"ver": "23.8.16.1629",
+	"ver": "24.08.13.1935",
 	"disabled": false,
 	"package": "29805ca6-5925-4de9-a761-47279405b041"
 }

@@ -8,7 +8,7 @@
 				"showIcon": true,
 				"iconButtonClose": "",
 				"textButtonClose": "Close",
-				"typeButtonClose": "Transparent",
+				"typeButtonClose": "Ghost",
 				"iconButtonCreate": "",
 				"textButtonCreate": "Create",
 				"typeButtonCreate": "Emphasized",
@@ -23,10 +23,10 @@
 				"typeButtonMultiSelect": "Emphasized",
 				"iconButtonRun": "",
 				"textButtonRun": "Update",
-				"typeButtonRun": "Default",
+				"typeButtonRun": "Ghost",
 				"enableRun": true,
 				"enableCreate": true,
-				"enableClose": false,
+				"enableClose": true,
 				"enableDelete": true,
 				"enableExport": false,
 				"enableImport": false,
@@ -38,31 +38,38 @@
 				"searchLabel": "Search",
 				"searchPlaceholder": "",
 				"title": "Feature Testing Execution Status",
-				"subTitle": "Types status for execution of feature testing",
+				"subTitle": "List of execution status when testing the new features",
 				"avatarIcon": "sap-icon://electronic-medical-record",
 				"avatarBackgroundColor": "Accent1",
 				"_navigationCreate": {
 					"destinationType": "F",
-					"openAs": "D",
+					"openAs": "P",
 					"butType": "Accept",
-					"destinationTargetF": "bb54e168-a250-ed11-819b-000d3aba7edc",
+					"destinationTargetF": "6d7b5987-9a5b-ef11-991a-000d3ad84563",
 					"keyField": [],
 					"dialogHeight": "450px",
 					"dialogWidth": "780px"
 				},
 				"_navigationItemPress": {
 					"destinationType": "F",
-					"openAs": "D",
+					"openAs": "P",
 					"butType": "Accept",
-					"destinationTargetF": "bb54e168-a250-ed11-819b-000d3aba7edc",
+					"destinationTargetF": "6d7b5987-9a5b-ef11-991a-000d3ad84563",
 					"keyField": [],
 					"dialogHeight": "450px",
 					"dialogWidth": "780px"
-				}
+				},
+				"actionButtonLeft": false,
+				"requiredFieldsToast": "Please fill in all required fields",
+				"textConfirmDelete": "Do you want to delete this entry ? ",
+				"titleConfirmDelete": "Delete",
+				"odataValueList": "Field does not have any OData ValueList reference"
 			},
 			"form": {
 				"enableCompact": false,
-				"headerExpanded": true
+				"headerExpanded": true,
+				"headerPreserveState": false,
+				"enableSearchWildcard": false
 			},
 			"table": {
 				"enablePagination": false,
@@ -81,51 +88,67 @@
 				"enableAction3": false,
 				"fixedLayout": false,
 				"inset": false,
-				"showSeparators": "All"
+				"showSeparators": "All",
+				"enableAutoPopin": false,
+				"enableAction4": false,
+				"enableAction5": false,
+				"action4Text": "",
+				"action4Type": "Transparent",
+				"action5Text": "",
+				"action5Type": "Transparent",
+				"initialSortField": "STATUS_ID",
+				"initialSortOrder": "ASC"
 			}
 		},
 		"fieldCatalog": [
 			{
-				"name": "STATUS_ID",
-				"label": "STATUS_ID",
-				"type": "mediumtext"
-			},
-			{
-				"name": "STATUS",
-				"label": "STATUS",
-				"type": "text"
-			},
-			{
-				"name": "DESCRIPTION",
-				"label": "DESCRIPTION",
-				"type": "text"
-			},
-			{
-				"name": "updatedAt",
-				"label": "Updated At",
-				"type": "timestamp"
-			},
-			{
 				"name": "createdAt",
 				"label": "Created At",
-				"type": "timestamp"
-			},
-			{
-				"name": "updatedBy",
-				"label": "Updated By",
-				"type": "text"
+				"type": "timestamp",
+				"usage": "BOTH"
 			},
 			{
 				"name": "createdBy",
 				"label": "Created By",
-				"type": "text"
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "DESCRIPTION",
+				"label": "DESCRIPTION",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "STATUS",
+				"label": "STATUS",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "STATUS_ID",
+				"label": "STATUS_ID",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
 			}
 		],
 		"fieldsSel": [],
 		"fieldsRun": [
 			{
 				"enableFilter": false,
-				"enableSort": false,
+				"enableSort": true,
 				"visible": true,
 				"name": "STATUS_ID",
 				"text": "STATUS ID",
@@ -134,7 +157,7 @@
 			},
 			{
 				"enableFilter": true,
-				"enableSort": false,
+				"enableSort": true,
 				"visible": true,
 				"name": "STATUS",
 				"text": "STATUS",
@@ -142,7 +165,7 @@
 			},
 			{
 				"enableFilter": true,
-				"enableSort": false,
+				"enableSort": true,
 				"visible": true,
 				"name": "DESCRIPTION",
 				"text": "DESCRIPTION",
@@ -150,7 +173,7 @@
 			},
 			{
 				"enableFilter": false,
-				"enableSort": false,
+				"enableSort": true,
 				"visible": true,
 				"name": "updatedAt",
 				"text": "CHANGED ON",
@@ -171,14 +194,14 @@
 		}
 	},
 	"name": "qa_feature_testing_execution_status_list",
-	"description": "",
+	"description": "List of execution status when testing the new features",
 	"group": "",
 	"type": "C",
-	"connectorid": "b7f0a285-a150-ed11-819b-000d3aba7edc",
+	"connectorid": "f1e2a23a-9a5b-ef11-991a-000d3ad84563",
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "22.10.20.1930",
+	"ver": "24.08.16.0700",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_list",

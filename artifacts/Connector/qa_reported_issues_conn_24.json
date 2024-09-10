@@ -1,0 +1,18 @@
+{
+	"id": "3fd4f4cd-ad59-ef11-991a-000d3ad84563",
+	"createdAt": "2024-08-13T19:54:11.343Z",
+	"createdBy": "rommel@neptune-software.com",
+	"settings": {
+		"previewable": true,
+		"tableid": "0b454f96-ad59-ef11-991a-000d3ad84563",
+		"hasDocumentation": false
+	},
+	"documentation": {},
+	"name": "qa_reported_issues_conn_24",
+	"description": "24-LTS: Connector for reporting GitHub issues",
+	"group": null,
+	"type": "T",
+	"ver": "24.08.13.1954",
+	"disabled": false,
+	"package": "29805ca6-5925-4de9-a761-47279405b041"
+}

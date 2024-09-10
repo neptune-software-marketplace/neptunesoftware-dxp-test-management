@@ -1,0 +1,36 @@
+{
+	"id": "d1dc971f-b55b-ef11-991a-000d3ad84563",
+	"createdAt": "2024-08-16T09:51:36.346Z",
+	"createdBy": "rommel@neptune-software.com",
+	"fields": [
+		{
+			"id": "f6c8381f-db7f-4c1c-981a-5737fdbc4ef1",
+			"fieldName": "STATUS_ID",
+			"fieldType": "mediumtext",
+			"isNullable": true,
+			"isUnique": true
+		},
+		{
+			"id": "547ac602-cc71-4f76-992e-d3a855cb4f37",
+			"fieldName": "STATUS",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "26be8b4c-ee6c-4a50-9329-7e92c05e0969",
+			"fieldName": "DESCRIPTION",
+			"fieldType": "text",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "qa_issue_status_reported_db",
+	"description": "List of status for the newly reported issues found during LTS testing",
+	"ver": "24.08.16.0951",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"rolesRead": [],
+	"rolesWrite": []
+}

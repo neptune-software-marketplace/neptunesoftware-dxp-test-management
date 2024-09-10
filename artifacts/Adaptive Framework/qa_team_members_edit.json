@@ -34,21 +34,21 @@
 				"enableAttachment": false,
 				"enableTab1": true,
 				"enableTab2": true,
-				"enableTab3": true,
+				"enableTab3": false,
 				"enableTab4": false,
 				"enableTab5": false,
 				"enableUppercase": true,
 				"enablePadding": true,
 				"avatarIcon": "sap-icon://group",
 				"avatarBackgroundColor": "Accent1",
-				"title": "QA Team Members",
-				"dynamicSubTitle": "NAME",
-				"subTitle": "Manage assigned tester",
+				"title": "",
+				"dynamicSubTitle": "DEPARTMENT",
+				"subTitle": "",
 				"_tab1Nav": {
 					"destinationType": "F",
 					"openAs": "P",
 					"butType": "Accept",
-					"destinationTargetF": "6150b949-063e-ee11-b8f0-000d3ab39e52",
+					"destinationTargetF": "d77a4e03-c55b-ef11-991a-000d3ad84563",
 					"keyField": [
 						{
 							"fieldName": "USER_ID",
@@ -61,7 +61,7 @@
 					"destinationType": "F",
 					"openAs": "P",
 					"butType": "Accept",
-					"destinationTargetF": "2f120f7c-073e-ee11-b8f0-000d3ab39e52",
+					"destinationTargetF": "ba70065d-c65b-ef11-991a-000d3ad84563",
 					"keyField": [
 						{
 							"fieldName": "USER_ID",
@@ -70,19 +70,10 @@
 						}
 					]
 				},
-				"_tab3Nav": {
-					"destinationType": "F",
-					"openAs": "P",
-					"butType": "Accept",
-					"destinationTargetF": "eb71d91e-b43d-ee11-b8f0-000d3ab39e52",
-					"keyField": [
-						{
-							"fieldName": "USER_ID",
-							"key": "USER_ID",
-							"value": ""
-						}
-					]
-				}
+				"textConfirmDelete": "Do you want to delete this entry ? ",
+				"titleConfirmDelete": "Delete ",
+				"requiredFieldsToast": "Please fill in all the required fields",
+				"dynamicTitle": "NAME"
 			},
 			"form": {
 				"enableCompact": false,
@@ -107,6 +98,12 @@
 			{
 				"name": "createdBy",
 				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "DEPARTMENT",
+				"label": "DEPARTMENT",
 				"type": "text",
 				"usage": "BOTH"
 			},
@@ -178,16 +175,27 @@
 				"inputFormatter": "",
 				"editable": true,
 				"visible": true,
+				"name": "DEPARTMENT",
+				"text": "Department",
+				"fieldPos": 3,
+				"type": "SingleSelectScript",
+				"scriptSelect": "DC8FF611-4766-EF11-BDFD-000D3AD848DE",
+				"required": true
+			},
+			{
+				"inputFormatter": "",
+				"editable": true,
+				"visible": true,
 				"name": "DXP_VERSION",
 				"text": "DXP Version",
-				"fieldPos": 3,
+				"fieldPos": 4,
 				"description": "Assign this tester to this Neptune DXP Version",
 				"type": "SingleSelectLookup",
 				"lookupTable": "qa_neptune_dxp_edition",
 				"lookupFieldKey": "VERSION_ID",
 				"lookupFieldText": "VERSION",
 				"lookupShowOnlyText": true,
-				"required": false
+				"required": true
 			},
 			{
 				"inputFormatter": "",
@@ -195,7 +203,7 @@
 				"visible": true,
 				"name": "ACTIVE",
 				"text": "Active",
-				"fieldPos": 4,
+				"fieldPos": 5,
 				"type": "Switch"
 			},
 			{
@@ -204,7 +212,7 @@
 				"visible": true,
 				"name": "REMARKS",
 				"text": "Remarks",
-				"fieldPos": 5,
+				"fieldPos": 6,
 				"type": "TextArea",
 				"textAreaRows": "3"
 			},
@@ -213,28 +221,46 @@
 				"editable": false,
 				"visible": true,
 				"name": "updatedAt",
-				"text": "Updated At",
-				"fieldPos": 6,
+				"text": "Changed On",
+				"fieldPos": 7,
 				"columnLabel": "DATES",
 				"enableNewForm": true,
 				"labelSpanM": "12",
-				"type": "DateTimePicker"
+				"type": "Display"
+			},
+			{
+				"inputFormatter": "",
+				"editable": false,
+				"visible": true,
+				"name": "updatedBy",
+				"text": "Changed By",
+				"fieldPos": 8,
+				"type": "Display"
 			},
 			{
 				"inputFormatter": "",
 				"editable": false,
 				"visible": true,
 				"name": "createdAt",
-				"text": "Created At",
-				"fieldPos": 7,
-				"type": "DateTimePicker"
+				"text": "Created On",
+				"fieldPos": 9,
+				"type": "Display"
+			},
+			{
+				"inputFormatter": "",
+				"editable": false,
+				"visible": true,
+				"name": "createdBy",
+				"text": "Created By",
+				"fieldPos": 10,
+				"type": "Display"
 			}
 		],
 		"fieldsRun": [
 			{
 				"name": "USER_ID",
 				"text": "USER_ID",
-				"fieldPos": 8
+				"fieldPos": 11
 			}
 		],
 		"defaultVariant": {
@@ -256,7 +282,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "23.9.28.2220",
+	"ver": "24.08.29.2056",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_edit",

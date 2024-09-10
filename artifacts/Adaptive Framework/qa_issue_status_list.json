@@ -8,7 +8,7 @@
 				"showIcon": true,
 				"iconButtonClose": "",
 				"textButtonClose": "Close",
-				"typeButtonClose": "Transparent",
+				"typeButtonClose": "Ghost",
 				"iconButtonCreate": "",
 				"textButtonCreate": "Create",
 				"typeButtonCreate": "Emphasized",
@@ -23,10 +23,10 @@
 				"typeButtonMultiSelect": "Emphasized",
 				"iconButtonRun": "",
 				"textButtonRun": "Update",
-				"typeButtonRun": "Default",
+				"typeButtonRun": "Ghost",
 				"enableRun": true,
 				"enableCreate": true,
-				"enableClose": false,
+				"enableClose": true,
 				"enableDelete": true,
 				"enableExport": false,
 				"enableImport": false,
@@ -38,7 +38,7 @@
 				"searchLabel": "Search",
 				"searchPlaceholder": "",
 				"title": "Issue Status",
-				"subTitle": "Types of status for re-verification, new feature tests and reported issues",
+				"subTitle": "Types of status for the reported issues",
 				"avatarIcon": "sap-icon://order-status",
 				"avatarBackgroundColor": "Accent1",
 				"_navigationCreate": {
@@ -47,9 +47,8 @@
 					"butType": "Accept",
 					"destinationTargetF": "b275f802-7cf7-4edc-9ef7-9fe29659a2f0",
 					"keyField": [],
-					"dialogHeight": "65%",
-					"dialogWidth": "50%",
-					"dialogResize": true
+					"dialogHeight": "450px",
+					"dialogWidth": "700px"
 				},
 				"_navigationItemPress": {
 					"destinationType": "F",
@@ -57,16 +56,20 @@
 					"butType": "Accept",
 					"destinationTargetF": "b275f802-7cf7-4edc-9ef7-9fe29659a2f0",
 					"keyField": [],
-					"dialogHeight": "65%",
-					"dialogWidth": "50%",
-					"dialogResize": true
+					"dialogHeight": "450px",
+					"dialogWidth": "700px"
 				},
-				"actionButtonLeft": false
+				"actionButtonLeft": false,
+				"requiredFieldsToast": "Please fill in all required fields",
+				"textConfirmDelete": "Do you want to delete this entry ? ",
+				"titleConfirmDelete": "Delete",
+				"odataValueList": "Field does not have any OData ValueList reference"
 			},
 			"form": {
 				"enableCompact": false,
 				"headerExpanded": true,
-				"headerPreserveState": true
+				"headerPreserveState": false,
+				"enableSearchWildcard": false
 			},
 			"table": {
 				"enablePagination": false,
@@ -92,9 +95,7 @@
 				"action4Text": "",
 				"action4Type": "Transparent",
 				"action5Text": "",
-				"action5Type": "Transparent",
-				"initialGroupField": "ISSUE_TYPE",
-				"initialGroupOrder": "ASC"
+				"action5Type": "Transparent"
 			}
 		},
 		"fieldCatalog": [
@@ -150,39 +151,13 @@
 		"fieldsSel": [],
 		"fieldsRun": [
 			{
-				"buttonType": "Transparent",
-				"popinDisplay": "Inline",
-				"enableFilter": true,
-				"enableSort": true,
-				"visible": false,
-				"name": "ISSUE_TYPE",
-				"text": "ISSUE_TYPE",
-				"fieldPos": 1,
-				"valueType": "Lookup",
-				"valueLookup": {
-					"table": "qa_issue_type_db",
-					"textField": "TYPE",
-					"keyField": [
-						{
-							"fieldName": "TYPE_ID",
-							"key": "ISSUE_TYPE",
-							"value": ""
-						}
-					],
-					"hideKey": true,
-					"butType": "Accept"
-				},
-				"formatter": "uppercase"
-			},
-			{
 				"enableFilter": false,
 				"enableSort": false,
 				"visible": true,
 				"name": "STATUS_ID",
 				"text": "STATUS ID",
-				"fieldPos": 2,
-				"hAlign": "",
-				"width": "5%"
+				"fieldPos": 1,
+				"hAlign": ""
 			},
 			{
 				"enableFilter": true,
@@ -190,8 +165,7 @@
 				"visible": true,
 				"name": "STATUS",
 				"text": "STATUS",
-				"fieldPos": 3,
-				"width": "13%"
+				"fieldPos": 2
 			},
 			{
 				"enableFilter": true,
@@ -199,30 +173,17 @@
 				"visible": true,
 				"name": "DESCRIPTION",
 				"text": "DESCRIPTION",
-				"fieldPos": 4,
-				"width": "55%"
-			},
-			{
-				"buttonType": "Transparent",
-				"popinDisplay": "Inline",
-				"enableFilter": true,
-				"enableSort": true,
-				"visible": true,
-				"name": "updatedBy",
-				"text": "MODIFIED BY",
-				"fieldPos": 5,
-				"width": "17%"
+				"fieldPos": 3
 			},
 			{
 				"enableFilter": false,
 				"enableSort": false,
 				"visible": true,
 				"name": "updatedAt",
-				"text": "MODIFIED ON",
-				"fieldPos": 6,
+				"text": "CHANGED ON",
+				"fieldPos": 4,
 				"type": "",
-				"formatter": "date00",
-				"width": "10%"
+				"formatter": "date00"
 			}
 		],
 		"defaultVariant": {
@@ -244,7 +205,7 @@
 	"scriptSel": null,
 	"scriptRun": null,
 	"tableid": null,
-	"ver": "23.8.18.833",
+	"ver": "24.08.15.2155",
 	"disabled": false,
 	"appType": "A",
 	"application": "planet9_adaptive_list",

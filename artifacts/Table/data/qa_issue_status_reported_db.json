@@ -1,0 +1,112 @@
+[
+	{
+		"id": "fef9102b-b85b-ef11-991a-000d3ad84563",
+		"createdAt": "1723803203643",
+		"updatedAt": "1723803203643",
+		"createdBy": "rommel@neptune-software.com",
+		"updatedBy": "rommel@neptune-software.com",
+		"STATUS_ID": "BUG-1001",
+		"STATUS": "Open",
+		"DESCRIPTION": "Newly created issue"
+	},
+	{
+		"id": "e4741ba5-b85b-ef11-991a-000d3ad84563",
+		"createdAt": "1723803408401",
+		"updatedAt": "1723803408401",
+		"createdBy": "rommel@neptune-software.com",
+		"updatedBy": "rommel@neptune-software.com",
+		"STATUS_ID": "BUG-1007",
+		"STATUS": "Fix in Next Private Build",
+		"DESCRIPTION": "Fix is provided but will be available in the next private build"
+	},
+	{
+		"id": "e1ee597f-b85b-ef11-991a-000d3ad84563",
+		"createdAt": "1723803347751",
+		"updatedAt": "1723803347751",
+		"createdBy": "rommel@neptune-software.com",
+		"updatedBy": "rommel@neptune-software.com",
+		"STATUS_ID": "BUG-1005",
+		"STATUS": "Verified as Fixed",
+		"DESCRIPTION": "Solution has been tested and verified as fixed"
+	},
+	{
+		"id": "dbbdefc5-b85b-ef11-991a-000d3ad84563",
+		"createdAt": "1723803470154",
+		"updatedAt": "1723803470154",
+		"createdBy": "rommel@neptune-software.com",
+		"updatedBy": "rommel@neptune-software.com",
+		"STATUS_ID": "BUG-1009",
+		"STATUS": "Duplicate",
+		"DESCRIPTION": "Related to an existing issue"
+	},
+	{
+		"id": "ad8ce548-b85b-ef11-991a-000d3ad84563",
+		"createdAt": "1723803261916",
+		"updatedAt": "1723803261916",
+		"createdBy": "rommel@neptune-software.com",
+		"updatedBy": "rommel@neptune-software.com",
+		"STATUS_ID": "BUG-1002",
+		"STATUS": "Not a Bug",
+		"DESCRIPTION": "It is designed as expected and not an issue"
+	},
+	{
+		"id": "a78f9cba-b85b-ef11-991a-000d3ad84563",
+		"createdAt": "1723803444469",
+		"updatedAt": "1723803444469",
+		"createdBy": "rommel@neptune-software.com",
+		"updatedBy": "rommel@neptune-software.com",
+		"STATUS_ID": "BUG-1008",
+		"STATUS": "Fix Not Working",
+		"DESCRIPTION": "The provided fix is not working, problem still exists"
+	},
+	{
+		"id": "7ac6b46c-b85b-ef11-991a-000d3ad84563",
+		"createdAt": "1723803317095",
+		"updatedAt": "1723803317095",
+		"createdBy": "rommel@neptune-software.com",
+		"updatedBy": "rommel@neptune-software.com",
+		"STATUS_ID": "BUG-1004",
+		"STATUS": "Not Reproducible",
+		"DESCRIPTION": "Unable to re-create the issue"
+	},
+	{
+		"id": "65296c90-b85b-ef11-991a-000d3ad84563",
+		"createdAt": "1723803374703",
+		"updatedAt": "1723803374703",
+		"createdBy": "rommel@neptune-software.com",
+		"updatedBy": "rommel@neptune-software.com",
+		"STATUS_ID": "BUG-1006",
+		"STATUS": "Deferred",
+		"DESCRIPTION": "It is a low priority. Development will fix it in upcoming patches or in next LTS"
+	},
+	{
+		"id": "2f5ea15f-b85b-ef11-991a-000d3ad84563",
+		"createdAt": "1723803291827",
+		"updatedAt": "1723803291827",
+		"createdBy": "rommel@neptune-software.com",
+		"updatedBy": "rommel@neptune-software.com",
+		"STATUS_ID": "BUG-1003",
+		"STATUS": "Waiting for Verification",
+		"DESCRIPTION": "Fix is provided and it is ready to be verified on the test system"
+	},
+	{
+		"id": "1962f6f3-b85b-ef11-991a-000d3ad84563",
+		"createdAt": "1723803549241",
+		"updatedAt": "1723803549241",
+		"createdBy": "rommel@neptune-software.com",
+		"updatedBy": "rommel@neptune-software.com",
+		"STATUS_ID": "BUG-1011",
+		"STATUS": "Removed Functionality",
+		"DESCRIPTION": "The functionality has been removed or replaced"
+	},
+	{
+		"id": "18fda7e0-b85b-ef11-991a-000d3ad84563",
+		"createdAt": "1723803508304",
+		"updatedAt": "1723803508304",
+		"createdBy": "rommel@neptune-software.com",
+		"updatedBy": "rommel@neptune-software.com",
+		"STATUS_ID": "BUG-1010",
+		"STATUS": "Draft",
+		"DESCRIPTION": "Issue details are not yet ready to put in GitHub"
+	}
+]

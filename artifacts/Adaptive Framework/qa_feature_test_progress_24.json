@@ -1,0 +1,212 @@
+{
+	"id": "242b2c8e-6459-ef11-991a-000d3ad84563",
+	"createdAt": "2024-08-13T11:09:49.896Z",
+	"createdBy": "rommel@neptune-software.com",
+	"settings": {
+		"properties": {
+			"report": {
+				"paginationRows": "1000",
+				"updateTime": 0
+			},
+			"form": {
+				"enableCompact": false,
+				"showFilter": true
+			},
+			"table": {
+				"titleAlign": "center",
+				"chartHeight": 250,
+				"chartType": "bar",
+				"enableSorting": false,
+				"enableMonochrome": false,
+				"pieInnerSize": 0,
+				"enable3D": true,
+				"alpha3D": 0,
+				"beta3D": 0,
+				"depth3D": 100,
+				"legendEnable": true,
+				"legendAlign": "center",
+				"legendVerticalAlign": "bottom",
+				"legendLayout": "horizontal",
+				"xAxisTitleEnable": true,
+				"xAxisReversed": false,
+				"xAxisStartOnTick": true,
+				"xAxisGridLineWidth": 0,
+				"yAxisTitleEnable": true,
+				"yAxisReversed": false,
+				"yAxisStartOnTick": true,
+				"yAxisGridLineWidth": 1,
+				"chartColor": "[\"#83C8BC\", \"#F6B221\", \"#f28b82\", \"#00839b\", \"#fdf1d6\"]",
+				"title": "Test Progress: Feature Testing"
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "APP_ID",
+				"label": "APP_ID",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "COMMENTS",
+				"label": "COMMENTS",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "DXP_EDITION",
+				"label": "DXP_EDITION",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "FEATURE_BODY",
+				"label": "FEATURE_BODY",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "FEATURE_ID",
+				"label": "FEATURE_ID",
+				"type": "uuid",
+				"usage": "BOTH"
+			},
+			{
+				"name": "GITHUB_ID",
+				"label": "GITHUB_ID",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "ON_CHANGELOG",
+				"label": "ON_CHANGELOG",
+				"type": "boolean",
+				"usage": "BOTH"
+			},
+			{
+				"name": "ON_DOCUMENTATION",
+				"label": "ON_DOCUMENTATION",
+				"type": "boolean",
+				"usage": "BOTH"
+			},
+			{
+				"name": "STATUS",
+				"label": "STATUS",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "TEST_RESULT",
+				"label": "TEST_RESULT",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "TEST_STEPS",
+				"label": "TEST_STEPS",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "TEST_TITLE",
+				"label": "TEST_TITLE",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "USER_ID",
+				"label": "USER_ID",
+				"type": "mediumtext",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [
+			{
+				"visible": true,
+				"name": "DXP_EDITION",
+				"text": "DXP Edition",
+				"fieldPos": 1,
+				"type": "SingleSelectScript",
+				"lookupTable": "qa_neptune_dxp_edition",
+				"lookupFieldKey": "VERSION_ID",
+				"lookupFieldText": "VERSION",
+				"lookupShowOnlyText": true,
+				"scriptSelect": "CE705CCB-A964-EF11-BDFD-000D3AD848DE"
+			}
+		],
+		"fieldsRun": [
+			{
+				"visible": true,
+				"name": "STATUS",
+				"text": "Test Status",
+				"fieldPos": 2,
+				"type": "data",
+				"valueType": "Lookup",
+				"valueFixed": "FR-1003",
+				"valueLookup": {
+					"table": "qa_issue_status_feature_db",
+					"textField": "STATUS",
+					"keyField": [
+						{
+							"fieldName": "STATUS_ID",
+							"key": "STATUS",
+							"value": ""
+						}
+					],
+					"hideKey": true,
+					"butType": "Accept"
+				}
+			}
+		],
+		"defaultVariant": {
+			"id": "8e9f80e5-c27c-4f23-8893-f416732f2701",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "qa_feature_test_progress_24",
+	"description": "Test progress for the Feature Testing",
+	"group": "",
+	"type": "C",
+	"connectorid": "90308a18-6559-ef11-991a-000d3ad84563",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "24.08.30.1133",
+	"disabled": false,
+	"appType": "A",
+	"application": "planet9_adaptive_tile_chart",
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null
+}

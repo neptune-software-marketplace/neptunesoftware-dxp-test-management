@@ -1,0 +1,36 @@
+{
+	"id": "a3603308-9f5b-ef11-991a-000d3ad84563",
+	"createdAt": "2024-08-16T07:13:28.550Z",
+	"createdBy": "rommel@neptune-software.com",
+	"fields": [
+		{
+			"id": "97471d52-1866-43ee-c52d-275cf506568e",
+			"fieldName": "STATUS_ID",
+			"fieldType": "mediumtext",
+			"isNullable": true,
+			"isUnique": true
+		},
+		{
+			"id": "b902d790-b63a-43c8-e533-4ddf7a3f9e31",
+			"fieldName": "STATUS",
+			"fieldType": "text",
+			"isNullable": true
+		},
+		{
+			"id": "45f358d5-9803-48da-9ecf-f01c6fa00d67",
+			"fieldName": "DESCRIPTION",
+			"fieldType": "text",
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "qa_issue_status_github_db",
+	"description": "List of execution status when re-verifying the fixed GitHub issues",
+	"ver": "24.08.16.0713",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "29805ca6-5925-4de9-a761-47279405b041",
+	"rolesRead": [],
+	"rolesWrite": []
+}
